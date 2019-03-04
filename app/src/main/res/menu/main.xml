@@ -8,5 +8,8 @@
             android:icon="@drawable/ic_search_white_24dp"
             android:title="@string/pesquisar"
             app:showAsAction="always" />
+        <item
+            android:id="@+id/about"
+            android:title="@string/sobre" />
 
 </menu>
