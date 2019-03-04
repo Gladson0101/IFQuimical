@@ -71,7 +71,7 @@ public class QuimicalInformationDAO implements IQuimicalInformationDAO {
 
         List<QuimicalInformation> qiList = new ArrayList<>();
 
-        String sql = "SELECT * FROM" + DBHelper.TABLE_QUIMICAL_INFORMATION + " ;";
+        String sql = "SELECT * FROM " + DBHelper.TABLE_QUIMICAL_INFORMATION + " ;";
         Cursor c = read.rawQuery(sql, null);
 
         while (c.moveToNext()) {

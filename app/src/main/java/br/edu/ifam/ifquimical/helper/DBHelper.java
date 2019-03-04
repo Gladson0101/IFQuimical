@@ -20,14 +20,14 @@ public class DBHelper extends SQLiteOpenHelper {
 
         // Script SQL.
         String sql = "CREATE TABLE IF NOT EXISTS " + TABLE_QUIMICAL_INFORMATION +
-                " (name TEXT NOT NULL PRIMARY KEY)," +
-                " (formula TEXT NOT NULL)," +
-                " (firstAidActions TEXT NOT NULL)," +
-                " (fireSafety TEXT NOT NULL)," +
-                " (handlingAndStorage TEXT NOT NULL)," +
-                " (exposureControlAndPersonalProtection TEXT NOT NULL)," +
-                " (spillOrLeak TEXT NOT NULL)," +
-                " (stabilityAndReactivity TEXT NOT NULL)";
+                " (name TEXT NOT NULL PRIMARY KEY," +
+                " formula TEXT NOT NULL," +
+                " firstAidActions TEXT NOT NULL," +
+                " fireSafety TEXT NOT NULL," +
+                " handlingAndStorage TEXT NOT NULL," +
+                " exposureControlAndPersonalProtection TEXT NOT NULL," +
+                " spillOrLeak TEXT NOT NULL," +
+                " stabilityAndReactivity TEXT NOT NULL);";
 
         // Executa o script SQL.
         try {

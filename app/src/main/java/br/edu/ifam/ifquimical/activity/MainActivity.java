@@ -3,21 +3,36 @@ package br.edu.ifam.ifquimical.activity;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
-import android.support.v4.app.FragmentTransaction;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import com.miguelcatalan.materialsearchview.MaterialSearchView;
+import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItemAdapter;
+import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItems;
+
+import org.xmlpull.v1.XmlPullParser;
+import org.xmlpull.v1.XmlPullParserFactory;
+
+import java.io.InputStream;
+import java.util.ArrayList;
 
 import br.edu.ifam.ifquimical.R;
+import br.edu.ifam.ifquimical.fragment.QRCodeFragment;
 import br.edu.ifam.ifquimical.fragment.SearchFragment;
+import br.edu.ifam.ifquimical.helper.DBHelper;
+import br.edu.ifam.ifquimical.helper.QuimicalInformationDAO;
+import br.edu.ifam.ifquimical.model.QuimicalInformation;
 
 public class MainActivity extends AppCompatActivity {
 
     private MaterialSearchView searchView;
+    private BottomNavigationView navigation;
+    private ViewPager viewPager;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -26,8 +41,10 @@ public class MainActivity extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_search:
+                    viewPager.setCurrentItem(0, true);
                     return true;
                 case R.id.navigation_qr_code:
+                    viewPager.setCurrentItem(1, true);
                     return true;
             }
             return false;
@@ -39,20 +56,46 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Configura o Fragment.
-        SearchFragment searchFragment = new SearchFragment();
-        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        transaction.add(R.id.fragment, searchFragment);
-        transaction.commit();
-
         searchView = findViewById(R.id.search_view);
 
         // Configura a toolbar.
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        BottomNavigationView navigation = findViewById(R.id.navigation);
+        // Configuração do BottonNavigation
+        navigation = findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+
+        // Configura FragmentPagerItemAdapter.
+        FragmentPagerItemAdapter adapter = new FragmentPagerItemAdapter(
+                getSupportFragmentManager(), FragmentPagerItems.with(this)
+                .add("", SearchFragment.class)
+                .add("", QRCodeFragment.class)
+                .create());
+
+        // Configura o ViewPager
+        viewPager = findViewById(R.id.viewpager);
+        viewPager.setAdapter(adapter);
+        viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int i, float v, int i1) {
+
+            }
+
+            @Override
+            public void onPageSelected(int i) {
+                if (i == 0) {
+                    navigation.setSelectedItemId(R.id.navigation_search);
+                } else if (i == 1) {
+                    navigation.setSelectedItemId(R.id.navigation_qr_code);
+                }
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int i) {
+
+            }
+        });
     }
 
     @Override
@@ -66,5 +109,108 @@ public class MainActivity extends AppCompatActivity {
         searchView.setMenuItem(item);
 
         return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        initDatabaseWithXML();
+    }
+
+    /**
+     * Obtém os dados do arquivo XML e transfere para o banco de dados.
+     *
+     * @onStart deve chamar este método.
+     */
+    public void initDatabaseWithXML() {
+        XmlPullParserFactory parserFactory;
+
+        try {
+            parserFactory = XmlPullParserFactory.newInstance();
+            XmlPullParser parser = parserFactory.newPullParser();
+
+            InputStream is = getAssets().open("quimical_information.xml");
+            parser.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES, false);
+            parser.setInput(is, null);
+
+            processParsing(parser);
+
+        } catch (Exception e) {
+            Log.i("XML", "Erro ao passar o XML para o Banco de Dados");
+        }
+    }
+
+    /**
+     * Processa as informações do XML.
+     *
+     * @param parser
+     * @initDatabaseWithXML deve chamar este método.
+     */
+    private void processParsing(XmlPullParser parser) {
+
+        // Incia lista e atual.
+        ArrayList<QuimicalInformation> quimicalInformationsList = new ArrayList<>();
+        QuimicalInformation currentQuimicalInformation = null;
+
+        try {
+            // Obtém o tipo de evento.
+            int eventType = parser.getEventType();
+
+            while (eventType != XmlPullParser.END_DOCUMENT) {
+                String tagName = null;
+
+                switch (eventType) {
+                    case XmlPullParser.START_TAG:
+                        tagName = parser.getName();
+
+                        if ("item".equals(tagName)) {
+                            currentQuimicalInformation = new QuimicalInformation();
+                            quimicalInformationsList.add(currentQuimicalInformation);
+                        } else if (currentQuimicalInformation != null) {
+                            if ("name".equals(tagName)) {
+                                currentQuimicalInformation.setName(parser.nextText());
+                            } else if ("formula".equals(tagName)) {
+                                currentQuimicalInformation.setFormula(parser.nextText());
+                            } else if ("firstAidActions".equals(tagName)) {
+                                currentQuimicalInformation.setFirstAidActions(parser.nextText());
+                            } else if ("fireSafety".equals(tagName)) {
+                                currentQuimicalInformation.setFireSafety(parser.nextText());
+                            } else if ("handlingAndStorage".equals(tagName)) {
+                                currentQuimicalInformation.setHandlingAndStorage(parser.nextText());
+                            } else if ("exposureControlAndPersonalProtection".equals(tagName)) {
+                                currentQuimicalInformation.setExposureControlAndPersonalProtection(parser.nextText());
+                            } else if ("spillOrLeak".equals(tagName)) {
+                                currentQuimicalInformation.setSpillOrLeak(parser.nextText());
+                            } else if ("stabilityAndReactivity".equals(tagName)) {
+                                currentQuimicalInformation.setStabilityAndReactivity(parser.nextText());
+                            }
+                        }
+
+                    break;
+                }
+
+                eventType = parser.next();
+            }
+        } catch (Exception e) {
+            Log.i("XML", "Não foi possível carregar os dados do XML");
+        }
+
+        parseDataToDatabase(quimicalInformationsList);
+    }
+
+    /**
+     * Passa as informações do arraylist para o banco de dados.
+     *
+     * @param qiList
+     * @processParsing deve chamar este método ao seu término.
+     */
+    private void parseDataToDatabase(ArrayList<QuimicalInformation> qiList) {
+
+        QuimicalInformationDAO quimicalInformationDAO = new QuimicalInformationDAO(getApplicationContext());
+
+        for (QuimicalInformation qi : qiList) {
+            quimicalInformationDAO.save(qi);
+        }
     }
 }

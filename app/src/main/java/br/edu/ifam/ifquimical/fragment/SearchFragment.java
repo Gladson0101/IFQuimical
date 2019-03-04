@@ -13,6 +13,7 @@ import java.util.ArrayList;
 
 import br.edu.ifam.ifquimical.R;
 import br.edu.ifam.ifquimical.adapter.QuimicalInformationAdapter;
+import br.edu.ifam.ifquimical.helper.QuimicalInformationDAO;
 import br.edu.ifam.ifquimical.model.QuimicalInformation;
 
 /**
@@ -37,6 +38,8 @@ public class SearchFragment extends Fragment {
         recyclerView = view.findViewById(R.id.recyclerView);
 
         // TODO RECUPERAR INFORMAÇÕES DO BANCO DE DADOS
+        QuimicalInformationDAO quimicalInformationDAO = new QuimicalInformationDAO(getActivity());
+        quimicalInformationArrayList = (ArrayList<QuimicalInformation>) quimicalInformationDAO.list();
 
         // Configuração do Adapter.
         adapter = new QuimicalInformationAdapter(quimicalInformationArrayList, getActivity());
