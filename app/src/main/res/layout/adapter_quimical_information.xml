@@ -2,14 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="5dp">
 
     <TextView
         android:id="@+id/textViewQuimicalName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:padding="5dp"
         android:text="@string/nome_da_substancia"
         android:textSize="18sp"
         android:textStyle="bold" />
@@ -19,7 +19,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:padding="5dp"
+        android:paddingBottom="5dp"
         android:text="@string/formula"
         android:textSize="18sp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="?android:attr/listDivider" />
 </LinearLayout>

@@ -13,6 +13,7 @@ import android.view.MenuItem;
 import com.miguelcatalan.materialsearchview.MaterialSearchView;
 
 import br.edu.ifam.ifquimical.R;
+import br.edu.ifam.ifquimical.fragment.SearchFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -38,12 +39,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Configura o Fragment.
+        SearchFragment searchFragment = new SearchFragment();
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        // transaction.add(R.id.fragment, requestHelpFragment);
+        transaction.add(R.id.fragment, searchFragment);
         transaction.commit();
 
         searchView = findViewById(R.id.search_view);
 
+        // Configura a toolbar.
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 

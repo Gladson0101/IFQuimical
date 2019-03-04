@@ -11,6 +11,9 @@ public class QuimicalInformation {
     private String spillOrLeak;
     private String stabilityAndReactivity;
 
+    public QuimicalInformation() {
+    }
+
     public QuimicalInformation(String name, String formula, String firstAidActions, String fireSafety, String handlingAndStorage, String exposureControlAndPersonalProtection, String spillOrLeak, String stabilityAndReactivity) {
         this.name = name;
         this.formula = formula;

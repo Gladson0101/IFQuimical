@@ -39,14 +39,7 @@ public class QuimicalInformationAdapter extends RecyclerView.Adapter<QuimicalInf
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder myViewHolder, int i) {
-        QuimicalInformation quimicalInformation = new QuimicalInformation("",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "");
+        QuimicalInformation quimicalInformation = quimicalInformationList.get(i);
 
         myViewHolder.textQuimicalName.setText(quimicalInformation.getName());
         myViewHolder.textQuimicalFormula.setText(quimicalInformation.getFormula());
