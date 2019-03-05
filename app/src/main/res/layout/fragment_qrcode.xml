@@ -14,5 +14,5 @@
         android:padding="5dp"
         android:text="Ops! Esta funcionalidade ainda está em produção."
         android:textAlignment="center"
-        android:textSize="24sp" />
+        android:textSize="14sp" />
 </FrameLayout>

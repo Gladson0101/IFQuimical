@@ -1,5 +1,6 @@
 package br.edu.ifam.ifquimical.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -10,6 +11,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.miguelcatalan.materialsearchview.MaterialSearchView;
 import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItemAdapter;
@@ -24,7 +26,6 @@ import java.util.ArrayList;
 import br.edu.ifam.ifquimical.R;
 import br.edu.ifam.ifquimical.fragment.QRCodeFragment;
 import br.edu.ifam.ifquimical.fragment.SearchFragment;
-import br.edu.ifam.ifquimical.helper.DBHelper;
 import br.edu.ifam.ifquimical.helper.QuimicalInformationDAO;
 import br.edu.ifam.ifquimical.model.QuimicalInformation;
 
@@ -33,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
     private MaterialSearchView searchView;
     private BottomNavigationView navigation;
     private ViewPager viewPager;
+    private FragmentPagerItemAdapter adapter;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -56,8 +58,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        searchView = findViewById(R.id.search_view);
-
         // Configura a toolbar.
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
         // Configura FragmentPagerItemAdapter.
-        FragmentPagerItemAdapter adapter = new FragmentPagerItemAdapter(
+        adapter = new FragmentPagerItemAdapter(
                 getSupportFragmentManager(), FragmentPagerItems.with(this)
                 .add("", SearchFragment.class)
                 .add("", QRCodeFragment.class)
@@ -96,6 +96,40 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        // Configura a SearchView
+        searchView = findViewById(R.id.search_view);
+        searchView.setOnSearchViewListener(new MaterialSearchView.SearchViewListener() {
+            @Override
+            public void onSearchViewShown() {
+                navigation.setVisibility(View.GONE);
+            }
+
+            @Override
+            public void onSearchViewClosed() {
+                SearchFragment fragment = (SearchFragment) adapter.getPage(0);
+                fragment.reloadSearchView();
+                navigation.setVisibility(View.VISIBLE);
+            }
+        });
+        searchView.setOnQueryTextListener(new MaterialSearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+
+                SearchFragment fragment = (SearchFragment) adapter.getPage(0);
+
+                if (newText != null && !newText.isEmpty()) {
+                    fragment.search(newText.toLowerCase());
+                }
+
+                return true;
+            }
+        });
     }
 
     @Override
@@ -109,6 +143,18 @@ public class MainActivity extends AppCompatActivity {
         searchView.setMenuItem(item);
 
         return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if (id == R.id.about) {
+            startActivity(new Intent(getApplicationContext(), AboutActivity.class));
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
     @Override
@@ -164,6 +210,17 @@ public class MainActivity extends AppCompatActivity {
                     case XmlPullParser.START_TAG:
                         tagName = parser.getName();
 
+                        // Verifica o tamanho da lista.
+                        if ("size".equals(tagName)) {
+                            QuimicalInformationDAO quimicalInformationDAO = new QuimicalInformationDAO(getApplicationContext());
+                            int listSize = quimicalInformationDAO.list().size();
+                            int size = Integer.parseInt(parser.nextText());
+
+                            if (size <= listSize) {
+                                return;
+                            }
+                        }
+
                         if ("item".equals(tagName)) {
                             currentQuimicalInformation = new QuimicalInformation();
                             quimicalInformationsList.add(currentQuimicalInformation);
@@ -187,7 +244,7 @@ public class MainActivity extends AppCompatActivity {
                             }
                         }
 
-                    break;
+                        break;
                 }
 
                 eventType = parser.next();
@@ -208,7 +265,6 @@ public class MainActivity extends AppCompatActivity {
     private void parseDataToDatabase(ArrayList<QuimicalInformation> qiList) {
 
         QuimicalInformationDAO quimicalInformationDAO = new QuimicalInformationDAO(getApplicationContext());
-
         for (QuimicalInformation qi : qiList) {
             quimicalInformationDAO.save(qi);
         }

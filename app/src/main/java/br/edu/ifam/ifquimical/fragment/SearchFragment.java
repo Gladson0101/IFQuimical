@@ -6,12 +6,14 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import br.edu.ifam.ifquimical.R;
 import br.edu.ifam.ifquimical.activity.QuimicalInformationActivity;
@@ -26,7 +28,6 @@ import br.edu.ifam.ifquimical.model.QuimicalInformation;
 public class SearchFragment extends Fragment {
 
     private RecyclerView recyclerView;
-    private QuimicalInformationAdapter adapter;
     private ArrayList<QuimicalInformation> quimicalInformationArrayList = new ArrayList<>();
 
     public SearchFragment() {
@@ -44,7 +45,7 @@ public class SearchFragment extends Fragment {
         quimicalInformationArrayList = (ArrayList<QuimicalInformation>) quimicalInformationDAO.list();
 
         // Configuração do Adapter.
-        adapter = new QuimicalInformationAdapter(quimicalInformationArrayList, getActivity());
+        QuimicalInformationAdapter adapter = new QuimicalInformationAdapter(quimicalInformationArrayList, getActivity());
 
         // Configuração do RecyclerView.
         recyclerView = view.findViewById(R.id.recyclerView);
@@ -80,6 +81,30 @@ public class SearchFragment extends Fragment {
         recyclerView.setAdapter(adapter);
 
         return view;
+    }
+
+    public void reloadSearchView() {
+        QuimicalInformationAdapter adapter = new QuimicalInformationAdapter(quimicalInformationArrayList, getActivity());
+        recyclerView.setAdapter(adapter);
+        adapter.notifyDataSetChanged();
+    }
+
+
+    public void search(String text) {
+        List<QuimicalInformation> qiListSearch = new ArrayList<>();
+
+        for (QuimicalInformation qi : quimicalInformationArrayList) {
+            String name = qi.getName().toLowerCase();
+            String formula = qi.getFormula().toLowerCase();
+
+            if (name.contains(text) || formula.contains(text)) {
+                qiListSearch.add(qi);
+            }
+        }
+
+        QuimicalInformationAdapter adapter = new QuimicalInformationAdapter(qiListSearch, getActivity());
+        recyclerView.setAdapter(adapter);
+        adapter.notifyDataSetChanged();
     }
 
 }
