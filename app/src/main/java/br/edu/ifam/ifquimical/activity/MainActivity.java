@@ -1,6 +1,7 @@
 package br.edu.ifam.ifquimical.activity;
 
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -24,6 +25,8 @@ import java.io.InputStream;
 import java.util.ArrayList;
 
 import br.edu.ifam.ifquimical.R;
+import br.edu.ifam.ifquimical.fragment.FavoriteFragment;
+import br.edu.ifam.ifquimical.fragment.HistoricFragment;
 import br.edu.ifam.ifquimical.fragment.QRCodeFragment;
 import br.edu.ifam.ifquimical.fragment.SearchFragment;
 import br.edu.ifam.ifquimical.helper.QuimicalInformationDAO;
@@ -36,17 +39,26 @@ public class MainActivity extends AppCompatActivity {
     private ViewPager viewPager;
     private FragmentPagerItemAdapter adapter;
 
+    /**
+     * Configura as alterações de tela por meio do BottonNavigation.
+     */
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
 
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
-                case R.id.navigation_search:
+                case R.id.navigation_favorites:
                     viewPager.setCurrentItem(0, true);
                     return true;
-                case R.id.navigation_qr_code:
+                case R.id.navigation_historic:
                     viewPager.setCurrentItem(1, true);
+                    return true;
+                case R.id.navigation_search:
+                    viewPager.setCurrentItem(2, true);
+                    return true;
+                case R.id.navigation_qr_code:
+                    viewPager.setCurrentItem(3, false);
                     return true;
             }
             return false;
@@ -69,6 +81,8 @@ public class MainActivity extends AppCompatActivity {
         // Configura FragmentPagerItemAdapter.
         adapter = new FragmentPagerItemAdapter(
                 getSupportFragmentManager(), FragmentPagerItems.with(this)
+                .add("", FavoriteFragment.class)
+                .add("", HistoricFragment.class)
                 .add("", SearchFragment.class)
                 .add("", QRCodeFragment.class)
                 .create());
@@ -79,15 +93,26 @@ public class MainActivity extends AppCompatActivity {
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int i, float v, int i1) {
+                if (i == 3) {
+                    navigation.setSelectedItemId(R.id.navigation_qr_code);
+                    QRCodeFragment fragment = (QRCodeFragment) adapter.getPage(3);
+                    fragment.scan();
+                }
 
             }
 
             @Override
             public void onPageSelected(int i) {
                 if (i == 0) {
-                    navigation.setSelectedItemId(R.id.navigation_search);
+                    navigation.setSelectedItemId(R.id.navigation_favorites);
                 } else if (i == 1) {
+                    navigation.setSelectedItemId(R.id.navigation_historic);
+                } else if (i == 2) {
+                    navigation.setSelectedItemId(R.id.navigation_search);
+                } else if (i == 3) {
                     navigation.setSelectedItemId(R.id.navigation_qr_code);
+                    QRCodeFragment fragment = (QRCodeFragment) adapter.getPage(3);
+                    fragment.scan();
                 }
             }
 
@@ -107,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onSearchViewClosed() {
-                SearchFragment fragment = (SearchFragment) adapter.getPage(0);
+                SearchFragment fragment = (SearchFragment) adapter.getPage(2);
                 fragment.reloadSearchView();
                 navigation.setVisibility(View.VISIBLE);
             }
@@ -121,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onQueryTextChange(String newText) {
 
-                SearchFragment fragment = (SearchFragment) adapter.getPage(0);
+                SearchFragment fragment = (SearchFragment) adapter.getPage(2);
 
                 if (newText != null && !newText.isEmpty()) {
                     fragment.search(newText.toLowerCase());
@@ -130,6 +155,8 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
         });
+
+        navigation.setSelectedItemId(R.id.navigation_search);
     }
 
     @Override
@@ -149,8 +176,8 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        if (id == R.id.about) {
-            startActivity(new Intent(getApplicationContext(), AboutActivity.class));
+        if (id == R.id.action_about) {
+            startActivity(new Intent(this, AboutActivity.class));
             return true;
         }
 
@@ -161,112 +188,126 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
 
-        initDatabaseWithXML();
+        MyAsyncTask myAsyncTask = new MyAsyncTask();
+        myAsyncTask.execute();
     }
 
     /**
-     * Obtém os dados do arquivo XML e transfere para o banco de dados.
-     *
-     * @onStart deve chamar este método.
+     * AsyncTask para não sobrecarregar a MainThread.
      */
-    public void initDatabaseWithXML() {
-        XmlPullParserFactory parserFactory;
+    class MyAsyncTask extends AsyncTask<Void, Integer, Integer> {
 
-        try {
-            parserFactory = XmlPullParserFactory.newInstance();
-            XmlPullParser parser = parserFactory.newPullParser();
-
-            InputStream is = getAssets().open("quimical_information.xml");
-            parser.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES, false);
-            parser.setInput(is, null);
-
-            processParsing(parser);
-
-        } catch (Exception e) {
-            Log.i("XML", "Erro ao passar o XML para o Banco de Dados");
+        @Override
+        protected Integer doInBackground(Void... voids) {
+            initDatabaseWithXML();
+            return null;
         }
-    }
 
-    /**
-     * Processa as informações do XML.
-     *
-     * @param parser
-     * @initDatabaseWithXML deve chamar este método.
-     */
-    private void processParsing(XmlPullParser parser) {
+        /**
+         * Obtém os dados do arquivo XML e transfere para o banco de dados.
+         *
+         * @onStart deve chamar este método.
+         */
+        public void initDatabaseWithXML() {
+            XmlPullParserFactory parserFactory;
 
-        // Incia lista e atual.
-        ArrayList<QuimicalInformation> quimicalInformationsList = new ArrayList<>();
-        QuimicalInformation currentQuimicalInformation = null;
+            try {
+                parserFactory = XmlPullParserFactory.newInstance();
+                XmlPullParser parser = parserFactory.newPullParser();
 
-        try {
-            // Obtém o tipo de evento.
-            int eventType = parser.getEventType();
+                InputStream is = getAssets().open("quimical_information.xml");
+                parser.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES, false);
+                parser.setInput(is, null);
 
-            while (eventType != XmlPullParser.END_DOCUMENT) {
-                String tagName = null;
+                processParsing(parser);
 
-                switch (eventType) {
-                    case XmlPullParser.START_TAG:
-                        tagName = parser.getName();
-
-                        // Verifica o tamanho da lista.
-                        if ("size".equals(tagName)) {
-                            QuimicalInformationDAO quimicalInformationDAO = new QuimicalInformationDAO(getApplicationContext());
-                            int listSize = quimicalInformationDAO.list().size();
-                            int size = Integer.parseInt(parser.nextText());
-
-                            if (size <= listSize) {
-                                return;
-                            }
-                        }
-
-                        if ("item".equals(tagName)) {
-                            currentQuimicalInformation = new QuimicalInformation();
-                            quimicalInformationsList.add(currentQuimicalInformation);
-                        } else if (currentQuimicalInformation != null) {
-                            if ("name".equals(tagName)) {
-                                currentQuimicalInformation.setName(parser.nextText());
-                            } else if ("formula".equals(tagName)) {
-                                currentQuimicalInformation.setFormula(parser.nextText());
-                            } else if ("firstAidActions".equals(tagName)) {
-                                currentQuimicalInformation.setFirstAidActions(parser.nextText());
-                            } else if ("fireSafety".equals(tagName)) {
-                                currentQuimicalInformation.setFireSafety(parser.nextText());
-                            } else if ("handlingAndStorage".equals(tagName)) {
-                                currentQuimicalInformation.setHandlingAndStorage(parser.nextText());
-                            } else if ("exposureControlAndPersonalProtection".equals(tagName)) {
-                                currentQuimicalInformation.setExposureControlAndPersonalProtection(parser.nextText());
-                            } else if ("spillOrLeak".equals(tagName)) {
-                                currentQuimicalInformation.setSpillOrLeak(parser.nextText());
-                            } else if ("stabilityAndReactivity".equals(tagName)) {
-                                currentQuimicalInformation.setStabilityAndReactivity(parser.nextText());
-                            }
-                        }
-
-                        break;
-                }
-
-                eventType = parser.next();
+            } catch (Exception e) {
+                Log.i("XML", "Erro ao passar o XML para o Banco de Dados");
             }
-        } catch (Exception e) {
-            Log.i("XML", "Não foi possível carregar os dados do XML");
         }
 
-        parseDataToDatabase(quimicalInformationsList);
-    }
+        /**
+         * Processa as informações do XML.
+         *
+         * @param parser
+         * @initDatabaseWithXML deve chamar este método.
+         */
+        private void processParsing(XmlPullParser parser) {
 
-    /**
-     * Passa as informações do arraylist para o banco de dados.
-     *
-     * @param qiList
-     * @processParsing deve chamar este método ao seu término.
-     */
-    private void parseDataToDatabase(ArrayList<QuimicalInformation> qiList) {
+            // Incia lista e atual.
+            ArrayList<QuimicalInformation> quimicalInformationsList = new ArrayList<>();
+            QuimicalInformation currentQuimicalInformation = null;
 
-        QuimicalInformationDAO quimicalInformationDAO = new QuimicalInformationDAO(getApplicationContext());
-        for (QuimicalInformation qi : qiList) {
-            quimicalInformationDAO.save(qi);
+            try {
+                // Obtém o tipo de evento.
+                int eventType = parser.getEventType();
+
+                while (eventType != XmlPullParser.END_DOCUMENT) {
+                    String tagName;
+
+                    switch (eventType) {
+                        case XmlPullParser.START_TAG:
+                            tagName = parser.getName();
+
+                            // Verifica o tamanho da lista.
+                            if ("size".equals(tagName)) {
+                                QuimicalInformationDAO quimicalInformationDAO = new QuimicalInformationDAO(getApplicationContext());
+                                int listSize = quimicalInformationDAO.list().size();
+                                int size = Integer.parseInt(parser.nextText());
+
+                                if (size <= listSize) {
+                                    return;
+                                }
+                            }
+
+                            if ("item".equals(tagName)) {
+                                currentQuimicalInformation = new QuimicalInformation();
+                                quimicalInformationsList.add(currentQuimicalInformation);
+                            } else if (currentQuimicalInformation != null) {
+                                if ("name".equals(tagName)) {
+                                    currentQuimicalInformation.setName(parser.nextText());
+                                } else if ("formula".equals(tagName)) {
+                                    currentQuimicalInformation.setFormula(parser.nextText());
+                                } else if ("firstAidActions".equals(tagName)) {
+                                    currentQuimicalInformation.setFirstAidActions(parser.nextText());
+                                } else if ("fireSafety".equals(tagName)) {
+                                    currentQuimicalInformation.setFireSafety(parser.nextText());
+                                } else if ("handlingAndStorage".equals(tagName)) {
+                                    currentQuimicalInformation.setHandlingAndStorage(parser.nextText());
+                                } else if ("exposureControlAndPersonalProtection".equals(tagName)) {
+                                    currentQuimicalInformation.setExposureControlAndPersonalProtection(parser.nextText());
+                                } else if ("spillOrLeak".equals(tagName)) {
+                                    currentQuimicalInformation.setSpillOrLeak(parser.nextText());
+                                } else if ("stabilityAndReactivity".equals(tagName)) {
+                                    currentQuimicalInformation.setStabilityAndReactivity(parser.nextText());
+                                }
+                            }
+
+                            break;
+                    }
+
+                    eventType = parser.next();
+                }
+            } catch (Exception e) {
+                Log.i("XML", "Não foi possível carregar os dados do XML");
+            }
+
+            parseDataToDatabase(quimicalInformationsList);
+        }
+
+        /**
+         * Passa as informações do arraylist para o banco de dados.
+         *
+         * @param qiList
+         * @processParsing deve chamar este método ao seu término.
+         */
+        private void parseDataToDatabase(ArrayList<QuimicalInformation> qiList) {
+
+            QuimicalInformationDAO quimicalInformationDAO = new QuimicalInformationDAO(getApplicationContext());
+            for (QuimicalInformation qi : qiList) {
+                quimicalInformationDAO.save(qi);
+            }
         }
     }
+
 }

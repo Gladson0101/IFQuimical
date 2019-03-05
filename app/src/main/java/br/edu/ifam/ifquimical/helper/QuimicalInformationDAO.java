@@ -101,6 +101,8 @@ public class QuimicalInformationDAO implements IQuimicalInformationDAO {
             qiList.add(qi);
         }
 
+        c.close();
+
         return qiList;
     }
 }
