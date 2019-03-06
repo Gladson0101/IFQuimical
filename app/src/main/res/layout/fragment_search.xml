@@ -8,13 +8,13 @@
     tools:context=".fragment.SearchFragment">
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/recyclerView"
+        android:id="@+id/recyclerViewSearch"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/divider3"
+        app:layout_constraintEnd_toStartOf="@+id/dividerSearch"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.413">
@@ -22,16 +22,16 @@
     </android.support.v7.widget.RecyclerView>
 
     <View
-        android:id="@+id/divider3"
+        android:id="@+id/dividerSearch"
         android:layout_width="1dp"
         android:layout_height="match_parent"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:background="?android:attr/listDivider"
-        app:layout_constraintEnd_toStartOf="@+id/linearLayout" />
+        app:layout_constraintEnd_toStartOf="@+id/linearLayoutSearch" />
 
     <LinearLayout
-        android:id="@+id/linearLayout"
+        android:id="@+id/linearLayoutSearch"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:orientation="vertical"
@@ -41,182 +41,182 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textViewA"
+            android:id="@+id/textViewSearchA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="A" />
 
         <TextView
-            android:id="@+id/textViewB"
+            android:id="@+id/textViewSearchB"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="B" />
 
         <TextView
-            android:id="@+id/textViewC"
+            android:id="@+id/textViewSearchC"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="C" />
 
         <TextView
-            android:id="@+id/textViewD"
+            android:id="@+id/textViewSearchD"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="D" />
 
         <TextView
-            android:id="@+id/textViewE"
+            android:id="@+id/textViewSearchE"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="E" />
 
         <TextView
-            android:id="@+id/textViewF"
+            android:id="@+id/textViewSearchF"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="F" />
 
         <TextView
-            android:id="@+id/textViewG"
+            android:id="@+id/textViewSearchG"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="G" />
 
         <TextView
-            android:id="@+id/textViewH"
+            android:id="@+id/textViewSearchH"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="H" />
 
         <TextView
-            android:id="@+id/textViewI"
+            android:id="@+id/textViewSearchI"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="I" />
 
         <TextView
-            android:id="@+id/textViewJ"
+            android:id="@+id/textViewSearchJ"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="J" />
 
         <TextView
-            android:id="@+id/textViewK"
+            android:id="@+id/textViewSearchK"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="K" />
 
         <TextView
-            android:id="@+id/textViewL"
+            android:id="@+id/textViewSearchL"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="L" />
 
         <TextView
-            android:id="@+id/textViewM"
+            android:id="@+id/textViewSearchM"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="M" />
 
         <TextView
-            android:id="@+id/textViewN"
+            android:id="@+id/textViewSearchN"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="N" />
 
         <TextView
-            android:id="@+id/textViewO"
+            android:id="@+id/textViewSearchO"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="O" />
 
         <TextView
-            android:id="@+id/textViewP"
+            android:id="@+id/textViewSearchP"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="P" />
 
         <TextView
-            android:id="@+id/textViewQ"
+            android:id="@+id/textViewSearchQ"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Q" />
 
         <TextView
-            android:id="@+id/textViewR"
+            android:id="@+id/textViewSearchR"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="R" />
 
         <TextView
-            android:id="@+id/textViewS"
+            android:id="@+id/textViewSearchS"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="S" />
 
         <TextView
-            android:id="@+id/textViewT"
+            android:id="@+id/textViewSearchT"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="T" />
 
         <TextView
-            android:id="@+id/textViewU"
+            android:id="@+id/textViewSearchU"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="U" />
 
         <TextView
-            android:id="@+id/textViewV"
+            android:id="@+id/textViewSearchV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="V" />
 
         <TextView
-            android:id="@+id/textViewW"
+            android:id="@+id/textViewSearchW"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="W" />
 
         <TextView
-            android:id="@+id/textViewX"
+            android:id="@+id/textViewSearchX"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="X" />
 
         <TextView
-            android:id="@+id/textViewY"
+            android:id="@+id/textViewSearchY"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Y" />
 
         <TextView
-            android:id="@+id/textViewZ"
+            android:id="@+id/textViewSearchZ"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
