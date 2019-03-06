@@ -16,6 +16,7 @@ import java.util.List;
 
 import br.edu.ifam.ifquimical.R;
 import br.edu.ifam.ifquimical.helper.FavoritesDAO;
+import br.edu.ifam.ifquimical.helper.HistoricDAO;
 import br.edu.ifam.ifquimical.helper.QuimicalInformationDAO;
 import br.edu.ifam.ifquimical.model.QuimicalInformation;
 
@@ -43,6 +44,7 @@ public class QuimicalInformationActivity extends AppCompatActivity {
 
         // Obtém o objeto com as informações.
         quimicalInformation = getObjectWithInformations(name);
+        setHistoric();
 
         // Configura a Toolbar
         Toolbar toolbar = findViewById(R.id.toolbar);
@@ -102,6 +104,20 @@ public class QuimicalInformationActivity extends AppCompatActivity {
         });
 
     }
+
+    public void setHistoric() {
+        HistoricDAO historicDAO = new HistoricDAO(getApplicationContext());
+        List<QuimicalInformation> qiHistoricList = historicDAO.list();
+
+        for (QuimicalInformation qi : qiHistoricList) {
+            if (qi.getName().equals(name)) {
+                historicDAO.delete(qi);
+            }
+        }
+
+        historicDAO.save(quimicalInformation);
+    }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

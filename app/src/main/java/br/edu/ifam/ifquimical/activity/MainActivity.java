@@ -108,8 +108,12 @@ public class MainActivity extends AppCompatActivity {
             public void onPageSelected(int i) {
                 if (i == 0) {
                     navigation.setSelectedItemId(R.id.navigation_favorites);
+                    FavoriteFragment fragment = (FavoriteFragment) adapter.getPage(0);
+                    fragment.reloadSearchView();
                 } else if (i == 1) {
                     navigation.setSelectedItemId(R.id.navigation_historic);
+                    HistoricFragment fragment = (HistoricFragment) adapter.getPage(1);
+                    fragment.reloadSearchView();
                 } else if (i == 2) {
                     navigation.setSelectedItemId(R.id.navigation_search);
                 } else if (i == 3) {
