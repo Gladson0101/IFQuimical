@@ -29,6 +29,8 @@ public class SearchFragment extends Fragment {
 
     private RecyclerView recyclerView;
     private ArrayList<QuimicalInformation> quimicalInformationArrayList = new ArrayList<>();
+    private ArrayList<QuimicalInformation> qiInfo = new ArrayList<>();
+    private boolean search;
 
     public SearchFragment() {
         // Required empty public constructor
@@ -43,19 +45,22 @@ public class SearchFragment extends Fragment {
         // Obtém as informações do banco de dados.
         QuimicalInformationDAO quimicalInformationDAO = new QuimicalInformationDAO(getActivity());
         quimicalInformationArrayList = (ArrayList<QuimicalInformation>) quimicalInformationDAO.list();
+        qiInfo = quimicalInformationArrayList;
 
         // Configuração do Adapter.
         QuimicalInformationAdapter adapter = new QuimicalInformationAdapter(quimicalInformationArrayList, getActivity());
 
+        search = true;
+
         // Configuração do RecyclerView.
-        recyclerView = view.findViewById(R.id.recyclerView);
+        recyclerView = view.findViewById(R.id.recyclerViewSearch);
+        // recyclerView.scrollToPosition();
         recyclerView.addOnItemTouchListener(
                 new RecyclerItemClickListener(getActivity(), recyclerView,
                         new RecyclerItemClickListener.OnItemClickListener() {
                             @Override
                             public void onItemClick(View view, int position) {
-
-                                QuimicalInformation qi = quimicalInformationArrayList.get(position);
+                                QuimicalInformation qi = qiInfo.get(position);
 
                                 Intent intent = new Intent(getActivity(), QuimicalInformationActivity.class);
                                 intent.putExtra("name", qi.getName());
@@ -85,6 +90,7 @@ public class SearchFragment extends Fragment {
 
     public void reloadSearchView() {
         QuimicalInformationAdapter adapter = new QuimicalInformationAdapter(quimicalInformationArrayList, getActivity());
+        qiInfo = quimicalInformationArrayList;
         recyclerView.setAdapter(adapter);
         adapter.notifyDataSetChanged();
     }
@@ -103,6 +109,7 @@ public class SearchFragment extends Fragment {
         }
 
         QuimicalInformationAdapter adapter = new QuimicalInformationAdapter(qiListSearch, getActivity());
+        qiInfo = (ArrayList<QuimicalInformation>) qiListSearch;
         recyclerView.setAdapter(adapter);
         adapter.notifyDataSetChanged();
     }

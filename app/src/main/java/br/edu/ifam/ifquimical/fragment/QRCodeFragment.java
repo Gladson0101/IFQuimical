@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -58,21 +59,4 @@ public class QRCodeFragment extends Fragment {
         intentIntegrator.initiateScan();
     }
 
-    @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        IntentResult result = IntentIntegrator.parseActivityResult(requestCode, resultCode, data);
-
-        if (result != null) {
-            if (result.getContents() != null) {
-
-                Intent intent = new Intent(getActivity(), QuimicalInformationActivity.class);
-                intent.putExtra("name", result.getContents());
-                intent.putExtra("formula", result.getContents());
-                startActivity(intent);
-            }
-        } else {
-            super.onActivityResult(requestCode, resultCode, data);
-        }
-
-    }
 }

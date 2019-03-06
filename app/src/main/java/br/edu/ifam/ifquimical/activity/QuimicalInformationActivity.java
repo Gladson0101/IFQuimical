@@ -9,16 +9,20 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import br.edu.ifam.ifquimical.R;
+import br.edu.ifam.ifquimical.helper.FavoritesDAO;
 import br.edu.ifam.ifquimical.helper.QuimicalInformationDAO;
 import br.edu.ifam.ifquimical.model.QuimicalInformation;
 
 public class QuimicalInformationActivity extends AppCompatActivity {
 
     private QuimicalInformation quimicalInformation;
+    private String name;
 
     private LinearLayout linearLayoutFirstAidActions;
     private LinearLayout linearLayoutFireSafety;
@@ -34,7 +38,7 @@ public class QuimicalInformationActivity extends AppCompatActivity {
 
         // Obtém os dados da intent.
         Bundle data = getIntent().getExtras();
-        String name = data.getString("name");
+        name = data.getString("name");
         String formula = data.getString("formula");
 
         // Obtém o objeto com as informações.
@@ -102,7 +106,54 @@ public class QuimicalInformationActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_quimical_information, menu);
+        MenuItem menuItem = menu.getItem(0);
+
+        FavoritesDAO favoritesDAO = new FavoritesDAO(getApplicationContext());
+        List<QuimicalInformation> qiFavoriteList = favoritesDAO.list();
+
+        for (QuimicalInformation qi : qiFavoriteList) {
+            if (qi.getName().equals(name)) {
+                menuItem.setIcon(R.drawable.ic_star_white_24dp);
+            }
+        }
+
         return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        int id = item.getItemId();
+
+        if (id == R.id.action_favorite) {
+
+            // Adiciona/Remove um favorito.
+            boolean isFavorite = false;
+
+            FavoritesDAO favoritesDAO = new FavoritesDAO(getApplicationContext());
+            List<QuimicalInformation> qiFavoriteList = favoritesDAO.list();
+
+            for (QuimicalInformation qi : qiFavoriteList) {
+                if (qi.getName().equals(name)) {
+                    isFavorite = true;
+                    favoritesDAO.delete(qi);
+                }
+            }
+
+            if (isFavorite) {
+                Toast.makeText(this, "Removido dos Favoritos", Toast.LENGTH_SHORT).show();
+                item.setIcon(R.drawable.ic_star_border_white_24dp);
+            } else {
+                item.setIcon(R.drawable.ic_star_white_24dp);
+                favoritesDAO.save(getObjectWithInformations(name));
+                Toast.makeText(this, "Adicionado aos Favoritos", Toast.LENGTH_SHORT).show();
+            }
+
+            return true;
+        } else {
+            return super.onOptionsItemSelected(item);
+        }
+
     }
 
     @Override
