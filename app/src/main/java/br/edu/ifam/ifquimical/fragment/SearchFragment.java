@@ -82,6 +82,7 @@ public class SearchFragment extends Fragment {
 
         // Configuração do RecyclerView.
         recyclerView = view.findViewById(R.id.recyclerViewSearch);
+
         // recyclerView.scrollToPosition();
         recyclerView.addOnItemTouchListener(
                 new RecyclerItemClickListener(getActivity(), recyclerView,
@@ -92,7 +93,6 @@ public class SearchFragment extends Fragment {
 
                                 Intent intent = new Intent(getActivity(), QuimicalInformationActivity.class);
                                 intent.putExtra("name", qi.getName());
-                                intent.putExtra("formula", qi.getFormula());
                                 startActivity(intent);
                             }
 
@@ -116,6 +116,12 @@ public class SearchFragment extends Fragment {
         configureAlfabeticListener(view);
 
         return view;
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        reloadSearchView();
     }
 
     private void configureAlfabeticListener(View view) {

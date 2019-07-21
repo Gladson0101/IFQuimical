@@ -40,7 +40,6 @@ public class QuimicalInformationActivity extends AppCompatActivity {
         // Obtém os dados da intent.
         Bundle data = getIntent().getExtras();
         name = data.getString("name");
-        String formula = data.getString("formula");
 
         // Obtém o objeto com as informações.
         quimicalInformation = getObjectWithInformations(name);
@@ -49,7 +48,7 @@ public class QuimicalInformationActivity extends AppCompatActivity {
         // Configura a Toolbar
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle(name + "\n" + formula);
+        getSupportActionBar().setTitle(name + "\n" + quimicalInformation.getFormula());
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         // Configura os LayoutsLineares.

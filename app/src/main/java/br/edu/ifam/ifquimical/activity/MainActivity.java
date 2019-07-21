@@ -3,12 +3,14 @@ package br.edu.ifam.ifquimical.activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.speech.RecognizerIntent;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -96,11 +98,6 @@ public class MainActivity extends AppCompatActivity {
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int i, float v, int i1) {
-                if (i == 3) {
-                    navigation.setSelectedItemId(R.id.navigation_qr_code);
-                    QRCodeFragment fragment = (QRCodeFragment) adapter.getPage(3);
-                    fragment.scan();
-                }
 
             }
 
@@ -119,7 +116,11 @@ public class MainActivity extends AppCompatActivity {
                 } else if (i == 3) {
                     navigation.setSelectedItemId(R.id.navigation_qr_code);
                     QRCodeFragment fragment = (QRCodeFragment) adapter.getPage(3);
-                    fragment.scan();
+
+                    if (fragment != null) {
+                        fragment.scan();
+                    }
+
                 }
             }
 
@@ -164,20 +165,24 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onQueryTextChange(String newText) {
 
-                int currentItem = viewPager.getCurrentItem();
+                if (newText != null && !newText.isEmpty()) {
+                    int currentItem = viewPager.getCurrentItem();
 
-                if (currentItem == 0) {
-                    FavoriteFragment fragment = (FavoriteFragment) adapter.getPage(0);
-                    fragment.search(newText.toLowerCase());
-                } else if (currentItem == 1) {
-                    HistoricFragment fragment = (HistoricFragment) adapter.getPage(1);
-                    fragment.search(newText.toLowerCase());
-                } else if (currentItem == 2) {
-                    SearchFragment fragment = (SearchFragment) adapter.getPage(2);
-                    fragment.search(newText.toLowerCase());
+                    if (currentItem == 0) {
+                        FavoriteFragment fragment = (FavoriteFragment) adapter.getPage(0);
+                        fragment.search(newText.toLowerCase());
+                    } else if (currentItem == 1) {
+                        HistoricFragment fragment = (HistoricFragment) adapter.getPage(1);
+                        fragment.search(newText.toLowerCase());
+                    } else if (currentItem == 2) {
+                        SearchFragment fragment = (SearchFragment) adapter.getPage(2);
+                        fragment.search(newText.toLowerCase());
+                    }
+
+                    return true;
+                } else {
+                    return false;
                 }
-
-                return true;
             }
         });
 
@@ -193,6 +198,7 @@ public class MainActivity extends AppCompatActivity {
         // Configura o botão de pesquisa.
         MenuItem item = menu.findItem(R.id.action_search);
         searchView.setMenuItem(item);
+        searchView.setVoiceSearch(true);
 
         return super.onCreateOptionsMenu(menu);
     }
@@ -217,18 +223,42 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
+    public void onBackPressed() {
+        if (searchView.isSearchOpen()) {
+            searchView.closeSearch();
+        } else {
+            super.onBackPressed();
+        }
+    }
+
+    @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         IntentResult result = IntentIntegrator.parseActivityResult(requestCode, resultCode, data);
 
-        if (result != null) {
+        if (requestCode == MaterialSearchView.REQUEST_VOICE && resultCode == RESULT_OK) {
+            ArrayList<String> matches = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
+            if (matches != null && matches.size() > 0) {
+                String searchWrd = matches.get(0);
+                if (!TextUtils.isEmpty(searchWrd)) {
+                    searchView.setQuery(searchWrd, false);
+                }
+            }
+
+            return;
+        } else if (result != null) {
             if (result.getContents() != null) {
+
+                String r = result.getContents();
+
+                Log.d("Resultado:", r);
+                /*
                 Uri uri = Uri.parse(result.getContents());
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-                startActivity(intent);
+                startActivity(intent);*/
+                return;
             }
-        } else {
-            super.onActivityResult(requestCode, resultCode, data);
         }
+        super.onActivityResult(requestCode, resultCode, data);
     }
 
 

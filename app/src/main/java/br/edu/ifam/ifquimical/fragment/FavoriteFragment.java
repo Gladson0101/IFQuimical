@@ -46,7 +46,7 @@ public class FavoriteFragment extends Fragment {
 
         textView = view.findViewById(R.id.textViewFavorite);
 
-        if (quimicalInformationArrayList.isEmpty()) {
+        if (quimicalInformationArrayList.size() == 0) {
             textView.setVisibility(View.VISIBLE);
         } else {
             textView.setVisibility(View.INVISIBLE);
@@ -66,7 +66,6 @@ public class FavoriteFragment extends Fragment {
 
                                 Intent intent = new Intent(getActivity(), QuimicalInformationActivity.class);
                                 intent.putExtra("name", qi.getName());
-                                intent.putExtra("formula", qi.getFormula());
                                 startActivity(intent);
 
                             }
@@ -91,12 +90,26 @@ public class FavoriteFragment extends Fragment {
         return view;
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+        reloadSearchView();
+    }
+
     public void reloadSearchView() {
+        FavoritesDAO favoritesDAO = new FavoritesDAO(getActivity());
+        quimicalInformationArrayList = (ArrayList<QuimicalInformation>) favoritesDAO.list();
+
         QuimicalInformationAdapter adapter = new QuimicalInformationAdapter(quimicalInformationArrayList, getActivity());
         recyclerView.setAdapter(adapter);
         adapter.notifyDataSetChanged();
-    }
 
+        if (quimicalInformationArrayList.size() == 0) {
+            textView.setVisibility(View.VISIBLE);
+        } else {
+            textView.setVisibility(View.INVISIBLE);
+        }
+    }
 
     public void search(String text) {
         List<QuimicalInformation> qiListSearch = new ArrayList<>();

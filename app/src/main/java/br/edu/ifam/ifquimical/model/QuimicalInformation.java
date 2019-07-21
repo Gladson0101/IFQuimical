@@ -1,6 +1,6 @@
 package br.edu.ifam.ifquimical.model;
 
-public class QuimicalInformation {
+public class QuimicalInformation implements Comparable {
 
     private String name;
     private String formula;
@@ -87,5 +87,11 @@ public class QuimicalInformation {
 
     public void setStabilityAndReactivity(String stabilityAndReactivity) {
         this.stabilityAndReactivity = stabilityAndReactivity;
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        QuimicalInformation qiOther = (QuimicalInformation) o;
+        return getName().compareTo(qiOther.getName());
     }
 }

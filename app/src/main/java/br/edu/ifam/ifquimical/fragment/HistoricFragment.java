@@ -47,7 +47,7 @@ public class HistoricFragment extends Fragment {
 
         textView = view.findViewById(R.id.textViewHistoric);
 
-        if (quimicalInformationArrayList.isEmpty()) {
+        if (quimicalInformationArrayList.size() == 0) {
             textView.setVisibility(View.VISIBLE);
         } else {
             textView.setVisibility(View.INVISIBLE);
@@ -67,7 +67,6 @@ public class HistoricFragment extends Fragment {
 
                                 Intent intent = new Intent(getActivity(), QuimicalInformationActivity.class);
                                 intent.putExtra("name", qi.getName());
-                                intent.putExtra("formula", qi.getFormula());
                                 startActivity(intent);
                             }
 
@@ -92,11 +91,25 @@ public class HistoricFragment extends Fragment {
     }
 
     public void reloadSearchView() {
+        HistoricDAO historicDAO = new HistoricDAO(getActivity());
+        quimicalInformationArrayList = (ArrayList<QuimicalInformation>) historicDAO.list();
+
         QuimicalInformationAdapter adapter = new QuimicalInformationAdapter(quimicalInformationArrayList, getActivity());
         recyclerView.setAdapter(adapter);
         adapter.notifyDataSetChanged();
+
+        if (quimicalInformationArrayList.size() == 0) {
+            textView.setVisibility(View.VISIBLE);
+        } else {
+            textView.setVisibility(View.INVISIBLE);
+        }
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+        reloadSearchView();
+    }
 
     public void search(String text) {
         List<QuimicalInformation> qiListSearch = new ArrayList<>();
