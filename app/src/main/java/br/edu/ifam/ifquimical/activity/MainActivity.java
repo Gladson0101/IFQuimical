@@ -1,5 +1,7 @@
 package br.edu.ifam.ifquimical.activity;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -28,6 +30,7 @@ import org.xmlpull.v1.XmlPullParserFactory;
 
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.List;
 
 import br.edu.ifam.ifquimical.R;
 import br.edu.ifam.ifquimical.fragment.FavoriteFragment;
@@ -102,15 +105,22 @@ public class MainActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onPageSelected(int i) {
+            public void onPageSelected(int i) { // Verificação de "null" necessárias
                 if (i == 0) {
                     navigation.setSelectedItemId(R.id.navigation_favorites);
                     FavoriteFragment fragment = (FavoriteFragment) adapter.getPage(0);
-                    fragment.reloadSearchView();
+
+                    if (fragment != null) {
+                        fragment.reloadSearchView();
+                    }
                 } else if (i == 1) {
                     navigation.setSelectedItemId(R.id.navigation_historic);
                     HistoricFragment fragment = (HistoricFragment) adapter.getPage(1);
-                    fragment.reloadSearchView();
+
+                    if (fragment != null) {
+                        fragment.reloadSearchView();
+                    }
+
                 } else if (i == 2) {
                     navigation.setSelectedItemId(R.id.navigation_search);
                 } else if (i == 3) {
@@ -250,11 +260,40 @@ public class MainActivity extends AppCompatActivity {
 
                 String r = result.getContents();
 
+                for (int i = 0; i < r.length(); i++) {
+                    if (r.charAt(i) == '(') {
+                        r = r.substring(0, i - 1);
+                        r = r.trim();
+                        r = r.toUpperCase();
+                    }
+                }
+
+                QuimicalInformationDAO qiDAO = new QuimicalInformationDAO(this);
+                List<QuimicalInformation> qiList = qiDAO.list();
+
+                boolean found = false;
+
+                for (int i = 0; i < qiList.size(); i++) {
+                    if (qiList.get(i).getName().equals(r)) {
+                        found = true;
+                        break;
+                    }
+                }
+
+                if (found) {
+                    Intent intent = new Intent(this, QuimicalInformationActivity.class);
+                    intent.putExtra("name", r);
+                    startActivity(intent);
+                } else {
+                    AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                    builder.setTitle("Aviso");
+                    builder.setMessage("O código escanado não foi localizado, verifique se você escaneou um código válido");
+                    builder.setPositiveButton("OK", null);
+                    builder.create().show();
+                }
+
                 Log.d("Resultado:", r);
-                /*
-                Uri uri = Uri.parse(result.getContents());
-                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-                startActivity(intent);*/
+
                 return;
             }
         }

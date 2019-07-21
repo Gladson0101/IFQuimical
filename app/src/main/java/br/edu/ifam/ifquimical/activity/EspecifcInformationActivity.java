@@ -34,12 +34,6 @@ public class EspecifcInformationActivity extends AppCompatActivity {
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_quimical_information, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
-
-    @Override
     public boolean onSupportNavigateUp() {
         this.finish();
         return super.onSupportNavigateUp();
