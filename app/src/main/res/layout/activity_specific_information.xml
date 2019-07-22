@@ -17,11 +17,45 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <Button
-            android:id="@+id/buttonReader"
+        <LinearLayout
+            android:id="@+id/buttonSpeak"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/ler_em_voz_alta" />
+            android:layout_height="64dp"
+            android:orientation="horizontal">
+
+            <com.github.zagum.switchicon.SwitchIconView
+                android:id="@+id/switchIconViewSpeak"
+                android:layout_width="64dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:layout_marginLeft="16dp"
+                android:padding="8dp"
+                app:si_animation_duration="500"
+                app:si_disabled_alpha=".5"
+                app:si_disabled_color="#b7b7b7"
+                app:si_enabled="false"
+                app:si_no_dash="true"
+                app:si_tint_color="#ff3c00"
+                app:srcCompat="@drawable/ic_speaking" />
+
+            <TextView
+                android:id="@+id/textViewInitRead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="Leitura em voz alta"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/dividerContent"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
 
         <TextView
             android:id="@+id/textInformation"
@@ -36,6 +70,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
     </LinearLayout>
 
 

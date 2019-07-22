@@ -1,5 +1,6 @@
 package br.edu.ifam.ifquimical.activity;
 
+import android.os.Build;
 import android.speech.tts.TextToSpeech;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,6 +10,8 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.github.zagum.switchicon.SwitchIconView;
+
 import java.util.Locale;
 
 import br.edu.ifam.ifquimical.R;
@@ -17,8 +20,10 @@ public class SpecificInformationActivity extends AppCompatActivity {
 
     private TextView textInformation;
     private TextToSpeech textToSpeech;
-    private Button buttonReader;
     private String textData;
+
+    private SwitchIconView switchIconViewSpeak;
+    private View buttonSpeak;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,13 +49,27 @@ public class SpecificInformationActivity extends AppCompatActivity {
             }
         });
 
-        buttonReader = findViewById(R.id.buttonReader);
-        buttonReader.setOnClickListener(new View.OnClickListener() {
+        switchIconViewSpeak = findViewById(R.id.switchIconViewSpeak);
+
+        buttonSpeak = findViewById(R.id.buttonSpeak);
+        buttonSpeak.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                textToSpeech.speak(textData, TextToSpeech.QUEUE_FLUSH, null);
 
-                Toast.makeText(SpecificInformationActivity.this, "Realizando leitura...", Toast.LENGTH_SHORT).show();
+                switchIconViewSpeak.switchState();
+
+                if (textToSpeech.isSpeaking()) {
+                    textToSpeech.stop();
+                    Toast.makeText(SpecificInformationActivity.this, "Leitura interrompida", Toast.LENGTH_SHORT).show();
+                } else {
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                        textToSpeech.speak(textData,TextToSpeech.QUEUE_FLUSH,null,null);
+                    } else {
+                        textToSpeech.speak(textData, TextToSpeech.QUEUE_FLUSH, null);
+                    }
+
+                    Toast.makeText(SpecificInformationActivity.this, "Realizando leitura...", Toast.LENGTH_SHORT).show();
+                }
             }
         });
 
@@ -58,6 +77,15 @@ public class SpecificInformationActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle(title);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        if (textToSpeech != null) {
+            textToSpeech.stop();
+            textToSpeech = null;
+        }
     }
 
     @Override
