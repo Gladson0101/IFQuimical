@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -204,42 +203,42 @@ public class QuimicalInformationActivity extends AppCompatActivity {
      * Abaixo estão configurados as intenções de click para cada LinearLayout configurado.
      */
     public void onFirstAidActionsClicked() {
-        Intent intent = new Intent(getApplicationContext(), EspecifcInformationActivity.class);
+        Intent intent = new Intent(getApplicationContext(), SpecificInformationActivity.class);
         intent.putExtra("title", "Medidas de primeiros-socorros");
         intent.putExtra("textData", quimicalInformation.getFirstAidActions());
         startActivity(intent);
     }
 
     public void onFireSafetyClicked() {
-        Intent intent = new Intent(getApplicationContext(), EspecifcInformationActivity.class);
+        Intent intent = new Intent(getApplicationContext(), SpecificInformationActivity.class);
         intent.putExtra("title", "Medidas de combate a incêndio");
         intent.putExtra("textData", quimicalInformation.getFireSafety());
         startActivity(intent);
     }
 
     public void onHandlingAndStorageClicked() {
-        Intent intent = new Intent(getApplicationContext(), EspecifcInformationActivity.class);
+        Intent intent = new Intent(getApplicationContext(), SpecificInformationActivity.class);
         intent.putExtra("title", "Manuseio e armazenamento");
         intent.putExtra("textData", quimicalInformation.getHandlingAndStorage());
         startActivity(intent);
     }
 
     public void onExposureControlAndPersonalProtectionClicked() {
-        Intent intent = new Intent(getApplicationContext(), EspecifcInformationActivity.class);
+        Intent intent = new Intent(getApplicationContext(), SpecificInformationActivity.class);
         intent.putExtra("title", "Controle de exposição e proteção individual");
         intent.putExtra("textData", quimicalInformation.getExposureControlAndPersonalProtection());
         startActivity(intent);
     }
 
     public void onSpillOrLeakClicked() {
-        Intent intent = new Intent(getApplicationContext(), EspecifcInformationActivity.class);
+        Intent intent = new Intent(getApplicationContext(), SpecificInformationActivity.class);
         intent.putExtra("title", "Derramamento ou vazamento");
         intent.putExtra("textData", quimicalInformation.getSpillOrLeak());
         startActivity(intent);
     }
 
     public void onStabilityAndReactivityClicked() {
-        Intent intent = new Intent(getApplicationContext(), EspecifcInformationActivity.class);
+        Intent intent = new Intent(getApplicationContext(), SpecificInformationActivity.class);
         intent.putExtra("title", "Estabilidade e reatividade");
         intent.putExtra("textData", quimicalInformation.getStabilityAndReactivity());
         startActivity(intent);
