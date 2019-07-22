@@ -2,7 +2,7 @@
 
 <quimicalinformation>
 
-    <size>54</size>
+    <size>114</size>
 
     <item>
         <name>ACETALDEÍDO</name>
@@ -11,20 +11,11 @@
         <firstAidActions>
             Descrição das medidas de primeiros-socorros:
             - Depois de inalar: Exposição ao ar fresco. Chamar um médico.
-            - No caso do contato com a pele: Retire imediatamente toda a roupa
-            contaminada. Enxaguar a pele com água e tomar banho de chuveiro.
-            Consultar um médico.
-            - Após contato com os olhos: Enxaguar abundantemente com água.
-            Consultar um
-            Oftalmologista. Remova as lentes de contato.
-            - Após ingestão: fazer a vítima beber imediatamente água (dois copos no
-            máximo) consultar um médico.
-            -Sintomas e efeitos mais importantes, agudos e retardados:
-            conjuntivite, paragem respiratória, Inconsciência, narcose, Náusea, Vômitos,
-            Dor de cabeça,
-            Convulsões, rinite, efeitos irritantes, Tosse, Respiração superficial
-            -Indicação da atenção médica imediata e do tratamento especial necessário:
-            Não existem informações disponíveis.
+            - No caso do contato com a pele: Retire imediatamente toda a roupa contaminada. Enxaguar a pele com água e tomar banho de chuveiro. Consultar um médico.
+            - Após contato com os olhos: Enxaguar abundantemente com água. Consultar um Oftalmologista. Remova as lentes de contato.
+            - Após ingestão: fazer a vítima beber imediatamente água (dois copos no máximo) consultar um médico.
+            -Sintomas e efeitos mais importantes, agudos e retardados: conjuntivite, paragem respiratória, Inconsciência, narcose, Náusea, Vômitos, Dor de cabeça, Convulsões, rinite, efeitos irritantes, Tosse, Respiração superficial
+            -Indicação da atenção médica imediata e do tratamento especial necessário: Não existem informações disponíveis.
         </firstAidActions>
 
         <fireSafety>
@@ -47,31 +38,24 @@
             respiração independente do ambiente. De forma a evitar o contato compele, mantenha uma
             distância de segurança e utilize vestuário protetor adequado.
             - Informações complementares
-            Remover o recipiente da zona de perigo; arrefecer com água. Evitar a
-            contaminação da água de
-            superfície e da água subterrânea com a água de combate a incêndios.
+            Remover o recipiente da zona de perigo; arrefecer com água. Evitar a contaminação da água de superfície e da água subterrânea com a água de combate a incêndios.
         </fireSafety>
 
         <handlingAndStorage>
             - Manuseio
-            - Recomendações para manuseio seguro
+            - Recomendações para manuseio seguro:
             Observar os avisos dos rótulos.
-            Trabalhar com chaminé. Não inalar a substância/mistura. Evitar a formação
-            de
-            vapores/aerossóis.
+            Trabalhar com chaminé. Não inalar a substância/mistura.
+            Evitar a formação de vapores/aerossóis.
             -Orientações para prevenção de fogo e explosão
-            Armazenar afastado de chamas, superfícies aquecidas e fontes de ignição.
-            Evite acúmulo de cargas eletrostáticas.
+            Armazenar afastado de chamas, superfícies aquecidas e fontes de ignição. Evite acúmulo de cargas eletrostáticas.
             -Medidas de higiene
             Mudar imediatamente a roupa contaminada. Profilaxia cutânea. Depois de
             terminar o trabalho, lavar as mãos e a cara.
             - Armazenamento
             - Condições de armazenamento
-            Guardar o recipiente hermeticamente fechado em local seco e bem
-            ventilado. Manter afastado
-            do calor e de fontes de ignição.
-            Temperatura recomendada de armazenamento, consulte na etiqueta de
-            produto.
+            Guardar o recipiente hermeticamente fechado em local seco e bem ventilado. Manter afastado do calor e de fontes de ignição.
+            Temperatura recomendada de armazenamento, consulte na etiqueta de produto.
             Utilizações finais específicas
             Nenhum uso específico é previsto além dos mencionados na sessão 1.2.
 
@@ -6917,322 +6901,2115 @@
     </item>
 
     <item>
-        <name></name>
-        <formula></formula>
+        <name>IODETO DE POTÁSSIO</name>
+        <formula>(KI)</formula>
 
         <firstAidActions>
-
+            - Inalação: remover para local ventilado.
+            - Contato com a pele: lavar com água.
+            - Contato com os olhos: lavar com bastante água.
+            - Ingestão: beber bastante água, provocar vomito. Chamar um médico.
         </firstAidActions>
 
         <fireSafety>
-
+            - Meios de extinção apropriados: combustível.
+            - Perigos específicos: combustível
         </fireSafety>
 
         <handlingAndStorage>
-
+            - Manuseio: local bem arejado ou exaustão local
+            - Armazenamento: Manter as embalagens bem fechadas, local seco e limpo. Temperatura ambiente.
         </handlingAndStorage>
 
         <exposureControlAndPersonalProtection>
-
+            - Equipamento de proteção individual apropriado:
+            - Proteção respiratória: máscara contra pós
+            - Proteção das mãos: luvas de nitrilo
+            - Proteção dos olhos: óculos de proteção
+            - Medidas de higiene: Depois do término do trabalho, lavar as mãos e rosto. Retirar as roupas contaminadas.
         </exposureControlAndPersonalProtection>
 
         <spillOrLeak>
-
+            - Equipamento de proteção individual apropriado:
+            - Proteção respiratória: máscara contra pós
+            - Proteção das mãos: luvas de nitrilo
+            - Proteção dos olhos: óculos de proteção
+            - Medidas de higiene: Depois do término do trabalho, lavar as mãos e rosto. Retirar as roupas contaminadas.
         </spillOrLeak>
 
         <stabilityAndReactivity>
-
+            - Condições a evitar: sem indicação
+            - Materiais ou substâncias incompatíveis: metais alcalinos, amoníaco, peróxido de hidrogênio
+            - Produtos de decomposição perigosa: sem indicação
         </stabilityAndReactivity>
     </item>
 
     <item>
-        <name></name>
-        <formula></formula>
+        <name>IODETO DE SÓDIO</name>
+        <formula>(NaI)</formula>
 
         <firstAidActions>
-
+            - Inalação: remover para local ventilado.
+            - Contato com a pele: lavar com água corrente. Retirar a roupa contaminada.
+            - Contato com os olhos: lavar com bastante água, por 15 minutos. Consultar um oftalmologista.
+            - Ingestão: beber bastante água, provocar vomito. Consultar um médico, se necessário.
         </firstAidActions>
 
         <fireSafety>
-
+            - Meios de extinção apropriados: não combustível.
+            - Perigos específicos: não combustível
         </fireSafety>
 
         <handlingAndStorage>
-
+            - Manuseio: sem exigências
+            - Armazenamento: Manter as embalagens bem fechadas, local seco e limpo. Temperatura ambiente.
         </handlingAndStorage>
 
         <exposureControlAndPersonalProtection>
-
+            - Equipamento de proteção individual apropriado:
+            - Proteção respiratória: máscara contra pós
+            - Proteção das mãos: luvas de nitrilo
+            - Proteção dos olhos: óculos de proteção
+            - Medidas de higiene: Depois do término do trabalho, lavar as mãos e rosto. Retirar as roupas contaminadas.
         </exposureControlAndPersonalProtection>
 
         <spillOrLeak>
-
+            - Precauções pessoais: Evitar a produção de pós. Não inalar os pós.
+            - Precaução ao meio ambiente: Não enviar para redes de águas residuais.
+            - Métodos para limpeza: Absorver em estado seco. Recolher para eliminação posterior
         </spillOrLeak>
 
         <stabilityAndReactivity>
-
+            - Condições a evitar: sem indicação
+            - Materiais ou substâncias incompatíveis: metais alcalinos, ácido Perclórico, peróxido de hidrogênio
+            - Produtos de decomposição perigosa: em caso de incêndio pode formar: iodeto de hidrogênio
         </stabilityAndReactivity>
     </item>
 
     <item>
-        <name></name>
-        <formula></formula>
+        <name>MAGNÉSIO METÁLICO</name>
+        <formula>(Mg)</formula>
 
         <firstAidActions>
-
+            Após inalação: Exposição ao ar fresco.
+            Após contato com a pele: Lavar abundantemente com água. Tirar a roupa contaminada.
+            Após contato com os olhos: Enxaguar abundantemente com água, mantendo a pálpebra aberta. Consultar um oftalmologista se necessário.
+            Após ingestão: NÃO provocar vómitos. Nunca dar nada pela boca a uma pessoa inconsciente. Enxaguar a boca com água. Consultar um médico.
         </firstAidActions>
 
         <fireSafety>
-
+            Meios adequados de extinção: Pó de proteção contra incêndio de metais. Tapar com areia seca ou cimento.
+            Meios inadequados de extinção: Água e espuma.
+            Riscos especiais: Combustível. Em caso de incêndio podem formar-se vapores tóxicos. Perigo de explosão de pós.
+            Equipamento especial de proteção para o combate ao incêndio: Permanência na área de perigo com uma máscara de oxigênio independente do ar ambiente.
+            Outras informações: O produto não deve entrar em contato com a água.
         </fireSafety>
 
         <handlingAndStorage>
-
+            • MANUSEIO:
+            Indicações para o manuseamento seguro: Evitar a formação de pó e aerossóis. Providenciar uma adequada ventilação em locais onde se formem poeiras. Manter afastado de qualquer chama ou fonte de ignição. Manter seco
+            o local de trabalho. O produto não pode entrar em contato com a água.
+            • ARMAZENAMENTO:
+            Armazenar em local fresco. Guardar o recipiente herméticamente fechado em lugar seco e bem ventilado.
+            Nunca permitir que o produto entre em contato com a água durante o armazenamento.
         </handlingAndStorage>
 
         <exposureControlAndPersonalProtection>
-
+            • CONTROLE DE EXPOSIÇÃO:
+            Medidas de controle de engenharia: Ventilação local adequada, sistema de exaustão e outros controles de engenharia necessários para manter os níveis de exposição abaixo dos limites recomendados. Chuveiros de emergência e lava-olhos devem estar próximos ao local de trabalho.
+            • PROTEÇÃO INDIVIDUAL
+            As características dos meios de proteção para o corpo devem ser selecionadas em função da concentração e da quantidade das substâncias tóxicas de acordo com as condições específicas do local de trabalho. A resistência dos meios de proteção aos agentes químicos deve ser esclarecida junto dos fornecedores.
+            Proteção respiratória: Necessária em caso de formação de pós.
+            Proteção dos olhos: Necessária.
+            Proteção das mãos: Em caso de contato total com o produto, luva de nitrilo com espessura da camada de 0,11 mm e tempo de ruptura maior do que 480 minutos.
+            Em caso de contato com o líquido derramado, luva de nitrilo com espessura da camada de 0,11 mm e tempo de ruptura maior do que 480 minutos.
+            Equipamento de proteção: Utilizar roupa protetora adequada.
+            Higiene Industrial: Mudar imediatamente a roupa contaminada. Depois de terminar o trabalho lavar as mãos e o rosto.
         </exposureControlAndPersonalProtection>
 
         <spillOrLeak>
-
+            Medidas de proteção para pessoas: Evitar o contato com a substância e a produção e inalação de pós.
+            Medidas de proteção do meio ambiente: Não permita a entrada em sistemas de esgoto; perigo de explosão.
+            Procedimentos de limpeza / absorção: Absorver em estado seco. Proceder à eliminação de resíduos. Limpeza posterior da área afetada. Evitar a formação de pós.
         </spillOrLeak>
 
         <stabilityAndReactivity>
-
+            Condições a serem evitadas:
+            Umidade.
+            Substâncias a serem evitadas:
+            Água, ácidos, soluções de hidróxidos alcalinos, oxidantes, hidrocarbonetos halogenados, óxidos metálicos, compostos peroxidados, nitratos, percloratos, cianetos, halogênio, óxidos não-metálicos, não metais, alcoóis, sais alcalinos, sulfatos, flúor, halogenetos de hidrogênio e hidróxidos alcalinos.
+            Produtos de decomposição perigosa:
+            Após reação com água: Hidrogênio (perigo de explosão!).
+            Outras informações:
+            Perigo de explosão de pós.
         </stabilityAndReactivity>
     </item>
 
     <item>
-        <name></name>
-        <formula></formula>
+        <name>MAGNÉSIO EM FITA</name>
+        <formula>(Mg)</formula>
 
         <firstAidActions>
 
+            Após a inalação: Exposição ao ar fresco. Após contato com a pele (partículas, pós): Lavar abundantemente com água. Tirar a roupa contaminada.
+            Após contato com os olhos: Enxaguar abundantemente com água, mantendo as pálpebras abertas. Consultar um oftalmologista se necessário.
         </firstAidActions>
 
         <fireSafety>
-
+            Meios de extinção
+            Meios adequados de extinção Pó especial contra fogo em metal, areia, cimento. Agentes de extinção inadequados Água, espuma.
+            Riscos especiais resultantes da substância ou da mistura
+            Material combustível. Em caso de incêndio formam-se gases inflamáveis e vapores perigosos.
+            Precauções para bombeiros
+            Equipamentos especiais para proteção das pessoas envolvida no combate a incêndio. Não ficar na zona de perigo sem aparelho respiratório autônomo apropriado para respiração independente do ambiente. De forma a evitar o contato com a pele, mantenha uma distância de segurança e utilize vestuário protetor adequado. Informações complementares Refrescar os contêinmeres fechados expostos ao fogo com água pulverizada.
         </fireSafety>
 
         <handlingAndStorage>
-
+            Condições para armazenamento seguro, incluindo incompatibilidades
+            Condições de armazenamento Guardar o recipiente hermeticamente fechado em local seco e bem ventilado ao abrigo da luz. Temperatura de armazenagem: Sem limitações.
         </handlingAndStorage>
 
         <exposureControlAndPersonalProtection>
+            Parâmetros de controle
+            Não contém substâncias com valores limites de exposição ocupacional.
 
+            Controle de exposição
+            Medidas de planejamento Medidas técnicas e operações de trabalho adequadas devem ter prioridade sobre o uso de equipamentos de proteção pessoal. Vide secção 7.1. Medidas de proteção individual As características dos meios de proteção para o corpo devem ser selecionadas em função da concentração e da qualidade das substâncias tóxicas de acordo com as condições específicas do local de trabalho. A resistência dos meios de proteção aos agentes químicos deve ser esclarecida junto dos fornecedores. Medidas de higiene Mudar imediatamente a roupa contaminada. Profilaxía cutânea. Depois de terminar o trabalho, lavar as mãos e o rosto. Proteção para pele / olhos Óculos de segurança bem ajustado Proteção das mãos Substância da luva: Borracha de nitrilo. Proteção respiratória Necessário em caso de formação de pós Tipo de filtro recomendado: Filtro P1 Controles de riscos ambientais. Não despejar os resíduos no esgoto.
         </exposureControlAndPersonalProtection>
 
         <spillOrLeak>
-
+            Precauções pessoais, equipamentos de proteção e procedimentos de emergência
+            Recomendações para pessoal não envolvido com emergência: Evitar o contato com a substância. Evacuar a área de perigo, observar os procedimentos de emergência, consultar um especialista.
+            Precauções ambientais
+            Não despejar os resíduos no esgoto
+            Métodos e materiais de contenção e limpeza
+            Cobrir ralos. Recolher, emendar e bombear vazamentos. Observar as possíveis restrições de material (vide secções 7 e 10). Absorver em estado seco. Proceder à eliminação de resíduos. Limpar a área afetada. Evite a formação de pós.
         </spillOrLeak>
 
         <stabilityAndReactivity>
+            Estabilidade química
+            O produto é quimicamente estável em condições ambientais padrão (temperatura ambiente)
 
+            Possibilidade de reações perigosas
+            Reações violentas são possíveis com: Oxidantes, resíduos alcalinos, hidrocarbonetos halogenado, halogênios, alcoóis, nitratos, água, ácidos.
+
+            Condições a serem evitadas
+            Calor.
         </stabilityAndReactivity>
     </item>
 
     <item>
-        <name></name>
-        <formula></formula>
+        <name>METANOL</name>
+        <formula>(CH3OH)</formula>
 
         <firstAidActions>
-
+            Inalação: remover a pessoa para uma área ventilada. Se houver parada respiratória, fornecer respiração artificial e providenciar cuidados médicos.
+            Contato com a pele: lavar imediatamente com água e sabão neutro por pelo menos 15 minutos.
+            Contato com os olhos: lavar imediatamente com água corrente por pelo menos 15 minutos e providenciar cuidados médicos.
+            Ingestão: a ingestão de metanol causa risco de vida.Não provocar vômito. Beber bastante água e procurar cuidados médicos imediatamente.
+            Notas para o Médico: Em caso de delírio, usar pentobarbital, 100mg cada 6-12 horas, evitando a depressão respiratória. Lavar o estômago com solução de carvão ativo (40-60 g/l). Administrar o álcool etílico para inibir a oxidação do metanol: injetar 3 litros de uma solução a 5% de álcool etílico durante 12 horas (num total de 15 ml de álcool puro). Exame oftalmológico com exame de fundo de olho.
         </firstAidActions>
 
         <fireSafety>
-
+            Meios de extinção apropriados:
+            Pequenos incêndios: extintor de pó químico, água pulverizada, extrato de espuma;
+            Grandes incêndios: água pulverizada, espuma tipo AFF(R) (com formação de película aquosa resistente ao álcool) com sistema de proporção de espuma de 3% ou 6%. Manter os outros tanques expostos ao fogo resfriados.
+            Meios de extinção não recomendados: Evitar o uso de jato pleno de água direto para combater ao fogo.
+            Perigos específicos referentes às medidas: Os vapores do metanol podem queimar com uma chama invisível. Durante um incêndio, monóxido de carbono, dióxido de carbono e gases irritantes e tóxicos como o formaldeído podem ser produzidos. Os vapores podem acumular-se em espaços confinados, resultando em toxicidade e perigo de inflamabilidade. Recipientes fechados podem romper-se violentamente e liberar repentinamente grandes quantidades de metanol, quando expostos ao fogo ou calor excessivo por um período suficiente de tempo. Os vapores são ligeiramente mais pesados que o ar e podem percorrer grandes distâncias em direção à fontes de ignição.
+            Métodos especiais de combate a incêndio: O metanol queima com uma chama transparente, quase invisível à luz do dia. Permanecer contra o vento! Isolar e restringir o acesso à área. A concentração de metanol na água acima de 25% pode ser inflamada. Usar um jato fino ou neblina para controlar o fogo, resfriar os recipientes ou as estruturas adjacentes. Estancar a água usada para controlar o fogo, para remoção mais tarde.
+            Proteção das pessoas envolvidas no combate a incêndio: Usar máscara autônoma, panorâmica,
+            com pressão positiva ou uma linha de ar e vestuário de proteção adequado.
+            Perigos específicos da combustão do produto químico: Liberação de CO, CO2 e possível gás de
+            formol.
         </fireSafety>
 
         <handlingAndStorage>
-
+            Medidas técnicas apropriadas para o manuseio:
+            Prevenção da exposição do trabalhador: manusear em local bem ventilado. Usar os equipamentos de proteção individual recomendados.
+            Prevenção de incêndio e explosão: não fume nem provoque chamas desprotegidas. Dotar
+            o sistema de estocagem com aterramento. nstalar iluminação a prova de faísca/ explosão.
+            Precauções e orientações para manuseio seguro: Manusear em local bem ventilado. Utilizar equipamentos de proteção individual padrão (máscara panorâmica com filtro para vapores orgânicos, óculos de segurança tipo ampla visão, luvas de neoprene ou nitrílica e vestuário apropriado.
+            Medidas técnicas para o armazenamento:
+            Condições adequadas: os tanques devem ser aterrados e com sistema de controle de emissão
+            de vapores. Instalar válvulas de pressão e vácuo, válvulas de segurança. Instalar diques de contenção com sistema de drenagem para efluentes orgânicos. Instalar para raios.
+            Condições que devem ser evitadas: evitar o armazenamento com materiais incompatíveis.
+            Evitar fontes de calor, faíscas e chamas, oxidantes, ácidos e bases. Incompatível com agentes oxidantes fortes, zinco, alumínio e magnésio.
+            Materiais seguros para embalagens:
+            Recomendados: o metanol anidro não é corrosivo para a maior parte dos metais nas condições
+            ambientes, exceto para o chumbo e magnésio. Recomenda-se o aço maciço para a construção
+            de recipientes.
+            Inadequados: os revestimentos de cobre (ou ligas de cobre), zinco (incluindo aço galvanizado)
+            ou alumínio, não são indicados para armazenagem, uma vez que são corroídos lentamente. Plásticos não são recomendados para armazenamento a longo prazo.
         </handlingAndStorage>
 
         <exposureControlAndPersonalProtection>
-
+            Equipamento de proteção individual apropriado:
+            Proteção dos olhos/face: usar óculos de proteção e protetor facial. Não é recomendado o
+            uso de lentes de contato.
+            Proteção da pele e do corpo: usar luvas nitrílicas ou de neoprene. Usar roupas resistentes a
+            produtos químicos.
+            Proteção respiratória: Usar máscara panorâmica dotada de filtro polivalente ou para vapores
+            orgânicos. Nas situações em que as concentrações excedam os limites de exposição, usar máscara de oxigênio.
+            Precauções especiais: Manter limpos os EPIs e em condições apropriadas de uso. Realizar periodicamente inspeções e possíveis manutenções e/ou substituições de equipamentos danificados. Filtros devem ser guardados selados em sacos plásticos ou contenção similar. Estar atento à manutenção do sistema de ventilação/exaustão.
         </exposureControlAndPersonalProtection>
 
         <spillOrLeak>
-
+            Precauções pessoais:
+            Remoção de fontes de ignição: retirar das proximidades fontes de ignição. Usar água em
+            forma de neblina para evitar vapores.
+            Controle de poeira: não aplicável. A substância é líquida a temperatura ambiente.
+            Prevenção da inalação e do contato com a pele, as mucosas e olhos: promover uma ventilação adequada. Usar máscara panorâmica com filtro para vapores orgânicos. Usar óculos de segurança tipo de ampla visão. Usar luvas tipo neoprene ou nitrílica. Usar vestuário apropriado.
+            Precauções ao meio ambiente: Evitar que o produto contamine rios, lagos e a flora. É biodegradável na água. Na vida aquática pode ter efeito grave.
+            Métodos para limpeza:
+            Recuperação: as espumas resistentes ao álcool de fluorocarbonetos podem ser aplicadas na área de derrame para diminuir o vapor e, portanto os riscos de incêndio.Recolha o líquido com bombas a prova de explosão. Para pequenos derrames ataque com absorventes não combustíveis.
+            Maximize a coleta do metanol, para reciclagem e neutralização.
+            Neutralização: diluir o produto com bastante água.
+            Disposição: recolher o produto em recipiente para disposição posterior.
+            Prevenção de perigos secundários: Utilizar bombas a prova de explosão para a coleta do material
+            derramado. Não caminhar sobre o produto derramado uma vez que a sua chama é pouco visível.
         </spillOrLeak>
 
         <stabilityAndReactivity>
-
+            Estabilidade química: É estável em condições normais.
+            Possibilidade de reações perigosas: Reações com oxidantes, ácidos e bases fortes. Pode ser corrosivo ao chumbo, alumínio, magnésio e platina.
+            Condições a serem evitadas: Contatos com faíscas, calor, chamas ou fontes de ignição.
+            Materiais ou substâncias incompatíveis: Agentes oxidantes fortes, zinco, chumbo, alumínio, magnésio, ácidos fortes. ácido perclórico, perclorato de chumbo, metais reativos que desprendem do hidrogênio, alguns tipos de plásticos como o polietileno e borrachas. Não reage com água. Altamente reativo em amônia anidra, ácido sulfúrico, ácido nítrico, cianeto de hidrogênio e sulfato de hidrogênio.
+            Oxida-se formando peróxidos, podendo ser oxidado ou reduzido.Facilmente polimerizado com desprendimento de calor.
+            Produtos perigosos da decomposição: CO (monóxido de carbono), CO2 (dióxido de carbono) e
+            HCHO (formaldeído).
         </stabilityAndReactivity>
     </item>
 
     <item>
-        <name></name>
-        <formula></formula>
+        <name>NITRATO DE CRÔMIO III</name>
+        <formula>(Cr(NO3)3)</formula>
 
         <firstAidActions>
-
+            Notas gerais: Retirar a roupa contaminada.
+            Após inalação: Proporcionar ar fresco. Se surgirem queixas ou em caso de persistência dos sintomas, consultar um médico.
+            Após contato com a pele: Enxaguar a pele com água/tomar uma ducha. Se surgirem queixas ou em caso de persistência dos sintomas, consultar um médico.
+            Após contato com os olhos: Irrigar os olhos com água corrente limpa durante pelo menos 10 minutos mantendo as pálpebras abertas. Em caso de irritação ocular, consultar o oftalmologista.
+            Após ingestão: Enxaguar a boca. Caso sinta indisposição contate um médico.
+            Sintomas e efeitos mais importantes, tanto agudos como retardados: Provoca irritação ligeira a moderada, Irritação
+            Indicações sobre cuidados médicos urgentes e tratamentos especiais necessários: nenhum
         </firstAidActions>
 
         <fireSafety>
-
+            Meios adequados de extinção
+            Adequar as medidas de extinção ao local, pulverizador de água, espuma, pó seco para extinção de incêndios, dióxido de carbono (CO2).
+            Meios inadequados de extinção
+            jato de água
+            Perigos especiais decorrentes da substância ou mistura
+            Propriedade comburente. Não combustível.
+            Produtos de combustão perigosos
+            Em caso de incêndio podem formar-se: óxidos de azoto (NOx)
+            Recomendações para o pessoal de combate a incêndios
+            Combater o incêndio tomando as precauções normais e a partir de uma distância razoável. Use equipamento de respiração autónomo.
         </fireSafety>
 
         <handlingAndStorage>
-
+            Precauções para um manuseamento seguro
+            Não são necessárias medidas especiais.
+            Medidas a adoptar com vista à prevenção de incêndios, de formação de aerossóis e de poeiras
+            Tomar todas as precauções para não misturar com combustíveis.
+            Recomendações de ordem geral sobre higiene no local de trabalho
+            Não comer, beber ou fumar nas zonas de trabalho. Lavar as mãos antes das pausas e ao fim do
+            Condições de armazenagem segura, incluindo eventuais incompatibilidades
+            Armazenar em local seco. Manter o recipiente bem fechado.
+            Substâncias ou misturas incompatíveis
+            Ter em conta as indicações sobre o armazenamento compatível de produtos químicos. Manter/guardar afastado de matérias combustíveis.
+            Ter em conta outros conselhos
+            Não é necessário.
+            Requisitos em termos de ventilação
+            Utilizar ventilação geral e local.
+            Concepção especial de compartimentos ou recipientes de armazenagem
+            Temperatura de armazenamento recomendada: 15 - 25 °C.
+            Utilização (ões) final (is) específica (s)
+            Não existe informação disponível.
         </handlingAndStorage>
 
         <exposureControlAndPersonalProtection>
-
+            Parâmetros de controlo
+            Valores-limite nacionais
+            Valores limite de exposição profissional (limites de exposição no local de trabalho)
+            Controle da exposição
+            Medidas de proteção individual (equipamentos de proteção individual)
+            Proteção ocular/facial
+            Usar óculos de segurança com proteção lateral.
+            Proteção da pele
+            Proteção das mãos
+            Usar luvas adequadas. As luvas de proteção química adequadas, se testadas de acordo com a NE 374.
+            Para fins específicos, é recomendado verificar a resistência a produtos químicos das luvas de proteção mencionadas acima, bem como o fornecedor das luvas.
+            Tipo de material
+            NBR (Borracha de nitrilo)
+            Espessura do material
+            >0,11 mm.
+            Duração do material das luvas
+            > 480 minutos (permeação: nível 6)
+            Outras medidas de proteção
+            Fazer períodos de recuperação para a regeneração da pele. É recomendável a proteção preventiva da pele (cremes/pomadas de proteção).
+            Proteção respiratória
+            Dispositivo filtrador de partículas (NE 143). É necessária proteção respiratória quando: Desenvolvimento de poeiras. P2 (filtra pelo menos 94% das partículas em suspensão código de cores: Branco).
+            Controle da exposição ambiental
+            Manter afastado dos esgotos, das águas superficiais e subterrâneas.
         </exposureControlAndPersonalProtection>
 
         <spillOrLeak>
-
+            Para o pessoal não envolvido na resposta à emergência
+            Uso de equipamento de protecção adequado a fim de prevenir qualquer contaminação da pele, dos olhos ou do vestuário. Não respirar as poeiras.
+            Precauções a nível ambiental
+            Manter afastado dos esgotos, das águas superficiais e subterrâneas.
+            Métodos e materiais de confinamento e limpeza
+            Recomendações sobre como confinar um derrame
+            Limpeza com material absorvente (por exemplo: tecido, lã).
+            Recomendações sobre como proceder à limpeza de um derrame
+            Remover utilizando meios mecânicos. Controlo de poeiras.
+            Outras informações relacionadas com a actuação em caso de derrames ou emissões
+            Colocar em recipientes adequados para eliminação. Ventilar a área afectada.
         </spillOrLeak>
 
         <stabilityAndReactivity>
-
+            Reatividade: propriedade comburente
+            Estabilidade química: O material é estável em condições ambientais normais e nas condições previsíveis de temperatura e pressão durante a armazenagem e o manuseamento.
+            Possibilidade de reações perigosas: Reage violentamente com: Agentes redutores
+            Condições a evitar: Decomposição a temperaturas a partir de: >100 °C.
+            Materiais incompatíveis: diferentes metais
         </stabilityAndReactivity>
     </item>
 
     <item>
-        <name></name>
-        <formula></formula>
+        <name>NITRATO DE COBRE</name>
+        <formula>(CuNO3)2</formula>
 
         <firstAidActions>
-
+            - Inalação: Remover para local ventilado.
+            - Contato com a pele: Lavar com bastante água corrente. Retirar a roupa contaminada.
+            - Contato com os olhos: Lavar com bastante água corrente, por 15 minutos. Consultar um oftalmologista.
+            - Ingestão: beber muita água, provocar o vômito. Procurar auxílio médico.
         </firstAidActions>
 
         <fireSafety>
-
+            - Meios de extinção apropriados: não combustível
+            - Perigos específicos: não combustível.
         </fireSafety>
 
         <handlingAndStorage>
-
+            - Manuseio: ambiente arejado. Evitar umidade. Produto altamente higroscópico.
+            - Armazenamento: Manter as embalagens bem fechadas, local limpo e seco. Temperatura ambiente.
         </handlingAndStorage>
 
         <exposureControlAndPersonalProtection>
-
+            - Equipamento de proteção individual apropriado:
+            - Proteção respiratória: máscara contra pós
+            - Proteção das mãos: luvas de nitrilo
+            - Proteção dos olhos: óculos de proteção
+            - Medidas de higiene: Depois do término do trabalho, lavar as mãos e rosto. Retirar as roupas contaminadas.
         </exposureControlAndPersonalProtection>
 
         <spillOrLeak>
-
+            - Precauções pessoais: Evitar produção de pós. Não inalar.
+            - Precaução ao meio ambiente: Evitar o derramamento em redes de águas residuais
+            - Métodos para limpeza: Absorver em estado seco. Recolher o resíduo para eliminação posterior.
         </spillOrLeak>
 
         <stabilityAndReactivity>
-
+            - Condições a evitar: umidade
+            - Materiais ou substâncias incompatíveis: anidridos, amoníaco
+            - Produtos de decomposição perigosa: em caso de incêndio pode formar: gases nitrosos.
         </stabilityAndReactivity>
     </item>
 
     <item>
-        <name></name>
-        <formula></formula>
+        <name>NITRATO DE ESTRÔNCIO</name>
+        <formula>(SrNO3)2</formula>
 
         <firstAidActions>
-
+            - Inalação: Remover para local ventilado.
+            - Contato com a pele: Lavar com água corrente. Retirar as roupas contaminadas.
+            - Contato com os olhos: Lavar com bastante água, por 15 min.
+            - Ingestão: Beber muita água. Procurar auxílio médico, se necessário.
         </firstAidActions>
 
         <fireSafety>
-
+            - Meios de extinção apropriados: não combustível
+            - Perigos específicos: não combustível
         </fireSafety>
 
         <handlingAndStorage>
-
+            - Manuseio: sem exigências
+            - Armazenamento: Manter as embalagens bem fechadas, local limpo e seco. Temperatura ambiente.
         </handlingAndStorage>
 
         <exposureControlAndPersonalProtection>
-
+            - Equipamento de proteção individual apropriado:
+            - Proteção respiratória: máscara (Filtro P 2)
+            - Proteção das mãos: luvas de nitrilo
+            - Proteção dos olhos: óculos de proteção
+            - Medidas de higiene: Depois do término do trabalho, lavar as mãos e o rosto. Retirar as roupas contaminadas.
         </exposureControlAndPersonalProtection>
 
         <spillOrLeak>
-
+            - Precauções pessoais: Evitar a produção de pós. Não inalar os pós.
+            - Precaução ao meio ambiente: Não enviar o produto para rede de águas residuais.
+            - Métodos para limpeza: Absorver em estado seco. Recolher para eliminação posterior.
         </spillOrLeak>
 
         <stabilityAndReactivity>
-
+            - Condições a evitar: sem indicação
+            - Materiais ou substâncias incompatíveis: metais em forma de pó, enxofre, substâncias oxidáveis
+            - Produtos de decomposição perigosa: em caso de incêndio pode formar: gases nitrosos
         </stabilityAndReactivity>
     </item>
 
     <item>
-        <name></name>
-        <formula></formula>
+        <name>NITRATO DE POTÁSSIO</name>
+        <formula>(KNO3)</formula>
 
         <firstAidActions>
-
+            Inalação
+            Remover a vítima para um local arejado (ar fresco).
+            Encaminhar imediatamente ao médico na suspeita de intoxicação.
+            Contato com a pele
+            Enxaguar e lavar com água e sabão.Remover as roupas contaminadas.
+            Contato com os olhos
+            Lavar imediatamente com água em abundância e encaminhar ao oftalmologista.
+            Ingestão
+            Fornecer grande quantidade de água para beber e induzir ao vômito.
+            Encaminhar imediatamente ao médico.
+            Quais ações devem ser evitadas Formação de poeira (dispersão de nuvem).
+            Notas para o médico Tratamento sintomático.
         </firstAidActions>
 
         <fireSafety>
-
+            Meios de extinção apropriados Pó químico,espuma e água nebulizada.
+            Perigos específicos
+            Proximidade de materiais combustíveis e agentes redutores.Risco de explosão acima de 500 o C.
+            Proteção dos bombeiros
+            Roupas apropriadas com equipamento de respiração autônoma.Combater o fogo a favor do vento.
         </fireSafety>
 
         <handlingAndStorage>
-
+            MANUSEIO
+            Precauções para manuseio seguro
+            - Orientações para manuseio seguro
+            Utilização de EPIs para evitar o contato com o produto. Lavar-se bem ,com água e sabão , após o
+            manuseio.Como todo produto químico,as boas práticas de higiene industrial devem ser seguidas.
+            Não fumar,beber ou comer no local de trabalho.
+            - Condições de armazenamento
+            Adequadas
+            Local seco , bem ventilado e à prova de fogo (temperatura ambiente).
+            A evitar
+            Proximidade com agentes redutores, fontes de calor / ignição e locais sujeitos a atrito e impacto.
+            Manter afastado de alimentos e bebidas.
+            De sinalização de risco Substância Oxidante
+            Produtos e materiais incompatíveis
+            Substâncias orgânicas,ácidos fortes, fósforo, enxofre, sulfetos,metais (pó), sais de amônia e outras
+            substâncias combustíveis e redutoras.
+            - Materiais seguros para embalagens
+            Recomendadas Sacos de polietileno ou ráfia (25 kg)
+            Inadequadas Material combustível
         </handlingAndStorage>
 
         <exposureControlAndPersonalProtection>
-
+            - Medidas de controle de engenharia Usar ventilação mecânica geral.
+            Limites de exposição ocupacional TLV – não determinado
+            Equipamento de proteção individual apropriado
+            Proteção respiratória Máscara semi-facial para pó
+            Proteção das mãos Luvas de plástico ou borracha
+            Proteção dos olhos Óculos de segurança (ampla visão)
+            Proteção da pele e do corpo Avental de plástico / botas de borracha
+            - Precauções especiais
+            Disponibilidade de lava-olhos e chuveiros de emergência / banheiras cheias d´água.
+            Cuidado ao manipular materiais impregnados devido ao risco de incêndio incontrolável.
+            - Medidas de higiene Lavar as mãos com água e sabão.
+            NÃO FUMAR
         </exposureControlAndPersonalProtection>
 
         <spillOrLeak>
-
+            - Medidas de controle de engenharia Usar ventilação mecânica geral.
+            Limites de exposição ocupacional TLV – não determinado
+            Equipamento de proteção individual apropriado
+            Proteção respiratória Máscara semi-facial para pó
+            Proteção das mãos Luvas de plástico ou borracha
+            Proteção dos olhos Óculos de segurança (ampla visão)
+            Proteção da pele e do corpo Avental de plástico / botas de borracha
+            - Precauções especiais
+            Disponibilidade de lava-olhos e chuveiros de emergência / banheiras cheias d´água.
+            Cuidado ao manipular materiais impregnados devido ao risco de incêndio incontrolável.
+            - Medidas de higiene Lavar as mãos com água e sabão.
+            NÃO FUMAR
         </spillOrLeak>
 
         <stabilityAndReactivity>
-
+            Condições específicas estável em condições normais
+            - Instabilidade Em contato ou misturado com produtos orgânicos.
+            - Reações perigosas Risco de explosão em contato com agentes redutores.
+            Condições a evitar Proximidade com agentes redutores, fontes de calor / ignição e locais sujeitos a atrito e impacto.
+            Materiais ou substâncias incompatíveis Substâncias combustíveis, orgânicas, ácidos fortes, fósforo, enxofre, sulfetos,metais (pó) e sais de amônia
+            Produtos perigosos da decomposição Óxidos de nitrogênio, nitrito e peróxido de potássio
         </stabilityAndReactivity>
     </item>
 
     <item>
-        <name></name>
-        <formula></formula>
+        <name>NITRATO DE MANGANÊS II HIDRATADA</name>
+        <formula>(Mn(NO3)2 * xH2O)</formula>
 
         <firstAidActions>
-
+            Notas gerais: Retirar a roupa contaminada.
+            Após inalação: Proporcionar ar fresco. Se surgirem queixas ou em caso de persistência dos sintomas, consultar um médico.
+            Após contato com a pele: Enxaguar a pele com água/tomar uma ducha. Se surgirem queixas ou em caso de persistência dos sintomas, consultar um médico.
+            Após contato com os olhos: Irrigar os olhos com água corrente limpa durante pelo menos 10 minutos mantendo as pálpebras abertas. Em caso de irritação ocular, consultar o oftalmologista.
+            Após ingestão: Enxaguar a boca. Caso sinta indisposição contate um médico.
+            Sintomas e efeitos mais importantes, tanto agudos como retardados: Provoca irritação ligeira a moderada, Irritação
+            Indicações sobre cuidados médicos urgentes e tratamentos especiais necessários: nenhum
         </firstAidActions>
 
         <fireSafety>
-
+            Meios adequados de extinção
+            Adequar as medidas de extinção ao local, pulverizador de água, espuma, pó seco para extinção de incêndios, dióxido de carbono (CO2).
+            Meios inadequados de extinção
+            jato de água
+            Perigos especiais decorrentes da substância ou mistura
+            Propriedade comburente. Não combustível.
+            Produtos de combustão perigosos
+            Em caso de incêndio podem formar-se: óxidos de azoto (NOx)
+            Recomendações para o pessoal de combate a incêndios
+            Combater o incêndio tomando as precauções normais e a partir de uma distância razoável. Use equipamento de respiração autónomo.
         </fireSafety>
 
         <handlingAndStorage>
-
+            Precauções para um manuseamento seguro
+            Provisão de uma ventilação suficiente.
+            Medidas a adoptar com vista à prevenção de incêndios, de formação de aerossóis e de poeiras
+            Tomar todas as precauções para não misturar com combustíveis.
+            Recomendações de ordem geral sobre higiene no local de trabalho
+            Lavar as mãos antes das pausas e ao fim do trabalho. Manter afastado de alimentos e bebidas incluindo os dos animais.
+            Condições de armazenagem segura, incluindo eventuais incompatibilidades
+            Armazenar em local seco. Sólido higroscópico.
+            Substâncias ou misturas incompatíveis
+            Ter em conta as indicações sobre o armazenamento compatível de produtos químicos.
+            Ter em conta outros conselhos
+            Requisitos em termos de ventilação
+            Utilizar ventilação geral e local.
+            Concepção especial de compartimentos ou recipientes de armazenagem
+            Temperatura de armazenamento recomendada: 15 - 25 °C.
+            Utilização (ões) final (is) específica (s)
+            Não existe informação disponível.
         </handlingAndStorage>
 
         <exposureControlAndPersonalProtection>
-
+            Parâmetros de controlo
+            Valores-limite nacionais
+            Valores limite de exposição profissional (limites de exposição no local de trabalho): Não há dados disponíveis.
+            Controle da exposição
+            Medidas de proteção individual (equipamentos de proteção individual)
+            Proteção ocular/facial
+            Usar óculos de segurança com proteção lateral.
+            Proteção da pele
+            Proteção das mãos
+            Usar luvas adequadas. As luvas de proteção química adequadas, se testadas de acordo com a NE 374.Para fins específicos, é recomendado verificar a resistência a produtos químicos das luvas de proteção mencionadas acima, bem como o fornecedor das luvas.
+            Tipo de material
+            NBR (Borracha de nitrilo)
+            Espessura do material
+            >0,11 mm.
+            Duração do material das luvas
+            > 480 minutos (permeação: nível 6)
+            Outras medidas de proteção
+            É necessária proteção respiratória quando: Desenvolvimento de poeiras. Dispositivos filtrador de partículas (NE 143).  P1 (filtra pelo menos 80% das partículas em suspensão, código de cores: Branco). Deve ser observado o tempo limite de uso de acordo com GefStoffv, em combinação com as regras para uso de aparelhos de proteção respiratória (BGR 190)
+            Controle da exposição ambiental
+            Manter afastado dos esgotos, das águas superficiais e subterrâneas.
         </exposureControlAndPersonalProtection>
 
         <spillOrLeak>
-
+            Para o pessoal não envolvido na resposta à emergência
+            Uso de equipamento de proteção adequado a fim de prevenir qualquer contaminação da pele, dos olhos ou do vestuário. Não respirar as poeiras. Evitar o contato com a pele, os olhos e o vestuário.
+            Precauções a nível ambiental
+            Manter afastado dos esgotos, das águas superficiais e subterrâneas.
+            Métodos e materiais de confinamento e limpeza
+            Recomendações sobre como confinar um derrame
+            Limpeza com material absorvente (por exemplo: tecido, lã).
+            Recomendações sobre como proceder à limpeza de um derrame
+            Remover utilizando meios mecânicos. Controlo de poeiras.
+            Outras informações relacionadas com a actuação em caso de derrames ou emissões
+            Colocar em recipientes adequados para eliminação.
         </spillOrLeak>
 
         <stabilityAndReactivity>
-
+            Reatividade: propriedade comburente
+            Estabilidade química: O material é estável em condições ambientais normais e nas condições previsíveis de temperatura e pressão durante a armazenagem e o manuseamento.
+            Possibilidade de reações perigosas: Reage violentamente com: Substâncias Orgânicas. Agentes redutores. Ácidos fortes.
+            Condições a evitar: Não existem condições especificas que tenham que ser evitadas.
+            Materiais incompatíveis: Não existem informação adicional.
         </stabilityAndReactivity>
     </item>
 
     <item>
-        <name></name>
-        <formula></formula>
+        <name>NITRATO DE SÓDIO</name>
+        <formula>(NaNO3)2</formula>
 
         <firstAidActions>
-
+            Inalação: Remova a vítima para local ventilado e a mantenha em repouso numa posição que não dificulte a respiração. Caso sinta indisposição, contate um CENTRO DE INFORMAÇÃO TOXICOLÓGICA ou um médico. Leve esta FISPQ.
+            Contato com a pele: EM CASO DE CONTATO COM A ROUPA: Enxágue imediatamente com água em abundância a roupa e a pele contaminadas antes de se despir. Consulte um médico. Leve esta FISPQ.
+            Contato com os olhos: Enxágue cuidadosamente com água durante vários minutos. No caso de uso de lentes de contato, remova-as, se for fácil. Continue enxaguando. Caso a irritação ocular persista:
+            Consulte um médico. Leve esta FISPQ.
+            Ingestão: Lave a boca da vítima com água em abundância. Caso sinta indisposição, contate um CENTRO DE INFORMAÇÃO TOXICOLÓGICA ou um médico Leve esta FISPQ.
+            Sintomas e efeitos mais importantes, agudos e tardios:
+            Pode causar leve vermelhidão na pele; vermelhidão e lacrimejamento nos olhos; dor de garganta, tosse e espirros; dor abdominal, convulsões, diarreia, tonturas, dor de cabeça, dificuldade para respirar, confusão, náuseas e inconsciência.; cianose e falta de ar.
+            Notas para o médico: Se necessário, o tratamento sintomático deve compreender, sobretudo, medidas de suporte como correção de distúrbios hidroeletrolíticos, metabólicos, além de assistência respiratória.
         </firstAidActions>
 
         <fireSafety>
-
+            Meios de extinção: Apropriados: dióxido de carbono (CO2).
+            Não apropriados: jato d’água de forma direta.
+            Perigos específicos da mistura ou substância:
+            Pode liberar gases/vapores tóxicos/corrosivos por decomposição térmica.
+            Muito perigoso quando exposto a materiais combustíveis, inflamáveis ou explosivos.
+            Combata o incêndio à distância, devido ao risco de explosão.
+            Medidas de proteção da equipe de combate a incêndio:
+            Equipamento de proteção respiratória do tipo autônomo (SCBA) com pressão positiva e vestuário protetor completo que ofereça proteção contra o calor. Em caso de incêndio de grandes proporções: inunde a área com água de uma distância segura, se não for possível abandone a área e deixe o material queimar. Contêineres e tanques envolvidos no incêndio devem ser resfriados lateralmente com bastante água.
         </fireSafety>
 
         <handlingAndStorage>
-
+            Medidas técnicas apropriadas para o manuseio
+            Precauções para manuseio seguro:
+            Utilize equipamento elétrico, de ventilação e de iluminação à prova de explosão. Use roupa resistente a ou retardadora de fogo/chama. Use luvas de proteção, roupa de proteção, proteção ocular, proteção facial como indicado na Seção 8.
+            Medidas de higiene:
+            Lave bem as mãos antes de comer, beber, fumar ou ir ao banheiro. Roupas contaminadas devem ser trocadas e lavadas antes de sua reutilização.
+            Condições de armazenamento seguro, incluindo qualquer incompatibilidade
+            Prevenção de incêndio e explosão:
+            Mantenha afastado do calor, faísca, chama aberta e superfícies quentes. - Não fume. Mantenha afastado de roupa e materiais combustíveis. Tome todas as precauções para não misturar com materiais combustíveis e outros materiais incompatíveis.
+            Condições adequadas: Armazene em local bem ventilado. Mantenha em local fresco. Guarde afastado de roupas e materiais incompatíveis.
+            Materiais para embalagens:
+            Semelhante à embalagem original.
         </handlingAndStorage>
 
         <exposureControlAndPersonalProtection>
-
+            Parâmetros de controle
+            Limites de exposição ocupacional: Não estabelecidos.
+            Indicadores biológicos: Não estabelecidos.
+            Outros limites e valores: Não estabelecido
+            Medidas de controle de engenharia:
+            Promova ventilação mecânica e sistema de exaustão direta para o meio exterior. Estas medidas auxiliam na redução da exposição ao produto. É recomendado tornar disponíveis chuveiros de emergência e lava olhos na área de trabalho.
+            Medidas de proteção pessoal
+            Proteção dos olhos/face: Óculos de proteção contra poeiras.
+            Proteção da pele e do corpo:
+            Sapatos fechados, vestimenta de segurança para proteção de todo o corpo. Se houver risco de contato com as mãos, utilize luvas adequadas: neoprene, borracha nitrílica ou PVC. As luvas de proteção selecionadas devem satisfazer às especificações legais. As luvas devem ser inspecionadas antes da utilização.
+            Proteção respiratória: Com base nos limites de exposição ocupacional do produto, uma avaliação de risco deve ser realizada para adequada definição da proteção respiratória tendo em vista as condições de uso do produto. Siga orientação do Programa de Prevenção Respiratória (PPR), Fundacentro.
+            Perigos térmicos: Não apresenta perigos térmicos
         </exposureControlAndPersonalProtection>
 
         <spillOrLeak>
-
+            Precauções pessoais para o pessoal que não faz parte dos serviços de emergência:
+            Isole o vazamento de fontes de ignição. Impeça fagulhas ou chamas. Não fume. Não toque nos recipientes danificados ou no material derramado sem o uso de vestimentas adequadas.
+            Utilize equipamento de proteção individual
+            Para o pessoal de serviço de emergência:
+            Utilizar EPI completo, com luvas de PVC ou látex, botas de segurança e vestimenta de segurança para proteção de todo o corpo contra respingos de produtos químicos. O material utilizado deve ser impermeável. Recomenda-se a instalação de sistema de alarme de incêndio e detecção de vazamento, nos locais de armazenamento e utilização do produto.
+            Precauções ao meio ambiente:
+            Evite que o produto derramado atinja cursos d’água e rede de esgotos.
+            Método e materiais para a contenção e limpeza:
+            Colete o produto com uma pá limpa ou outro instrumento que não disperse o produto. Coloque o material em recipientes apropriados e remova-os para local seguro.
+            Diferenças na ação de grandes e pequenos vazamentos:
+            Para grandes vazamentos após o recolhimento do produto, lave a área com água
         </spillOrLeak>
 
         <stabilityAndReactivity>
-
+            Estabilidade e reatividade: Instável sob condições normais de temperatura e pressão. Utiliza-se como estabilizante: Não expor o produto ao ar e umidade.
+            Possibilidade de reações perigosas:
+            Não são conhecidas reações perigosas com relação ao produto.
+            Condições a serem evitadas:
+            Elevadas temperaturas e materiais incompatíveis.
+            Materiais incompatíveis: Agentes redutores, materiais combustíveis, materiais nflamáveis.
+            Produtos perigosos da decomposição:
+            Óxido de nitrogênio (Nox), nitrito de sódio e óxido de sódio.
         </stabilityAndReactivity>
     </item>
 
+    <item>
+        <name>NITRATO DE ZINCO</name>
+        <formula>(ZnNO3)2</formula>
+
+        <firstAidActions>
+            - Inalação: Remover para local ventilado.
+            - Contato com a pele: Lavar com bastante água corrente. Retirar a roupa contaminada.
+            - Contato com os olhos: Lavar com bastante água corrente, por 15 minutos. Consultar um oftalmologista.
+            - Ingestão: beber muita água. Procurar auxilio médico.
+        </firstAidActions>
+
+        <fireSafety>
+            - Meios de extinção apropriados: não combustível
+            - Perigos específicos: não combustível.
+        </fireSafety>
+
+        <handlingAndStorage>
+            - Manuseio: sem exigências.
+            - Armazenamento: Manter as embalagens bem fechadas, local limpo e seco. Temperatura ambiente.
+        </handlingAndStorage>
+
+        <exposureControlAndPersonalProtection>
+            - Equipamento de proteção individual apropriado:
+            - Proteção respiratória: máscara contra pós
+            - Proteção das mãos: luvas de nitrilo
+            - Proteção dos olhos: óculos de proteção
+            - Medidas de higiene: Depois do término do trabalho, lavar as mãos e rosto. Retirar as roupas contaminadas.
+        </exposureControlAndPersonalProtection>
+
+        <spillOrLeak>
+            - Precauções pessoais: Evitar o contato com o produto, não inalar os pós.
+            - Precaução ao meio ambiente: Evitar o derramamento em redes de águas residuais
+            - Métodos para limpeza: Absorver em estado seco. Recolher o resíduo para eliminação posterior.
+        </spillOrLeak>
+
+        <stabilityAndReactivity>
+            - Condições a evitar: forte aquecimento
+            - Materiais ou substâncias incompatíveis: enxofre, cobre em pó, sulfuretos e fosforo
+            - Produtos de decomposição perigosa: em caso de incêndio pode formar: óxido nítrico, gases nitrosos
+        </stabilityAndReactivity>
+    </item>
+
+    <item>
+        <name>ÓXIDO DE CÁLCIO EM PÓ</name>
+        <formula>(CaOH)</formula>
+
+        <firstAidActions>
+            Medidas de primeiros-socorros: Para garantir sua segurança pessoal, antes de socorrer uma vítima colocar os EPIs necessários. O socorrista deve ser um brigadista ou alguém familiarizado com técnicas de primeiros socorros. Procurar um médico. Enquanto isso seguir as seguintes instruções:
+            Inalação: Afastar a fonte de contaminação ou transportar a vítima para local arejado. Se houver dificuldades respiratórias, administrar oxigênio. Manobras de ressuscitação cardiopulmonar podem ser aplicadas por pessoal habilitado se a vítima não apresentar sinais vitais. NÃO UTILIZAR O MÉTODO DE RESPIRAÇÃO BOCA A BOCA. Manter o paciente aquecido e não permitir que a vítima se movimente desnecessariamente. Transportar a vítima para um hospital imediatamente.
+            Contato com a pele: Lavar a pele com água (ou água e sabão não abrasivo), suavemente, por pelo menos 15 minutos ou até que a substância tenha sido removida. NÃO INTERROMPER O ENXÁGÜE. Sob água corrente (chuveiro de emergência) remover roupas, sapatos e outros acessórios pessoais contaminados (cintos, jóias etc). Descontaminar as roupas antes da reutilização. Se a irritação persistir ao repetir o enxágue, requisitar assistência médica.
+            Contato com os olhos: Não permitir que a vítima esfregue os olhos. Remover o excesso da substância dos olhos rapidamente e com cuidado. Retirar lentes de contato quando for o caso. Lavar o(s) olho(s) contaminado(s) com bastante água deixando-a fluir por, pelo menos, 15 minutos, ou até que a substância tenha sido removida mantendo as pálpebras afastadas durante a irrigação. Cuidado para não introduzir água contaminada no olho não afetado a face. Se a irritação persistir repetir o enxágue, se ocorrer dor, inchaço, lacrimação, fotofobia ou queimaduras, a vítima deve ser encaminhada ao oftalmologista.
+            Ingestão: Lavar a boca da vítima com água. NÃO INDUZIR VÔMITO. Oferecer a vítima consciente 2-4 copos de água para diluir o material no estômago. Se a vítima apresentar desordens respiratórias, cardiovasculares ou nervosas fornecer oxigênio, em caso de parada respiratória, realizar manobras de ressuscitação. NÃO UTILIZAR O MÉTODO DE RESPIRAÇÃO BOCA A BOCA. Se o vômito ocorrer naturalmente inclinar a vítima para evitar o risco de aspiração traqueo-bronquial do material ingerido. Lavar novamente a boca da vítima. Repetir a administração de água. Nada deve ser administrado por via oral se a pessoa estiver perdendo a consciência, inconsciente ou em convulsão. Manter o paciente aquecido e em repouso. Transportar a vítima para um hospital.
+            Sintomas e efeitos mais importantes: Efeitos irritantes: Tosse, diarreia, vômitos, doenças cardiovasculares, fraqueza muscular, tremores, convulsões, pulso fraco, desmaios. A ingestão pode ser fatal, mesmo em pequenas quantidades.
+        </firstAidActions>
+
+        <fireSafety>
+            Meios de extinção apropriados: Devem-se utilizar métodos de extinção de incêndio de acordo com o agente propagador. Afastar os recipientes da área do fogo se isto puder ser feito sem risco. Prevenir o levantamento de poeiras e formação de vapores tóxicos utilizando vapor supressor de espuma álcool resistente. O uso de neblina d’água poderá também reduzir os vapores ou afastar nuvens de fumaça, e pode ajudar a proteger a substância derramada afastando-a de fontes de ignição.
+            Perigos específicos da substância:
+            Pode causar severas irritações e queimaduras na pele e nos olhos, podendo deixar cicatrizes e danos permanentes. A inalação dos vapores pode causar severas irritações no nariz, na garganta e nos pulmões causando tosse e falta de ar. O produto em si não queima. As águas residuais do controle do fogo podem ser corrosivas ou tóxicas e causar poluição do meio ambiente se atingirem cursos d’água e redes de esgoto.
+            Métodos especiais de combate a incêndio: O Óxido de Cálcio tanto na forma sólida como de solução, NÃO É INFLAMÁVEL. Devem-se utilizar métodos de extinção de incêndio de acordo com o agente propagador. Combater incêndios que envolvam tanques, carros ou vagões de transporte de uma distância máxima possível ou utilizar mangueiras com suporte manejadas à distância ou canhão monitor; se isso não for possível abandonar a área e deixar queimar. Resfriar lateralmente, com grandes quantidades de água, os recipientes que estiverem expostos às chamas mesmo após a extinção do fogo. Retirar-se imediatamente do local caso aumente o ruído do dispositivo de segurança/alívio ou caso ocorra descoloração do tanque devido ao fogo. Manter-se sempre longe dos tanques envolvidos no fogo.
+            Medidas de proteção da equipe de combate a incêndio: Utilizar óculos de proteção resistentes aos respingos das soluções ou aos vapores, a menos que se tenham disponíveis respiradores com peça facial inteira. Deve-se utilizar proteção ocular mesmo que se esteja usando lentes de contato. Evitar que a substância tenha contato com a pele, utilizando luvas, toucas, botas resistentes a produtos químicos, especificamente recomendados por MSHA/NIOSH ou pelo fabricante. Onde houver possibilidade para exposições a altas concentrações da substância, deve-se utilizar respirador aprovado pelo fabricante ou por MSHA/NIOSH com peça facial inteira, suprimento de ar, que opere com demanda de pressão ou outro modo de pressão positiva. Certificar-se de todos os tipos de exposições a que se possa estar sujeito num combate a incêndio. Pode ser necessário combinar filtros, pré-filtros ou cartuchos para a garantia da proteção contra diferentes formas da substância química (tais como vapores e névoas) ou contra uma mistura de substâncias químicas.
+        </fireSafety>
+
+        <handlingAndStorage>
+            Precauções para manuseio seguro: Este produto deve ser manuseado por pessoas que possuam treinamento adequado e devidamente protegido, utilizando os EPIs apropriados relacionados abaixo. Observar os avisos das etiquetas. O produto é irritante para olhos, pele e trato respiratório. NÃO COMBUSTÍVEL. Não queima, mas pode se decompor quando aquecido, liberando vapores corrosivos e/ou tóxicos. Antes do manuseio é extremamente importante que as medidas de controle de engenharia necessárias para a eliminação ou minimização do risco estejam em operação e que os EPIs (protetor respiratório apropriado protetor ocular, luvas, calçados, etc) sejam usados. As medidas de higiene pessoal devem ser seguidas. Lavar as mãos ao término da jornada de trabalho. As pessoas que manipulam esta substância devem ser treinadas quanto ao risco da manipulação e seu uso seguro. Evitar a inalação dos vapores e contato da substância com olhos, pele e roupas. Evitar todas as práticas de trabalho que possam permitir o contato ou a inalação da substância. Por segurança, um chuveiro e um lavador de olhos devem estar facilmente disponíveis na área de trabalho.
+            Condições de armazenamento seguro, incluindo incompatibilidades.
+            Armazenar o produto em área bem ventilada, livre de umidade e protegido da luz solar direta e distante de fontes de ignição. Armazenar
+            em containeres apropriados, feitos de materiais compatíveis. Estocar os containeres em uma altura conveniente. Proteja os rótulos e mantenha-os bem visíveis. Mantenha-os bem fechados quando não estiverem em uso, inclusive os vazios. Inspecione-os regularmente para verificação de vazamentos e data de validade. Embalagens feitas de borracha são inadequadas.
+            Produtos e materiais incompatíveis: Agentes oxidantes (flúor, bromo, cloro), ácidos, e álcalis. Corrosão: Na presença de água é corrosivo ao vidro e à maioria dos metais.
+            Materiais seguros para embalagens:
+            Recomendadas: Plástico, borracha ou parafinados.
+        </handlingAndStorage>
+
+        <exposureControlAndPersonalProtection>
+            Parâmetro de controle
+            Medidas de controle de engenharia: A exposição a esta substância pode ser controlada de diversas maneiras. As medidas apropriadas para o ambiente de trabalho particular dependem de como o material esteja sendo usado e da extensão da exposição. Esta informação geral pode ser usada para auxiliar no desenvolvimento das medidas de controle específicas, devendo contemplar com a regulamentação ocupacional, ambiental e de incêndio, além de outras regulamentações aplicáveis. Procedimentos recomendados para monitoramento: Utilizar instrumentos apropriados de monitoramento. A estratégia da amostragem deve contemplar local, tempo, duração, frequência e número de amostras. A interpretação dos resultados das amostras está relacionada a estas variáveis e ao método analítico utilizado. A amostragem deve ser conduzida por profissional treinado.
+            Medidas de proteção pessoal
+            Proteção dos olhos/face: Utilizar óculos de segurança de ampla visão,
+            Proteção da pele: Utilizar roupa impermeável. Necessário o uso de luvas.
+            Proteção respiratória: Necessário em caso de formação de pós.
+            Perigos térmicos: Não existem informações disponíveis.
+        </exposureControlAndPersonalProtection>
+
+        <spillOrLeak>
+            Precauções pessoais, equipamentos de proteção e procedimentos de emergência.
+            Precauções pessoais para quem não faz parte dos serviços de emergências: Evitar a inalação de pós. Evitar o contato com a substância. Assegurar ventilação adequada. Evacuar a área de perigo, observar os procedimentos de emergência, consultar um especialista.
+            Precauções pessoais para quem faz parte do serviço de emergência: Dirija-se ao local do vazamento ou derramamento utilizando os EPIs adequados.
+            Precauções ao meio ambiente:
+            Ar: Cobrir o material com lona para evitar que se espalhe. Se possível recolher o material com auxílio de um aspirador de pó.
+            Solo: Evitar que o material se espalhe.
+            Água: Evite que águas contaminadas atinjam cursos d’água, bueiros, mananciais e rios.
+            Método de limpeza
+            - Recuperação: Cobrir ralos. Recolher, emendar e bombear vazamentos. Absorver em estado seco.
+            - Prevenção de perigos: Não descarte diretamente no meio ambiente.
+        </spillOrLeak>
+
+        <stabilityAndReactivity>
+            Reatividade: Não aplicável
+            Estabilidade química: O produto é quimicamente estável em condições ambientes padrão. (temperatura ambiente). Na presença de água hidrolisa.
+            Possibilidade de reações perigosas: Reação exotérmica com: sulfureto de hidrogênio, metais leves, fósforo, nitro- compostos orgânicos, ácidos.
+            Condições a serem evitadas: Luz solar direta, calor, chamas abertas, superfícies aquecidas.
+            Materiais incompatíveis: evitar humidade, e ácidos.
+            Produtos de decomposição perigosa: Não existem informações disponíveis.
+        </stabilityAndReactivity>
+    </item>
+
+    <item>
+        <name>ÓXIDO DE CHUMBO</name>
+        <formula>(PbO)</formula>
+
+        <firstAidActions>
+            Inalação: Remover a vítima para local fresco e arejado. Se não estiver respirando fazer respiração artificial.
+            Se estiver com dificuldade em respirar, administrar oxigênio. Procurar auxílio médico.
+            Contato com a pele: Lavar imediatamente o local atingido com água corrente e sabão por pelo menos 15 minutos.
+            Contato com os olhos: Enxaguar os olhos com água limpa por pelo menos 15 minutos, levemente as pálpebras algumas vezes, para eliminar quaisquer resíduos do material. Procurar um oftalmologista.
+            Ingestão: Induzir o vômito imediatamente com orientação médica. Se a vitima estiver consciente, dar água para beber. Procurar auxilio de um médico. Nunca dê nada via oral à uma pessoa inconsciente.
+        </firstAidActions>
+
+        <fireSafety>
+            Meios de extinção apropriados: Usar qualquer dos meios conhecidos de extinção de incêndios.
+            Meios de extinção não-apropriados: Por razões de segurança não utilizar jatos d`água conduzindo produtos para rede de esgoto e caminhos de água.
+            Perigos específicos: Não representa perigo de fogo. Pode produzir fumos de chumbo tóxico.
+            Proteção dos bombeiros: Na ocasião de fogo, vestir roupa de proteção com sistema autônomo de ar.
+        </fireSafety>
+
+        <handlingAndStorage>
+            Manuseio:
+            Medidas técnicas
+            Precauções para manuseio seguro: Utilizar os EPI´S adequados, conforme indicados na seção 8.
+            Orientações para manuseio seguro: Não comer, beber ou fumar na área de trabalho. Usar os
+            EPI´S indicados. Manter o local bem ventilado. Manter as embalagens sempre bem fechadas quando não estiverem sendo usadas.
+            Armazenamento
+            Medidas técnicas apropriadas: Manter embalagens firmemente fechadas, armazenada em local seco e ventilado. Proteger contra danos físicos. É conveniente que área que armazene chumbo seja identificada.
+            Condições de armazenamento
+            Adequadas: Coberto, seco, fresco e ventilado.
+            Produtos e materiais incompatíveis: Peróxido de hidrogênio, cloretos, etileno, fluoretos, agentes redutores fortes, materiais combustíveis.
+            Materiais seguros para embalagens
+            Recomendadas: Polietileno de baixa densidade revestido externamente com saco de ráfia.
+        </handlingAndStorage>
+
+        <exposureControlAndPersonalProtection>
+            Medidas de controle de engenharia: Manter local com ventilação / exaustão local ou geral, a fim de manter os níveis de exposições dentro do limite de tolerância.
+            -Parâmetros de controle específico:
+            Limites de exposição ocupacional: LT (chumbo): 0,1 mg/m3 (até 48h/semana)
+            Indicadores biológicos: Chumbo
+            IBMP: 60μmg/100ml (sangue, chumbo)
+            IBMP: 10mg/gcreat. (urina; ácido delta amino levulínico)
+            Outros limites e valores: Grau de insalubridade: máximo (para o chumbo)
+            Equipamentos de proteção individual apropriado
+            Proteção respiratória: Filtro de alta eficiência à pó/vapor.
+            Proteção das mãos: Luvas de proteção.
+            Proteção dos olhos: Óculos de segurança.
+            Proteção da pele e do corpo: Avental e botas.
+            Precauções especiais: Lava olhos e chuveiros de emergência devem estar instalados nas proximidades do manuseio e armazenamento do material.
+            Medidas de higiene: Não comer, beber ou fumar áreas onde este produto é manuseado. Antes de comer, beber ou fumar, mãos e rosto devem ser adequadamente lavados. Como medida preventiva
+            e higiene, o trabalhador deve tomar banho após trabalho e as roupas não devem ser reutilizadas sem lavagem.
+        </exposureControlAndPersonalProtection>
+
+        <spillOrLeak>
+            Precauções pessoais:
+            Remoção de fontes de ignição: Isolar e sinalizar o local. Evitar a entrada de curiosos.
+            Controle de poeira: Evitar a formação e acúmulo de poeira do material.
+            Prevenção da inalação e do contato com a pele, mucoses e olhos: Utilizar os equipamentos de proteção individual adequados, conforme indicado na seção 8.
+            Precauções para o meio ambiente: Evitar que o produto atinja cursos d`água e a drenagem do solo.
+            Métodos para Limpeza
+            Recuperação: Recolher o material contaminado e acondicionar em recipiente adequado para posterior disposição do material.
+        </spillOrLeak>
+
+        <stabilityAndReactivity>
+            Instabilidade: Estável sobre condições normais de uso e estocagem.
+            Reações perigosas: Não ocorre polimerização perigosa.
+            Condições a evitar: Locais ou superfícies adequadas, chamas fontes de ignição e produtos incompatíveis (ex. agentes oxidantes fortes).
+            Materiais ou substâncias incompatíveis: Peróxido de hidrogênio, cloretos, etileno, agentes redutores forte, materiais combustíveis.
+            Produtos perigosos da decomposição: Podem formar fumos metálicos tóxicos quando aquecidos até decomposição.
+        </stabilityAndReactivity>
+    </item>
+
+    <item>
+        <name>ÓXIDO DE COBRE</name>
+        <formula>(CuO)</formula>
+
+        <firstAidActions>
+            Medidas de primeiros-socorros: Para garantir sua segurança pessoal, antes de socorrer uma vítima colocar os EPIs necessários. O socorrista deve ser um brigadista ou alguém familiarizado com técnicas de primeiros socorros. Procurar um médico.
+            Inalação: Afastar a fonte de contaminação ou transportar a vítima para local arejado. Se houver dificuldades respiratórias, administrar oxigênio. NÃO UTILIZAR O MÉTODO DE RESPIRAÇÃO BOCA A BOCA. Manter o paciente aquecido e não permitir que a vítima se movimente desnecessariamente. Transportar a vítima para um hospital.
+            Contato com a pele: Lavar a pele com água (ou água e sabão não abrasivo), suavemente, por pelo menos 20 minutos ou até que a substância tenha sido removida. NÃO INTERROMPER O ENXÁGÜE. Sob água corrente (chuveiro de emergência) remover roupas, sapatos e outros acessórios pessoais contaminados (cintos, jóias etc). Descontaminar as roupas antes da reutilização. Se a irritação persistir ao repetir o enxágüe, requisitar assistência médica.
+            Contato com os olhos: Não permitir que a vítima esfregue os olhos. Remover o excesso da substância dos olhos rapidamente e com cuidado. Retirar lentes de contato quando for o caso. Lavar o(s) olho(s) contaminado(s) com bastante água deixando-a fluir por, pelo menos, 20 minutos, ou até que a substância tenha sido removida mantendo as pálpebras afastadas durante a irrigação. Cuidado para não introduzir água contaminada no olho não afetado ou na face. Se a irritação persistir repetir o enxágüe, e a vítima deve ser encaminhada ao oftalmologista.
+            Ingestão: Lavar a boca da vítima com água. NÃO INDUZIR VÔMITO. Oferecer a vítima consciente 2-4 copos de água para diluir o material no estômago. NÃO UTILIZAR O MÉTODO DE RESPIRAÇÃO BOCA A BOCA. Se o vômito ocorrer naturalmente inclinar a vítima para evitar o risco de aspiração do material ingerido. Lavar novamente a boca da vítima. Repetir a administração de água. Transportar a vítima para um hospital.
+            Sintomas e efeitos mais importantes: Produto pode causar efeitos agudos, dependendo da via de exposição.
+            Notas para o médico: Produto pode causar efeitos agudos, dependendo da via de exposição. Lavagem gástrica somente se necessária.
+        </firstAidActions>
+
+        <fireSafety>
+            Meios de extinção: Água, Dióxido de carbono, Espuma, pó seco. Nenhuma limitação de agentes extintores é dada para essa substância.
+            Perigos específicos da substância: substância não combustível. Um incêndio pode provocar o desenvolvimento de gases tóxicos e Óxidos de cobre.
+            Medidas de proteção da equipe de combate a incêndio: Equipamento de proteção para o pessoal destacado para o combate a incêndios. Na eventualidade de fogo, vestir roupas protetoras completas e aparelho de respiração autônoma com máscara facial completa, operando na pressão exigida ou outro modo de pressão positiva.
+            Informações complementares
+            Evitar a contaminação da agua de superfície e da subterrânea com a agua de combate a incêndios.
+        </fireSafety>
+
+        <handlingAndStorage>
+            Precauções para manuseio seguro: O manuseio da substância deve se dar em condições adequadas, em capelas com exaustão forçada, utilizando motores e sistemas à prova de explosão. A utilização de luvas, protetores faciais, máscara apropriada deve ser usada quando da exposição em ambientes fechados e/ou com concentrações inadequadas da substância no ar. A percepção de odor da substância no ar constitui motivo para a utilização de máscaras. Observar os avisos das etiquetas.
+            Condições de armazenamento seguro, incluindo incompatibilidades. Armazenar sempre nos contêineres originais, inspecioná-los periodicamente verificando danos ou vazamentos. Os recipientes devem permanecer sempre fechados quando não estiverem em uso. Temperatura de armazenagem ambiente.
+        </handlingAndStorage>
+
+        <exposureControlAndPersonalProtection>
+            Medidas de controle de engenharia: A exposição a esta substância pode ser controlada de diversas maneiras. As medidas apropriadas para o ambiente de trabalho particular dependem de como o material esteja sendo usado e da extensão da exposição. Esta informação geral pode ser usada para auxiliar no desenvolvimento das medidas de controle específicas, devendo contemplar com a regulamentação ocupacional, ambiental e de incêndio, além de outras regulamentações aplicáveis. Procedimentos recomendados para monitoramento: Utilizar instrumentos apropriados de monitoramento. A estratégia da amostragem deve contemplar local, tempo, duração, frequência e número de amostras.
+            Medidas de proteção individual
+            As características dos meios de proteção para o corpo devem ser selecionadas em função da concentração e da quantidade das substancias tóxicas de acordo com as condições específicas do local de trabalho. A resistência dos meios de proteção aos agentes químicos deve ser esclarecida juntos dos fornecedores.
+            Proteção dos olhos/face: Utilizar óculos de segurança de ampla visão,
+            Proteção da pele: Utilizar roupa impermeável. Necessário o uso de luvas.
+            Proteção respiratória: Necessário em caso de formação de pós.
+            Perigos térmicos: produto queima.
+        </exposureControlAndPersonalProtection>
+
+        <spillOrLeak>
+            Precauções pessoais, equipamentos de proteção e procedimentos de emergência.
+            Precauções pessoais para quem não faz parte dos serviços de emergências: Evitar a inalação. Evitar o contato com a substância. Assegurar ventilação adequada. Evacuar a área de perigo, observar os procedimentos de emergência, consultar um especialista.
+            Precauções pessoais para quem faz parte do serviço de emergência: Dirija-se ao local do vazamento ou derramamento utilizando os EPIs adequados.
+            Precauções ao meio ambiente:
+            Ar: Cobrir o material com lona para evitar que se espalhe. Se possível recolher o material com auxilio de um aspirador.
+            Solo: Evitar que o material se espalhe.
+            Água: Evite que águas contaminadas atinjam cursos d’água, bueiros, mananciais e rios.
+            Métodos e materiais de contenção e limpeza
+            Cobrir ralos. Recolher, emendar e bombear vazamentos. Observar as possíveis restrições de material. Absorver em estado seco. Proceder à eliminação de resíduos. Limpeza posterior.
+            Elimine todas as fontes de ignição na área imediata. Ventile a área para dispersar os gases. Não fume no local. Utilize equipamento de proteção individual na manipulação do derramamento. Não toque ou ande sobre o material derramado. Interrompa se possível, o vazamento. Isole a área do derramamento e evite o contato com materiais incompatíveis. Não permita a entrada de água dentro dos contêineres que contenham o produto. Isole a área do derramamento num raio de 50 metros. Afaste as pessoas não envolvidas. Mantenha-se afastado de áreas baixas.
+        </spillOrLeak>
+
+        <stabilityAndReactivity>
+            Reatividade:
+            Não existem informações disponíveis
+            Estabilidade química:
+            O produto é quimicamente estável em condições ambientes padrão (temperatura ambiente).
+            Estabilizador
+            Não existem informações disponíveis
+            Possibilidade de reações perigosas:
+            Reação exotérmica com: Agentes oxidantes fortes, hidroxilamina, magnésio.
+            Condições a serem evitadas:
+            Não existem informações disponíveis
+            Materiais incompatíveis:
+            Agentes redutores, Gás sulfídrico, Alumínio, Metais alcalinos, Metais em pó
+            Produtos de decomposição perigosa:
+            Não existem informações disponíveis.
+        </stabilityAndReactivity>
+    </item>
+
+    <item>
+        <name>ÓXIDO DE FERRO III</name>
+        <formula>(Fe2O3)</formula>
+
+        <firstAidActions>
+            Notas gerais: Retirar a roupa contaminada.
+            Após inalação: Proporcionar ar fresco. Se surgirem queixas ou em caso de persistência dos sintomas, consultar um médico.
+            Após contato com a pele: Enxaguar a pele com água/tomar uma ducha. Em caso de irritações cutâneas, consultar um dermatologista.
+            Após contato com os olhos: Irrigar os olhos com água corrente limpa durante pelo menos 10 minutos mantendo as pálpebras abertas. Em caso de irritação ocular, consultar o oftalmologista.
+            Após ingestão: Enxaguar a boca. Caso sinta indisposição contate um médico.
+            Sintomas e efeitos mais importantes, tanto agudos como retardados: Irritação
+            Indicações sobre cuidados médicos urgentes e tratamentos especiais necessários: nenhum
+        </firstAidActions>
+
+        <fireSafety>
+            Meios adequados de extinção
+            Adequar as medidas de extinção ao local, água pulverizada, espuma, pó seco para extinção de incêndios, dióxido de carbono (CO2).
+            Meios inadequados de extinção
+            Jato de água
+            Perigos especiais decorrentes da substância ou mistura
+            Não combustível.
+            Recomendações para o pessoal de combate a incêndios
+            Combater o incêndio tomando as precauções normais e a partir de uma distância razoável. Use equipamento de respiração autónomo.
+        </fireSafety>
+
+        <handlingAndStorage>
+            Precauções para um manuseamento seguro
+            Provisão de uma ventilação diferente.
+            Recomendações de ordem geral sobre higiene no local de trabalho
+            Lavar as mãos antes das pausas e ao fim do trabalhdo. Manter afastado de alimentos e bebidas incluindo os dos animais.
+            Condições de armazenagem segura, incluindo eventuais incompatibilidades
+            Armazenar em local seco. Manter o recipiente bem fechado.
+            Substâncias ou misturas incompatíveis
+            Ter em conta as indicações sobre o armazenamento compatível de produtos químicos.
+            Ter em conta outros conselhos
+            Requisitos em termos de ventilação
+            Utilizar ventilação geral e local.
+            Concepção especial de compartimentos ou recipientes de armazenagem
+            Temperatura de armazenamento recomendada: 15 - 25 °C.
+            Utilização (ões) final (is) específica (s)
+            Não existe informação disponível.
+        </handlingAndStorage>
+
+        <exposureControlAndPersonalProtection>
+            Controle da exposição
+            Medidas de proteção individual (equipamentos de proteção individual)
+            Proteção ocular/facial
+            Usar óculos de segurança com proteção lateral.
+            Proteção da pele
+            Proteção das mãos
+            Usar luvas adequadas. As luvas de proteção química adequadas, se testadas de acordo com a NE 374.Para fins específicos, é recomendado verificar a resistência a produtos químicos das luvas de proteção mencionadas acima, bem como o fornecedor das luvas.
+            Tipo de material
+            NBR (Borracha de nitrilo)
+            Espessura do material
+            >0,11 mm.
+            Duração do material das luvas
+            > 480 minutos (permeação: nível 6)
+            Outras medidas de proteção
+            Fazer períodos de recuperação para a regeneração da pele. É recomendável a proteção preventiva da pele (cremes/pomadas de proteção).
+            Proteção respiratória
+            É necessária proteção respiratória quando: Desenvolvimento de poeiras. Dispositivo filtrador de partículas (NE 143).  P1 (filtra pelo menos 80% das partículas em suspensão código de cores: Branco).
+            Controle da exposição ambiental
+            Manter afastado dos esgotos, das águas superficiais e subterrâneas.
+        </exposureControlAndPersonalProtection>
+
+        <spillOrLeak>
+            Para o pessoal não envolvido na resposta à emergência
+            Uso de equipamento de proteção adequado a fim de prevenir qualquer contaminação da pele, dos olhos ou do vestuário. Não respirar as poeiras. Evitar contato com a pele, os olhos e o vestuário.
+            Precauções a nível ambiental
+            Manter afastado dos esgotos, das águas superficiais e subterrâneas.
+            Métodos e materiais de confinamento e limpeza
+            Recomendações sobre como confinar um derrame
+            Limpeza com material absorvente (por exemplo: tecido, lã).
+            Recomendações sobre como proceder à limpeza de um derrame
+            Remover utilizando meios mecânicos. Controlo de poeiras.
+            Outras informações relacionadas com a atuação em caso de derrames ou emissões
+            Colocar em recipientes adequados para eliminação.
+        </spillOrLeak>
+
+        <stabilityAndReactivity>
+            Reatividade: Este material não é reativo em condições ambientes.
+            Estabilidade química: O material é estável em condições ambientais normais e nas condições previsíveis de temperatura e pressão durante a armazenagem e o manuseamento.
+            Possibilidade de reações perigosas: Reage violentamente com: Carboneto, Sulfureto de Hidrogênio (H2S) Peróxido de Oxigênio. Perigo de explosão: Óxido de etileno, Magnésio.
+            Condições a evitar: Não existem condições especificas que tenha que ser evitadas.
+            Materiais incompatíveis: Não existe informação adicional.
+        </stabilityAndReactivity>
+    </item>
+
+    <item>
+        <name>ÓXIDO DE MERCÚRIO</name>
+        <formula>(MgO)</formula>
+
+        <firstAidActions>
+            - Inalação: Remover para local ventilado. Em caso de parada respiratória: respiração artificial ou com aparelhagem. Chamar um médico imediatamente
+            - Contato com a pele: Lavar com bastante água corrente. Retirar as roupas contaminadas. Procurar auxílio médico.
+            - Contato com os olhos: Lavar com bastante água corrente, por 15 min. Consultar um oftalmologista imediatamente
+            - Ingestão: Beber bastante água, provocar o vômito. Procurar auxílio médico imediatamente
+            - Ações que devem ser evitadas: Não inalar os pós.
+            - Proteção para o prestador de socorros: Utilizar óculos de segurança, luvas de nitrilo e máscara contra pós
+            - Notas para o médico: Tratamento sintomático. Não há antídoto específico. Direcionar o tratamento de acordo com os sintomas e condições clínicas do paciente.
+        </firstAidActions>
+
+        <fireSafety>
+            - Meios de extinção apropriados: Não combustível
+            - Meios de extinção não recomendados: Não disponível
+            - Perigos específicos referentes às medidas: Não disponível
+            - Métodos especiais de combate à incêndio: Não disponível
+            - Proteção das pessoas envolvidas no combate a incêndio: Não disponível
+            - Perigos específicos da combustão do produto químico: Não disponível
+        </fireSafety>
+
+        <handlingAndStorage>
+            - Medidas técnicas apropriadas
+            - Prevenção da exposição do trabalhador: Utilizar equipamentos de proteção individual para evitar contato com a pele e mucosas. Abrir e manusear as embalagens com cuidado
+            - Prevenção de incêndio e explosão: Não disponível
+            - Precauções e orientações para manuseio seguro: Manipular o produto respeitando as regras gerais de segurança
+            - Medidas de higiene
+            - Apropriadas: Atenção especial deve ser tomada quanto à comida e bebida, mantendo-as distantes de qualquer contaminação, todo o pessoal deve higienizar completamente as mãos antes das refeições
+            - Inapropriadas: Não disponível
+            - Armazenamento
+            - Medidas técnicas
+            - Condições adequadas: Manter as embalagens bem fechadas, local seco e limpo. Temperatura ambiente.
+            - Condições que devem ser evitadas: Não armazenar junto com materiais incompatíveis
+            - Materiais para embalagens
+            - Recomendados: Frasco de polietileno, frasco de vidro âmbar, saco de polietileno
+            - Inadequados: Não disponível
+        </handlingAndStorage>
+
+        <exposureControlAndPersonalProtection>
+            - Parâmetros de controle específicos
+            - Limites de exposição ocupacional: Não disponível
+            - Indicadores biológicos: Não disponível
+            - Outros limites e valores: Não disponível
+            - Medidas de controle de engenharia: Manipular o produto em local com boa ventilação natural ou mecânica, de forma a manter a concentração de vapores/poeiras inferior ao limite de tolerância
+            - Equipamento de proteção individual apropriado
+            - Proteção dos olhos/face: Óculos de segurança
+            - Proteção da pele e do corpo: Luvas de nitrilo
+            - Proteção respiratória: Máscara contra pós
+            - Precauções especiais: Manipular o produto em local com boa ventilação natural ou mecânica. Manter chuveiros e lava olhos de emergência nos locais onde haja manipulação do produto.
+        </exposureControlAndPersonalProtection>
+
+        <spillOrLeak>
+            - Precauções pessoais: Evitar a produção de pós. Não inalar.
+            - Precaução ao meio ambiente: Não enviar o produto para redes de águas residuais
+            - Procedimento de emergência e sistema de alarme: Não aplicável
+            - Métodos para limpeza: Absorver em estado seco. Recolher o resíduo para limpeza posterior.
+            - Prevenção de perigos secundários: Não disponível
+            - Diferença na ação de grandes e pequenos vazamentos: Não disponível
+        </spillOrLeak>
+
+        <stabilityAndReactivity>
+            - Estabilidade química: Estável
+            - Reatividade: Não disponível
+            - Possibilidade de reações perigosas: Não disponível
+            - Condições a serem evitadas: Aquecimento muito forte
+            - Materiais ou substâncias incompatíveis: Risco de inflamação ou formação de gases ou vapores inflamáveis com: álcoois, nitratos
+            - Produtos perigosos da decomposição: Em caso de incêndio pode formar: vapores de mercúrio
+        </stabilityAndReactivity>
+    </item>
+
+    <item>
+        <name>PERMANGANATO DE POTÁSSIO</name>
+        <formula>(KMnO4)</formula>
+
+        <firstAidActions>
+            - Inalação: Remover para local ventilado. Lavar boca, nariz e garganta
+            - Contato com a pele: Lavar abundantemente com água corrente. Tirar a roupa contaminada.
+            - Contato com os olhos: Lavar com bastante água, por 15 min. Consultar um oftalmologista.
+            - Ingestão: beber muita água. Evitar o vomito. Procurar auxilio médico imediato
+        </firstAidActions>
+
+        <fireSafety>
+            - Meios de extinção apropriados: Comburente
+            - Perigos específicos: Comburente
+        </fireSafety>
+
+        <handlingAndStorage>
+            - Manuseio: sem exigências.
+            - Armazenamento: Manter as embalagens bem fechadas, local limpo e seco. Temperatura ambiente.
+        </handlingAndStorage>
+
+        <exposureControlAndPersonalProtection>
+            - Equipamento de proteção individual apropriado:
+            - Proteção respiratória: máscara contra pós
+            - Proteção das mãos: luvas de nitrilo
+            - Proteção dos olhos: óculos de proteção
+            - Medidas de higiene: Depois do término do trabalho, lavar as mãos e rosto. Retirar as roupas contaminadas.
+        </exposureControlAndPersonalProtection>
+
+        <spillOrLeak>
+            - Precauções pessoais: Evitar a formação de pós. Evitar o contato com o produto.
+            - Precaução ao meio ambiente: Evitar o derramamento em redes de águas residuais
+            - Métodos para limpeza: Absorver em estado seco. Recolher para limpeza posterior.
+        </spillOrLeak>
+
+        <stabilityAndReactivity>
+            - Condições a evitar: sem indicação
+            - Materiais ou substâncias incompatíveis: ácidos, substancias inflamáveis, peróxido de hidrogênio, álcoois
+            - Produtos de decomposição perigosa: sem indicação
+        </stabilityAndReactivity>
+    </item>
+
+    <item>
+        <name>PERÓXIDO DE SÓDIO</name>
+        <formula>(Na2O2)</formula>
+
+        <firstAidActions>
+            Recomendação geral
+            Consultar um médico. Mostrar esta ficha de segurança ao médico de serviço.
+            Se for inalado
+            Se for respirado, levar a pessoa para o ar fresco. Se não respirar, dar respiração artificial. Consultar um médico.
+            No caso de contato com a pele
+            Despir imediatamente a roupa e os sapatos contaminados. Lavar com sabão e muita água. Consultar um médico
+            No caso de contato com os olhos
+            Lavar cuidadosamente com muita água, durante pelo menos quinze minutos, e consultar o médico.
+            Se for engolido
+            NÃO provocar vómitos. Nunca dar nada pela boca a uma pessoa inconsciente. Enxaguar a boca com água.
+            Consultar um médico.
+            Sintomas e efeitos mais importantes, tanto agudos como retardados
+            O material é extremamente destrutivo para os tecidos das membranas mucosas e para o trato respiratório superior, os olhos e a pele. Tosse, Respiração superficial, Dor de cabeça, Náusea.
+            Indicações sobre cuidados médicos urgentes e tratamentos especiais necessários
+            Dados não disponíveis
+        </firstAidActions>
+
+        <fireSafety>
+            Meios adequados de extinção
+            Utilizar água pulverizada, espuma resistente ao álcool, produto químico seco ou dióxido de carbono.
+            Perigos especiais decorrentes da substância ou mistura
+            Óxidos de sódio
+            Recomendações para o pessoal de combate a incêndios
+            Usar equipamento de respiração autónomo para combate a incêndios, se necessário.
+            Outras informações
+            Os jatos de água podem ser utilizados para arrefecer os contentores fechados.
+        </fireSafety>
+
+        <handlingAndStorage>
+            Precauções para um manuseamento seguro
+            Evitar a formação de pó e aerossóis.
+            Providenciar uma adequada ventilação em locais onde se formem poeiras. Manter afastado de qualquer chama ou fonte de ignição - Não fumar.
+            Condições de armazenagem segura, incluindo eventuais incompatibilidades
+            Armazenar em local fresco. Guardar o recipiente hermeticamente fechado em lugar seco e bem ventilado.
+            Estocar sob gás inerte.
+            Utilizações finais específicas
+            dados não disponíveis
+        </handlingAndStorage>
+
+        <exposureControlAndPersonalProtection>
+            Parâmetros de controle
+            Límites de exposição ocupacional
+            Nós não temos conhecimento de nenhum limite de exposição nacional.
+            Controles técnicos adequados
+            Manusear de acordo com as boas práticas industriais de higiene e segurança. Lavar as mãos antes de interrupções, e no final do dia de trabalho.
+            Proteção individual
+            Proteção ocular/ facial
+            Mascaras de proteção e óculos de segurança. Use equipamento de proteção ocular testado e aprovado de acordo com as normas governamentais adequadas.
+            Proteção da pele
+            Manusear com luvas PVC ou Neoprene. As luvas devem ser inspecionadas antes da utilização. Use uma técnica adequada para a remoção das luvas (sem tocar a superfície exterior da luva) para evitar o contato da pele com o produto. Descarte as luvas contaminadas após o uso, em conformidade com as leis e boas práticas de laboratório. Lavar e secar as mãos.
+            Proteção do corpo
+            Traje completo de proteção para produtos químicos, O tipo de equipamento de proteção deve ser escolhido de acordo com a concentração e a quantidade da substância perigosa no lugar de trabalho.
+            Proteção respiratória
+            Usar máscaras de proteção respiratória contra pós e filtros contra partículas sólidas.
+        </exposureControlAndPersonalProtection>
+
+        <spillOrLeak>
+            Precauções individuais, equipamento de proteção e procedimentos de emergência
+            Usar equipamento de proteção individual. Evitar a formação de poeira. Evitar a respiração do
+            vapor/névoa/gas. Assegurar ventilação adequada. Evacuar o pessoal para áreas de segurança. Evitar de respirar o pó.
+            Precauções a nível ambiental
+            Prevenir dispersão ou derramamento ulterior se for mais seguro assim. Não permitir a entrada do produto no sistema de esgotos.
+            Métodos e materiais de confinamento e limpeza
+            Varrer e apanhar com uma pá. Controlar e recuperar o líquido derramado com aspirador protegido eletricamente ou varrer a seco e pôr o líquido dentro de contentores para a eliminação de acordo com as regulações locais. Manter em recipientes fechados adequados, para eliminação.
+        </spillOrLeak>
+
+        <stabilityAndReactivity>
+            Reatividade
+            Dados não disponíveis
+            Estabilidade química
+            Dados não disponíveis
+            Possibilidade de reações perigosas
+            Dados não disponíveis
+            Condições a evitar
+            Não permitir que entre água no recipiente o que pode provocar uma reação violenta.
+            Materiais incompatíveis
+            Agentes redutores fortes, Materiais orgânicos, Alcoois, Metais em pó
+        </stabilityAndReactivity>
+    </item>
+
+    <item>
+        <name>SACAROSE</name>
+        <formula>(C12H22O11)</formula>
+
+        <firstAidActions>
+            - Inalação: Remover para local ventilado.
+            - Contato com a pele: Lavar com bastante água.
+            - Contato com os olhos: Lavar com bastante água, por 15 min.. Consultar um oftalmologista.
+            - Ingestão (grandes quantidades): Em caso de mal estar, procurar um médico.
+            - Ações que devem ser evitadas: Não inalar
+            - Proteção para o prestador de socorros: Utilizar óculos de segurança, luvas de nitrilo e máscara
+            - Notas para o médico: Tratamento sintomático. Não há antídoto específico. Direcionar o tratamento de acordo com os sintomas e condições
+            clínicas do paciente.
+        </firstAidActions>
+
+        <fireSafety>
+            - Meios de extinção apropriados: CO2, espuma, pó, água
+            - Meios de extinção não recomendados: Não disponível
+            - Perigos específicos referentes às medidas: Não disponível
+            - Métodos especiais de combate à incêndio: Não disponível
+            - Proteção das pessoas envolvidas no combate a incêndio: Utilizar equipamento de proteção individual e equipamento de proteção respiratória autônoma
+            - Perigos específicos da combustão do produto químico: Não disponível
+        </fireSafety>
+
+        <handlingAndStorage>
+            - Manuseio
+            - Medidas técnicas apropriadas
+            - Prevenção da exposição do trabalhador: Utilizar equipamentos de proteção individual para evitar contato com a pele e mucosas. Abrir
+            e manusear as embalagens com cuidado
+            - Prevenção de incêndio e explosão: Não disponível
+            - Precauções e orientações para manuseio seguro: Manipular o produto respeitando as regras gerais de segurança
+            - Medidas de higiene
+            - Apropriadas: Atenção especial deve ser tomada quanto à comida e bebida, mantendo-as distantes de qualquer contaminação, todo o
+            pessoal deve higienizar completamente as mãos antes das refeições
+            - Inapropriadas: Não disponível
+            - Armazenamento
+            - Medidas técnicas
+            - Condições adequadas: Manter as embalagens bem fechadas, local seco e limpo. Temperatura ambiente
+            - Condições que devem ser evitadas: Não armazenar junto com materiais incompatíveis
+            Materiais para embalagens
+            - Recomendados: frasco de polietileno, saco de polietileno
+            - Inadequados: Não disponível
+        </handlingAndStorage>
+
+        <exposureControlAndPersonalProtection>
+            - Parâmetros de controle específicos
+            - Limites de exposição ocupacional: Não disponível
+            - Indicadores biológicos: Não disponível
+            - Outros limites e valores: Não disponível
+            - Medidas de controle de engenharia: Manipular o produto em local com boa ventilação natural ou mecânica, de forma a manter a concentração de vapores/poeiras inferior ao limite de tolerância
+            - Equipamento de proteção individual apropriado
+            - Proteção dos olhos/face: Óculos de segurança
+            - Proteção da pele e do corpo: Luvas de nitrilo
+            - Proteção respiratória: Máscara
+            - Precauções especiais: Manipular o produto em local com boa ventilação natural ou mecânica. Manter chuveiros e lava-olhos de emergência
+            nos locais onde haja manipulação do produto.
+        </exposureControlAndPersonalProtection>
+
+        <spillOrLeak>
+            - Precauções pessoais: Evitar o contato com o produto.
+            - Precaução ao meio ambiente: Não enviar o produto para redes de águas residuais
+            - Procedimento de emergência e sistema de alarme: Não aplicável
+            - Métodos para limpeza: Absorver com agente higroscópico. Recolher o resíduo para limpeza posterior.
+            - Prevenção de perigos secundários: Não disponível
+            - Diferença na ação de grandes e pequenos vazamentos: Não disponível
+        </spillOrLeak>
+
+        <stabilityAndReactivity>
+            - Estabilidade química: Estável
+            - Reatividade: Não disponível
+            - Possibilidade de reações perigosas: Não disponível
+            - Condições a serem evitadas: Forte aquecimento
+            - Materiais ou substâncias incompatíveis: Não disponível
+            - Produtos perigosos da decomposição: Não disponível
+        </stabilityAndReactivity>
+    </item>
+
+    <item>
+        <name>SALICILATO DE METILA</name>
+        <formula>(C8H8O3)</formula>
+
+        <firstAidActions>
+            - Inalação: Remover para local ventilado.
+            - Contato com a pele: Lavar com bastante água. Retirar as roupas contaminadas
+            - Contato com os olhos: Lavar com bastante água, por 15 min.. Consultar um oftalmologista.
+            - Ingestão: beber bastante água, provocar o vomito. Procurar um médico.
+        </firstAidActions>
+
+        <fireSafety>
+            - Meios de extinção apropriados: CO2, espuma, pó
+            - Perigos específicos: combustível.
+        </fireSafety>
+
+        <handlingAndStorage>
+            - Manuseio: local bem arejado ou exaustão local
+            - Armazenamento: Manter as embalagens bem fechadas, local seco e limpo. Temperatura ambiente.
+        </handlingAndStorage>
+
+        <exposureControlAndPersonalProtection>
+            - Equipamento de proteção individual apropriado:
+            - Proteção respiratória: máscara contra pós
+            - Proteção das mãos: luvas de nitrilo
+            - Proteção dos olhos: óculos de proteção
+            - Medidas de higiene: Depois do término do trabalho, lavar as mãos e rosto. Retirar as roupas contaminadas.
+        </exposureControlAndPersonalProtection>
+
+        <spillOrLeak>
+            - Precauções pessoais: Não inalar. Evitar o contato com o produto.
+            - Precaução ao meio ambiente: Evitar o derramamento em redes de águas residuais
+            - Métodos para limpeza: Absorver em estado seco. Recolher o resíduo para limpeza posterior.
+        </spillOrLeak>
+
+        <stabilityAndReactivity>
+            - Condições a evitar: forte aquecimento
+            - Materiais ou substâncias incompatíveis: Oxidantes fortes
+            - Produtos de decomposição perigosa: sem indicação
+        </stabilityAndReactivity>
+    </item>
+
+    <item>
+        <name>SULFATO DE ALUMÍNIO</name>
+        <formula>(Al2SO4)3</formula>
+
+        <firstAidActions>
+            Inalação: Remover a vítima para o ar fresco.
+            Contato com a pele: Lavar o local atingido com água corrente em abundância. Remover roupas contaminadas.
+            Contato com os olhos: Enxaguar com água limpa em abundância. Consultar um especialista.
+            Ingestão: Dar a vítima muita água, não induzir ao vômito. Consultar um médico.
+        </firstAidActions>
+
+        <fireSafety>
+            Meios de extinção apropriados: Produto incombustível. Em caso de fogo, resfriar o recipiente com jato d’água sob forma de neblina.
+        </fireSafety>
+
+        <handlingAndStorage>
+            MANUSEIO
+            Medidas técnicas
+            Precauções para manuseio seguro: Usar os EPI’s adequados.
+            Orientações para manuseio seguro: Não comer, beber ou fumar na área de trabalho. Evitar a geração de poeira.
+            Manter o recipiente sempre fechado quando não estiver sendo utilizado. Usar os EPI’s adequados.
+            ARMAZENAMENTO
+            Medidas técnicas apropriadas: Deve ser estocado em lugar seco e coberto.
+            Condições de armazenamento
+            Adequadas: Locais cobertos, secos e ventilados.
+            Produtos e materiais incompatíveis: Substâncias alcalinas.
+            Materiais seguros para embalagens
+            Recomendadas: Sacos de polipropileno trançado. Sacos de polietileno de baixa densidade.
+        </handlingAndStorage>
+
+        <exposureControlAndPersonalProtection>
+            Equipamentos de proteção individual apropriado
+            Proteção respiratória: Requerido quando são gerados pós. Máscara contra poeiras e névoas.
+            Proteção das mãos: Luvas de borracha.
+            Proteção dos olhos: Óculos de segurança ou protetor facial.
+            Proteção da pele e do corpo: Botas de borracha ou sapato resistente. Conjunto de jaqueta e calça resistente à ácidos.
+            Precauções especiais: Boa ventilação local natural. Lava-olhos e chuveiro de emergência devem estar instalados próximos das áreas de manuseio e armazenamento do produto.
+        </exposureControlAndPersonalProtection>
+
+        <spillOrLeak>
+            Remoção de fontes de ignição: Produto não inflamável. Isolar e sinalizar o local. Afastar os curiosos.
+            Controle de poeira: Evitar a formação de poeira/névoa.
+            Prevenção da inalação e do contato com a pele, mucosas e olhos:
+            Evitar contato com o produto. Utilizar equipamento de proteção individual adequado.
+            Precauções para o meio ambiente: Evitar que o produto atinja cursos d’água e o solo.
+            Métodos para limpeza
+            Recuperação: Usar métodos de limpeza a seco, evitar poeira, coletar em embalagens apropriadas. O material deverá ser retirado varrendo-se o local.
+            Disposição: Se a reutilização ou reciclagem não for possível, o material poderá ser disposto em aterro sanitário.
+        </spillOrLeak>
+
+        <stabilityAndReactivity>
+            Condições específicas
+            Instabilidade: Estável em condições normais.
+            Reações perigosas: Não há.
+            Condições a evitar: Aquecimento forte, hipoclorito e bases alcalinas.
+            Materiais ou substâncias incompatíveis: Hipoclorito e bases alcalinas.
+            Produtos perigosos da decomposição: Decomposição térmica do sulfato de alumínio libera trióxido de enxofre.
+        </stabilityAndReactivity>
+    </item>
+
+    <item>
+        <name>SULFATO DE CÁLCIO DIHIDRATADO</name>
+        <formula>(CaSO4) .2H2O</formula>
+
+        <firstAidActions>
+            Medidas de primeiros-socorros: Para garantir sua segurança pessoal, antes de socorrer uma vítima colocar os EPIs necessários.
+            O socorrista deve ser um brigadista ou alguém familiarizado com técnicas de primeiros socorros. Procurar um médico.
+            Inalação: Afastar a fonte de contaminação ou transportar a vítima para local arejado. Se houver dificuldades respiratórias, administrar oxigênio. NÃO UTILIZAR O MÉTODO DE RESPIRAÇÃO BOCA A BOCA. Manter o paciente aquecido e não permitir que a vítima se movimente desnecessariamente. Transportar a vítima para um hospital.
+            Contato com a pele: Lavar a pele com água (ou água e sabão não abrasivo), suavemente, por pelo menos 20 minutos ou até que a substância tenha sido removida. NÃO INTERROMPER O ENXÁGÜE. Sob água corrente (chuveiro de emergência) remover roupas, sapatos e outros acessórios pessoais contaminados (cintos, joias etc.). Descontaminar as roupas antes da reutilização. Se a irritação persistir ao repetir o enxágue, requisitar assistência médica.
+            Contato com os olhos: Não permitir que a vítima esfregue os olhos. Remover o excesso da substância dos olhos rapidamente e com cuidado. Retirar lentes de contato quando for o caso. Lavar o(s) olho(s) contaminado(s) com bastante água deixando-a fluir por, pelo menos, 20 minutos, ou até que a substância tenha sido removida mantendo as pálpebras afastadas durante a irrigação.
+            Cuidado para não introduzir água contaminada no olho não afetado ou na face. Se a irritação persistir repetir o enxágue, e a vítima deve ser encaminhada ao oftalmologista.
+            Ingestão: Lavar a boca da vítima com água. NÃO INDUZIR VÔMITO. Oferecer a vítima consciente 2-4 copos de água para diluir o material no estômago. NÃO UTILIZAR O MÉTODO DE RESPIRAÇÃO BOCA A BOCA. Se o vômito ocorrer naturalmente inclinar a vítima para evitar o risco de aspiração traqueo-bronquial do material ingerido. Lavar novamente a boca da vítima. Repetir a administração de água. Nada deve ser administrado por via oral se a pessoa estiver perdendo a consciência, inconsciente ou em convulsão. Manter o paciente aquecido e em repouso. Transportar a vítima para um hospital.
+            Sintomas e efeitos mais importantes: Produto pode causar efeitos agudos, dependendo da via de exposição. Produto não tóxico.
+            Notas para o médico: Uma lavagem gástrica é recomendada somente para pacientes que apresentarem sintomas.
+        </firstAidActions>
+
+        <fireSafety>
+            Meios de extinção: Água, Dióxido de carbono, Espuma, pó seco. Nenhuma limitação de agentes extintores é dada para essa substância.
+            Perigos específicos da substância: substância não combustível.
+            Medidas de proteção da equipe de combate a incêndio: Equipamento de proteção para o pessoal destacado para o combate a incêndios. Na eventualidade de fogo, vestir roupas protetoras completas e aparelho de respiração autônoma com máscara facial completa, operando na pressão exigida ou outro modo de pressão positiva.
+            Informações complementares
+            Evitar a contaminação da agua de superfície e da subterrânea com a agua de combate a incêndios.
+        </fireSafety>
+
+        <handlingAndStorage>
+            Precauções para manuseio seguro: Observar os avisos das etiquetas. Não comer, beber ou fumar as áreas de manuseio do produto. Usar os EPI´s indicados. Manter ventilação local adequada. Não role, arraste ou permita solavancos na embalagem.
+            Condições para armazenamento seguro, incluindo incompatibilidades: Hermeticamente fechado. Em local seco e temperatura ambiente.
+        </handlingAndStorage>
+
+        <exposureControlAndPersonalProtection>
+            Parâmetros de controle
+            Não contém substâncias com valores limites de exposição ocupacional.
+            Medidas de controle de engenharia: A exposição a esta substância pode ser controlada de diversas maneiras. As medidas apropriadas para o ambiente de trabalho particular dependem de como o material esteja sendo usado e da extensão da exposição.
+            Esta informação geral pode ser usada para auxiliar no desenvolvimento das medidas de controle específicas, devendo contemplar com a regulamentação ocupacional, ambiental e de incêndio, além de outras regulamentações aplicáveis. Procedimentos recomendados para monitoramento: Utilizar instrumentos apropriados de monitoramento. A estratégia da amostragem deve contemplar local, tempo, duração, frequência e número de amostras.
+            Medidas de proteção individual
+            As características dos meios de proteção para o corpo devem ser selecionadas em função da concentração e da quantidade das substancias tóxicas de acordo com as condições específicas do local de trabalho. A resistência dos meios de proteção aos agentes químicos deve ser esclarecida juntos dos fornecedores.
+            Proteção dos olhos/face: Utilizar óculos de segurança de ampla visão,
+            Proteção da pele: Utilizar roupa impermeável. Necessário o uso de luvas.
+            Proteção respiratória: Necessário em caso de formação de pó.
+            Perigos térmicos: produto não queima.
+        </exposureControlAndPersonalProtection>
+
+        <spillOrLeak>
+            Precauções pessoais para quem não faz parte dos serviços de emergências: Evitar a inalação do pó. Evacuar a área de perigo, observar os procedimentos de emergência.
+            Precauções pessoais para quem faz parte do serviço de emergência: vestir roupas protetoras completas e aparelho de respiração autônoma.
+            Precauções ambientais: Não despejar os resíduos no esgoto.
+            Métodos e materiais de contenção e limpeza: Cobrir ralos. Recolher, emendar e bombear vazamentos. Proceder à eliminação de resíduos. Limpeza posterior. Evitar a formação de pó.
+        </spillOrLeak>
+
+        <stabilityAndReactivity>
+            Reatividade:
+            O produto é quimicamente estável em condições ambientes padrão (temperatura ambiente).
+            Estabilidade química:
+            O produto é quimicamente estável em condições ambientes padrão (temperatura ambiente).
+            Possibilidade de reações perigosas:
+            O produto é quimicamente estável em condições ambientes padrão (temperatura ambiente).
+            Condições a serem evitadas:
+            Não existem informações disponíveis.
+            Materiais incompatíveis:
+            Não existem informações disponíveis.
+            Produtos perigosos da decomposição:
+            Não existem informações disponíveis.
+        </stabilityAndReactivity>
+    </item>
+
+    <item>
+        <name>SULFATO DE COBALTO HEPTAHIDRATADO</name>
+        <formula>(CoSO4 * 7 H2O)</formula>
+
+        <firstAidActions>
+            Recomendação geral
+            O prestador de primeiros socorros deve se proteger.
+            Depois de inalar: Exposição ao ar fresco. Chamar um médico.
+            No caso dum contacto com a pele: Retire imediatamente toda a roupa contaminada. Enxaguar a pele com água e tomar banho de chuveiro. Consultar um médico.
+            Após contacto com os olhos: Enxaguar abundantemente com água. Consultar um oftalmologista. Remova as lentes de contato.
+            Após ingestão: fazer a vítima beber imediatamente água (dois copos no máximo) Consultar um médico.
+            Sintomas e efeitos mais importantes, agudos e retardados
+            Sintomas de intoxicação aguda de cobalto: diarreia, falta de apetite, descida da temperatura corporal e hipotensão arterial. Efeito tóxico nos rins (proteinúria, anúria), coração e pâncreas. efeitos irritantes, Reações alérgicas, Diarréia.
+            Indicação da atenção médica imediata e do tratamento especial necessário
+            Não existem informações disponíveis
+        </firstAidActions>
+
+        <fireSafety>
+            Meios adequados de extinção
+            Adapte as medidas de combate a incêndios às condições locais e ao ambiente que esta situado ao seu redor.
+            Agentes de extinção inadequados
+            Nenhuma limitação de agentes extintores é dada para essa substância/mistura.
+            Riscos especiais resultantes da substância ou da mistura
+            Não combustível.
+            Possibilidade de formação de fumos perigosos em case de incêndio nas zonas próximas.
+            Um incêndio pode provocar o desenvolvimento de:
+            Óxidos de enxofre
+            Precauções para bombeiros
+            Equipamentos especiais para proteção das pessoas envolvidas no combate a incêndio.
+            Não ficar na zona de perigo sem aparelhos respiratórios autónomos apropriados para respiração independente do ambiente. De forma a evitar o contacto com a pele, mantenha uma distância de segurança e utilize vestuário protetor adequado.
+            Informações complementares
+            Suprimir (abater) com jatos de água os gases, vapores e névoas. Evitar a contaminação da água de superfície e da água subterrânea com a água de combate a incêndios.
+        </fireSafety>
+
+        <handlingAndStorage>
+            Recomendações para manuseio seguro
+            Observar os avisos dos rótulos.
+            Trabalhar com chaminé. Não inalar a substância/mistura.
+            Medidas de higiene
+            Mudar imediatamente a roupa contaminada. Profilaxia cutânea. Depois de terminar o trabalho, lavar as mãos e a cara.
+            Condições para armazenamento seguro, incluindo incompatibilidades
+            Condições de armazenamento
+            Hermeticamente fechado. Em local seco. Guardar em local bem arejado. Manter fechado ou numa área acessível só a pessoas qualificadas ou autorizadas.
+            Temperatura recomendada de armazenamento, consulte na etiqueta de produto.
+        </handlingAndStorage>
+
+        <exposureControlAndPersonalProtection>
+            Medidas de controle de engenharia
+            Medidas técnicas e operações de trabalho adequadas devem ter prioridade sobre o uso de equipamento de proteção pessoal.
+            Medidas de proteção individual
+            As características dos meios de protecção para o corpo devem ser seleccionadas em função da concentração e da quantidade das substâncias tóxicas de acordo com as condições específicas do local de trabalho. A resistência dos meios de protecção aos agentes químicos deve ser esclarecida junto dos fornecedores.
+            Proteção para a pele/olhos
+            Óculos de segurança
+            Proteção das mãos
+            Contato total:
+            Substância da luva:
+            Borracha nitrílica
+            Espessura da luva:
+            0,11 mm
+            Pausa:
+            > 480 min
+            Contato com salpicos:
+            Substância da luva:
+            Borracha nitrílica
+            Espessura da luva:
+            0,11 mm
+            Pausa:
+            > 480 min
+            Outro equipamento de protecção
+            Roupa de proteção
+            Proteção respiratória
+            Necessário em caso de formação de pós.
+            Tipo de Filtro recomendado: Filtro P 3
+            O empresário deve assegurar que a manutenção, limpeza e teste dos dispositivos de proteção respiratória sejam executados de acordo com as instruções do produtor. Estas medidas devem ser adequadamente documentadas.
+            Controles de riscos ambientais
+            Não permitir a entrada do produto nos esgotos.
+        </exposureControlAndPersonalProtection>
+
+        <spillOrLeak>
+            Precauções pessoais, equipamentos de proteção e procedimentos de emergência
+            Recomendações para pessoal não envolvido com emergências: Evitar a todo o custo o desprendimento e a inalação de poeiras. Evitar o contato com a substância. Assegurar ventilação adequada. Evacuar a área de perigo, observar os procedimentos de emergência, consultar um especialista.
+            Precauções ambientais
+            Não permitir a entrada do produto nos esgotos.
+            Métodos e materiais de contenção e limpeza
+            Cobrir ralos. Recolher, emendar e bombear vazamentos. Absorver com cuidado. Proceder à eliminação de resíduos. Limpeza posterior. Evitar a formação de pós.
+        </spillOrLeak>
+
+        <stabilityAndReactivity>
+            Estabilidade química
+            Cedência de água de cristalização durante o aquecimento.
+            Possibilidade de reações perigosas não existem indicações
+            Condições a serem evitadas
+            Aquecimento muito forte (decomposição).
+            Materiais incompatíveis
+            não existem indicações
+        </stabilityAndReactivity>
+    </item>
+
+    <item>
+        <name>SULFATO FERROSO AMONIACAL HEXAHIDRATADO</name>
+        <formula>(NH4)2Fe(SO4)2 · 6H2O</formula>
+
+        <firstAidActions>
+            Recomendação geral
+            Consultar um médico. Mostrar esta ficha de segurança ao médico de serviço.
+            Se for inalado
+            Se for respirado, levar a pessoa para o ar fresco. Se não respirar, aplicar a respiração artificial. Consultar um médico.
+            No caso de um contato com a pele
+            Lavar com sabão e muita água. Consultar um médico.
+            No caso de um contato com os olhos
+            Lavar cuidadosamente com muita água, durante pelo menos quinze minutos, e consultar o médico.
+            Se for engolido
+            Nunca dar nada pela boca a uma pessoa inconsciente. Enxaguar a boca com água. Consultar um médico.
+        </firstAidActions>
+
+        <fireSafety>
+            Meios adequados de extinção
+            Usar meios de extinção que sejam apropriados às circunstâncias locais e ao ambiente envolvente.
+            Equipamento especial de proteção a utilizar pelo pessoal de combate a incêndio
+            Usar equipamento de respiração autónomo para combate a incêndios, se necessário.
+            Outras informações
+            O produto não queima
+        </fireSafety>
+
+        <handlingAndStorage>
+            Precauções para um manuseamento seguro
+            Evitar o contato com a pele e os olhos. Evitar a formação de pó e aerossóis.
+            Providenciar uma adequada ventilação em locais onde se formem poeiras.
+            Condições para uma armazenagem segura
+            Armazenar em local fresco. Guardar o recipiente hermeticamente fechado em lugar seco e bem ventilado.
+            Sensível ao ar e à luz. Estocar sob gás inerte.
+        </handlingAndStorage>
+
+        <exposureControlAndPersonalProtection>
+            Proteção respiratória
+            Nos casos em que a avaliação de risco mostrar que os respiradores purificadores do ar são apropriados, use uma máscara de pó do tipo N95 (E.U.A.) ou um respirador do tipo P1 (EN 143). Use respiradores e componentes testados e aprovados por normas governamentais apropriadas, tais como as NIOSH
+            (E.U.A.) ou CEN (UE).
+            Proteção das mãos
+            As luvas de proteção selecionadas devem satisfazer as especificações da Diretiva da UE 89/689/CEE e a norma EN 374 derivadas dela.
+            Manusear com luvas.
+            Proteção dos olhos
+            Óculos de proteção com um lado protetor de acordo com EN 166
+            Proteção do corpo e da pele
+            Escolher uma proteção para o corpo conforme a quantidade e a concentração das substâncias perigosas no lugar de trabalho.
+            Medidas de higiene
+            Manusear de acordo com as boas práticas industriais de higiene e segurança. Lavar as mãos antes de interrupções, e no final do dia de trabalho.
+        </exposureControlAndPersonalProtection>
+
+        <spillOrLeak>
+            Precauções individuais
+            Usar equipamento de protecção individual. Evitar a formação de poeira. Evitar de respirar o pó. Assegurar ventilação adequada.
+            Precauções ambientais
+            Não permitir a entrada do produto no sistema de esgotos.
+            Métodos e materiais para a contenção e a limpeza
+            Apanhar os resíduos sem levantar poeiras. Manter em recipientes fechados adequados, para eliminação.
+        </spillOrLeak>
+
+        <stabilityAndReactivity>
+            Estabilidade química
+            Estável sob as condições recomendadas de armazenamento.
+            Condições a evitar
+            Luz Ar
+            Matérias a evitar
+            Ácidos fortes, Agentes oxidantes fortes
+            Produtos de decomposição perigosos
+            Produtos perigosos de decomposição formados durante os incêndios. - Amoníaco, óxidos de azoto (NOx),
+            Óxidos de ferro, Óxidos de enxofre
+        </stabilityAndReactivity>
+    </item>
+
+    <item>
+        <name>SULFATO DE FERRO III</name>
+        <formula>Fe2(SO4)3</formula>
+
+        <firstAidActions>
+            Inalação: Exposição ao ar fresco. Se não respirar, dar respiração artificial. Consultar um médico.
+            Contato com a pele: Lavar com sabão e muita água.
+            Contato com os olhos: Lavar cuidadosamente com muita água, durante pelo menos quinze minutos.
+            Consultar um oftalmologista.
+            Ingestão: Nunca dar nada pela boca a uma pessoa inconsciente. Enxaguar a boca com água. Consultar um médico.
+            Sintomas e efeitos mais importantes:
+            A dose excessiva de compostos de ferro poder ter um efeito corrosivo sobre a mucosa gastrointestinal e ser seguido por necrose, perfuração e formação de estrutura. Podem decorrer muitas horas antes que os sintomas, que podem incluir dor epigástrica, diarreia, vômito, náusea e hematêmese, ocorram. Algumas horas ou dias depois de uma aparente recuperação, a pessoa pode apresentar acidose metabólica, convulsões e coma. Complicações posteriores poderão ocorrer levando à necrose aguda do fígado que pode resultar em morte em consequência de coma hepático. Até onde sabemos, as propriedades químicas, físicas e toxicológicas não foram minuciosamente investigadas.
+            Notas para o médico: Dados não disponíveis.
+        </firstAidActions>
+
+        <fireSafety>
+            Meios de extinção: Utilizar água pulverizada, espuma resistente ao álcool, produto químico seco ou dióxido de carbono.
+            Perigos específicos da substância ou mistura:
+            Óxidos de enxofre, óxidos de ferro.
+            Medidas de proteção da equipe de combate a incêndio:
+            Usar equipamento de respiração autónomo para combate a incêndios, se necessário.
+            Informações complementares:
+            Dados não disponíveis.
+        </fireSafety>
+
+        <handlingAndStorage>
+            Precauções para manuseio seguro: Evitar o contato com a pele e os olhos. Evitar a formação de pó e aerossóis.
+            Providenciar uma adequada ventilação em locais onde se formem poeiras.
+            Medidas de higiene: Manusear de acordo com as boas práticas industriais de higiene e segurança.
+            Lavar as mãos antes dos intervalos e no final do dia de trabalho.
+            Condições para armazenamento seguro, incluindo incompatibilidades:
+            Armazenar em local fresco. Guardar o recipiente hermeticamente fechado em lugar seco e bem ventilado. Higroscópio sensível à luz.
+        </handlingAndStorage>
+
+        <exposureControlAndPersonalProtection>
+            Proteção dos olhos/face: Mascaras de proteção e óculos de segurança. Use equipamento de proteção ocular testado e aprovado de acordo com as normas governamentais adequadas, tais como NIOSH (US) ou EM 166 (EU).
+            Proteção da pele e do corpo: Manusear com luvas. As luvas devem ser inspecionadas antes da utilização.
+            Use uma técnica adequada para a remoção das luvas (sem tocar a superfície exterior da luva) para evitar o contato da pele com o produto. Descarte as luvas contaminadas após o uso, em conformidade com as leis e boas práticas de laboratório. Lavar e secar as mãos.
+            Proteção respiratória: Nos casos em que a avaliação de risco mostrar que os respiradores purificadores do ar são apropriados, use um respirador de partículas do tipo
+            N100 (E.U.A) ou cartuchos de respiração do tipo P2 (EM 143) como apoio a controlos de engenharia. Se o respirador for o único meio de proteção, usa um respirador de ar de cobertura facial total. Use respiradores e componentes testados e aprovados por normas governamentais apropriadas, tais como as NIOSH (E.U.A) ou CEN (EU).
+        </exposureControlAndPersonalProtection>
+
+        <spillOrLeak>
+            Para quem faz parte do serviço de emergência:
+            Pôr uma proteção respiratória. Evitar a formação de poeira. Evitar a respiração do vapor/névoa/gás. Assegurar ventilação adequada. Evacuar o pessoal para áreas de segurança. Evitar de respirar o pó.
+            Precauções ao meio ambiente: Não permitir a entrada do produto no sistema de esgotos.
+            Métodos e materiais de contenção e limpeza:
+            Apanhar os resíduos sem levantar poeiras. Varrer e apanhar com uma pá.
+            Manter em recipientes fechados adequados, para eliminação.
+        </spillOrLeak>
+
+        <stabilityAndReactivity>
+            Reatividade: Dados não disponíveis.
+            Estabilidade química: Dados não disponíveis.
+            Possibilidade de reações perigosas: Dados não disponíveis.
+            Condições a serem evitadas: Evitar a humidade. Luz.
+            Materiais incompatíveis: Agentes oxidantes fortes.
+            Produtos de decomposição perigosa: Outros produtos de decomposição perigosos – Dados não disponíveis.
+        </stabilityAndReactivity>
+    </item>
+
+    <item>
+        <name>SULFATO DE MAGNÉSIO HEPTAHIDRATADO</name>
+        <formula>(MgSO4). 7H2O</formula>
+
+        <firstAidActions>
+            Medidas de primeiros-socorros: Para garantir sua segurança pessoal, antes de socorrer uma vítima colocar os EPIs necessários.
+            O socorrista deve ser um brigadista ou alguém familiarizado com técnicas de primeiros socorros. Procurar um médico.
+            Inalação: Afastar a fonte de contaminação ou transportar a vítima para local arejado. Se houver dificuldades respiratórias, administrar oxigênio. NÃO UTILIZAR O MÉTODO DE RESPIRAÇÃO BOCA A BOCA. Manter o paciente aquecido e não permitir que a vítima se movimente desnecessariamente. Transportar a vítima para um hospital.
+            Contato com a pele: Lavar a pele com água (ou água e sabão não abrasivo), suavemente, por pelo menos 20 minutos ou até que a substância tenha sido removida. NÃO INTERROMPER O ENXÁGÜE. Sob água corrente (chuveiro de emergência) remover roupas, sapatos e outros acessórios pessoais contaminados (cintos, jóias etc). Descontaminar as roupas antes da reutilização. Se a irritação persistir ao repetir o enxágue, requisitar assistência médica.
+            Contato com os olhos: Não permitir que a vítima esfregue os olhos. Remover o excesso da substância dos olhos rapidamente e com cuidado. Retirar lentes de contato quando for o caso. Lavar o(s) olho(s) contaminado(s) com bastante água deixando-a fluir por, pelo menos, 20 minutos, ou até que a substância tenha sido removida mantendo as pálpebras afastadas durante a irrigação. Cuidado para não introduzir água contaminada no olho não afetado ou na face. Se a irritação persistir repetir o enxágue, e a vítima deve ser encaminhada ao oftalmologista.
+            Ingestão: Lavar a boca da vítima com água. NÃO INDUZIR VÔMITO. Oferecer a vítima consciente 2-4 copos de água para diluir o material no estômago. NÃO UTILIZAR O MÉTODO DE RESPIRAÇÃO BOCA A BOCA. Se o vômito ocorrer naturalmente inclinar a vítima para evitar o risco de aspiração do material ingerido. Lavar novamente a boca da vítima. Transportar a vítima para um hospital.
+            Sintomas e efeitos mais importantes: Produto pode causar efeitos agudos, dependendo da via de exposição. Efeitos irritantes, Vômitos.
+        </firstAidActions>
+
+        <fireSafety>
+            Meios de extinção: Água, Dióxido de carbono, Espuma, pó seco. Nenhuma limitação de agentes extintores é dada para essa substância.
+            Perigos específicos da substância: substância não combustível. Incêndio pode produzir Óxidos de enxofre.
+            Medidas de proteção da equipe de combate a incêndio: Equipamento de proteção para o pessoal destacado para o combate a incêndios. Na eventualidade de fogo, vestir roupas protetoras completas e aparelho de respiração autônoma com máscara facial completa, operando na pressão exigida ou outro modo de pressão positiva.
+            Informações complementares
+            Evitar a contaminação da agua de superfície e da subterrânea com a agua de combate a incêndios.
+        </fireSafety>
+
+        <handlingAndStorage>
+            Precauções para manuseio seguro: Observar os avisos das etiquetas. Não comer, beber ou fumar as áreas de manuseio do produto. Usar os EPI´s indicados. Manter ventilação local adequada. Não role, arraste ou permita solavancos na embalagem.
+            Condições para armazenamento seguro, incluindo incompatibilidades: Hermeticamente fechado. Em local seco e temperatura ambiente.
+        </handlingAndStorage>
+
+        <exposureControlAndPersonalProtection>
+            Parâmetros de controle
+            Não contém substâncias com valores limites de exposição ocupacional.
+            Medidas de controle de engenharia: A exposição a esta substância pode ser controlada de diversas maneiras. As medidas apropriadas para o ambiente de trabalho particular dependem de como o material esteja sendo usado e da extensão da exposição. Esta informação geral pode ser usada para auxiliar no desenvolvimento das medidas de controle específicas, devendo contemplar com a regulamentação ocupacional, ambiental e de incêndio, além de outras regulamentações aplicáveis. Procedimentos recomendados para monitoramento: Utilizar instrumentos apropriados de monitoramento. A estratégia da amostragem deve contemplar local, tempo, duração, frequência e número de amostras.
+            Medidas de proteção individual
+            As características dos meios de proteção para o corpo devem ser selecionadas em função da concentração e da quantidade das substancias tóxicas de acordo com as condições específicas do local de trabalho. A resistência dos meios de proteção aos agentes químicos deve ser esclarecida juntos dos fornecedores.
+            Proteção dos olhos/face: Utilizar óculos de segurança de ampla visão,
+            Proteção da pele: Necessário o uso de luvas.
+            Proteção respiratória: Necessário em caso de formação de vapores.
+            Perigos térmicos: produto não queima.
+        </exposureControlAndPersonalProtection>
+
+        <spillOrLeak>
+            Precauções pessoais, equipamentos de proteção e procedimentos de emergência.
+            Precauções pessoais para quem não faz parte dos serviços de emergências: Evitar a inalação dos vapores. Evacuar a área de perigo, observar os procedimentos de emergência.
+            Precauções pessoais para quem faz parte do serviço de emergência: vestir roupas protetoras completas e aparelho de respiração autônoma. Aquecimento pode produzir Óxidos de enxofre.
+            Precauções ambientais: Não despejar os resíduos no esgoto.
+            Métodos e materiais de contenção e limpeza: Cobrir ralos. Recolher, emendar e bombear vazamentos. Proceder à eliminação de resíduos. Limpeza posterior. Evitar a formação de possas.
+        </spillOrLeak>
+
+        <stabilityAndReactivity>
+            Reatividade: O produto é quimicamente estável em condições ambientes padrão.
+            Estabilidade química: O produto é quimicamente estável em condições ambientes padrão.
+            Possibilidade de reações perigosas: O produto é quimicamente estável em condições ambientes padrão.
+            Condições a serem evitadas: Forte aquecimento.
+            Materiais incompatíveis: Não existem indicações.
+            Produtos perigosos da decomposição: Não existem indicações.
+        </stabilityAndReactivity>
+    </item>
+
+    <item>
+        <name>SULFATO DE MERCÚRIO II</name>
+        <formula>(HgSO4)</formula>
+
+        <firstAidActions>
+
+            Inalação: Afastar a fonte de contaminação ou transportar a vítima para local arejado. Se houver dificuldades respiratórias, administrar oxigênio. NÃO UTILIZAR O MÉTODO DE RESPIRAÇÃO BOCA A BOCA. Manter o paciente aquecido e não permitir que a vítima se movimente desnecessariamente. Transportar a vítima para um hospital.
+            Contato com a pele: Lavar a pele com água (ou água e sabão não abrasivo), suavemente, por pelo menos 20 minutos ou até que a substância tenha sido removida. NÃO INTERROMPER O ENXÁGÜE. Sob água corrente (chuveiro de emergência) remover roupas, sapatos e outros acessórios pessoais contaminados (cintos, joias etc.). Descontaminar as roupas antes da reutilização. Se a irritação persistir ao repetir o enxágue, requisitar assistência médica.
+            Contato com os olhos: Não permitir que a vítima esfregue os olhos. Remover o excesso da substância dos olhos rapidamente
+            e com cuidado. Retirar lentes de contato quando for o caso. Lavar o(s) olho(s) contaminado(s) com bastante água deixando-a fluir por, pelo menos, 20 minutos, ou até que a substância tenha sido removida mantendo as pálpebras afastadas durante a irrigação. Cuidado para não introduzir água contaminada no olho não afetado ou na face. Se a irritação persistir repetir o enxágue, e a vítima deve ser encaminhada ao oftalmologista.
+            Ingestão: Lavar a boca da vítima com água. NÃO INDUZIR VÔMITO. NÃO UTILIZAR O MÉTODO DE RESPIRAÇÃO BOCA A
+            BOCA. Se o vômito ocorrer naturalmente inclinar a vítima para evitar o risco de aspiração traqueio-bronquial do material ingerido.
+            Lavar novamente a boca da vítima. Repetir a administração de água. Nada deve ser administrado por via oral se a pessoa estiver perdendo a consciência, inconsciente ou em convulsão. Manter o paciente aquecido e em repouso. Transportar a vítima para um hospital.
+            Sintomas e efeitos mais importantes: Produto pode causar efeitos agudos, dependendo da via de exposição. Os compostos de mercúrio têm um efeito citotóxico e protoplasma tóxico. Sintomas de intoxicação: aguda: o contato com os olhos provoca lesões graves. A ingestão e a inalação dos pós danificam as mucosas dos tratos gastrointestinal e respiratório (sabor metálico, náusea, vômitos, dor abdominal, diarreia sanguinolenta, queimaduras intestinais, edema da glote, pneumonia de aspiração; hipotensão arterial, disritmia cardíaca, colapso circulatório e insuficiência renal; crónica: inflamação da boca com perda de dentes e linha mercurial. Os principais sinais manifestam-se no sistema nervoso central (alteração da fala, visão, audição e sensibilização, perda de memória, irritabilidade, alucinações e delírio).
+            Notas para o médico: Uma lavagem gástrica é recomendada somente para pacientes que apresentarem sintomas.
+        </firstAidActions>
+
+        <fireSafety>
+            Meios de extinção: Água, Dióxido de carbono, Espuma, pó seco. Nenhuma limitação de agentes extintores é dada para essa substância.
+            Perigos específicos da substância: substância não combustível. Um incêndio pode provocar o desenvolvimento de vapores de mercúrio, gases tóxicos, Óxido de Enxofre.
+            Medidas de proteção da equipe de combate a incêndio: Equipamento de proteção para o pessoal destacado para o combate a incêndios. Na eventualidade de fogo, vestir roupas protetoras completas e aparelho de respiração autônoma com máscara facial completa, operando na pressão exigida ou outro modo de pressão positiva.
+            Informações complementares
+            Evitar a contaminação da agua de superfície e da subterrânea com a agua de combate a incêndios.
+        </fireSafety>
+
+        <handlingAndStorage>
+            Precauções para manuseio seguro: Observar os avisos das etiquetas. Não comer, beber ou fumar as áreas de manuseio do produto. Usar os EPI´s indicados. Manter ventilação local adequada. Não role, arraste ou permita solavancos na embalagem.
+            Condições para armazenamento seguro, incluindo incompatibilidades: Hermeticamente fechado. Em local seco e temperatura ambiente.
+        </handlingAndStorage>
+
+        <exposureControlAndPersonalProtection>
+            Parâmetros de controle
+            Sulfato de mercúrio-(II) (7783-35-9)BR OEL
+            Média ponderada no tempo (TWA):
+            0,04 mg/m³
+            Medidas de controle de engenharia: A exposição a esta substância pode ser controlada de diversas maneiras. As medidas apropriadas para o ambiente de trabalho particular dependem de como o material esteja sendo usado e da extensão da exposição. Esta informação geral pode ser usada para auxiliar no desenvolvimento das medidas de controle específicas, devendo contemplar com a regulamentação ocupacional, ambiental e de incêndio, além de outras regulamentações aplicáveis. Procedimentos recomendados para monitoramento: Utilizar instrumentos apropriados de monitoramento. A estratégia da amostragem deve contemplar local, tempo, duração, frequência e número de amostras.
+            Medidas de proteção individual
+            As características dos meios de proteção para o corpo devem ser selecionadas em função da concentração e da quantidade das substancias tóxicas de acordo com as condições específicas do local de trabalho. A resistência dos meios de proteção aos agentes químicos deve ser esclarecida juntos dos fornecedores.
+            Proteção dos olhos/face: Utilizar óculos de segurança de ampla visão,
+            Proteção da pele: Utilizar roupa impermeável. Necessário o uso de luvas.
+            Proteção respiratória: Necessário em caso de formação de pós.
+            Perigos térmicos: produto não queima.
+        </exposureControlAndPersonalProtection>
+
+        <spillOrLeak>
+            Precauções pessoais, equipamentos de proteção e procedimentos de emergência.
+            Precauções pessoais para quem não faz parte dos serviços de emergências: Evitar a inalação de pó. Evacuar a área de perigo, observar os procedimentos de emergência.
+            Precauções pessoais para quem faz parte do serviço de emergência: vestir roupas protetoras completas e aparelho de respiração autônoma.
+            Precauções ambientais: Não despejar os resíduos no esgoto.
+            Métodos e materiais de contenção e limpeza: Cobrir ralos. Recolher, emendar e bombear vazamentos. Proceder à eliminação de resíduos. Limpeza posterior. Evitar a formação de pós.
+        </spillOrLeak>
+
+        <stabilityAndReactivity>
+            Reatividade: Não existem informações disponíveis
+            Estabilidade química: O produto é quimicamente estável em condições ambientes padrão. (temperatura ambiente). Sensibilidade à luz
+            Possibilidade de reações perigosas: Haletos de Hidrogênio.
+            Condições a serem evitadas: Aquecimento.
+            Materiais incompatíveis: Alumínio, Aço
+            Produtos de decomposição perigosa: Não existem informações disponíveis
+        </stabilityAndReactivity>
+    </item>
+
+    <item>
+        <name>SULFATO DE ZINCO</name>
+        <formula>(ZnSO4 * 7 H2O)</formula>
+
+        <firstAidActions>
+            Inalação: Afastar a fonte de contaminação ou transportar a vítima para local arejado. Se houver dificuldades respiratórias, administrar oxigênio. NÃO UTILIZAR O MÉTODO DE RESPIRAÇÃO BOCA A BOCA. Manter o paciente aquecido e não permitir que a vítima se movimente desnecessariamente. Transportar a vítima para um hospital.
+            Contato com a pele: Lavar a pele com água (ou água e sabão não abrasivo), suavemente, por pelo menos 20 minutos ou até que a substância tenha sido removida. NÃO INTERROMPER O ENXÁGÜE. Sob água corrente (chuveiro de emergência) remover roupas, sapatos e outros acessórios pessoais contaminados (cintos, jóias etc). Descontaminar as roupas antes da reutilização. Se a irritação persistir ao repetir o enxágüe, requisitar assistência médica.
+            Contato com os olhos: Não permitir que a vítima esfregue os olhos. Remover o excesso da substância dos olhos rapidamente e com cuidado. Retirar lentes de contato quando for o caso. Lavar o(s) olho(s) contaminado(s) com bastante água deixando-a fluir por, pelo menos, 20 minutos, ou até que a substância tenha sido removida mantendo as pálpebras afastadas durante a irrigação.
+            Cuidado para não introduzir água contaminada no olho não afetado ou na face. Se a irritação persistir repetir o enxágüe, e a vítima deve ser encaminhada ao oftalmologista.
+            Ingestão: Lavar a boca da vítima com água. NÃO INDUZIR VÔMITO. Oferecer a vítima consciente 2-4 copos de água para diluir o material no estômago. NÃO UTILIZAR O MÉTODO DE RESPIRAÇÃO BOCA A BOCA. Se o vômito ocorrer naturalmente inclinar a vítima para evitar o risco de aspiração traqueo-bronquial do material ingerido. Lavar novamente a boca da vítima. Repetir a administração de água. Nada deve ser administrado por via oral se a pessoa estiver perdendo a consciência, inconsciente ou em convulsão. Manter o paciente aquecido e em repouso. Transportar a vítima para um hospital.
+            Sintomas e efeitos mais importantes: Produto pode causar efeitos agudos, dependendo da via de exposição.
+            Notas para o médico: Uma lavagem gástrica é recomendada somente para pacientes que apresentarem sintomas.
+        </firstAidActions>
+
+        <fireSafety>
+            Meios de extinção: Água, Dióxido de carbono, Espuma, pó seco. Nenhuma limitação de agentes extintores é dada para essa substância.
+            Perigos específicos da substância: substância não combustível.
+            Medidas de proteção da equipe de combate a incêndio: Equipamento de proteção para o pessoal destacado para o combate a incêndios. Na eventualidade de fogo, vestir roupas protetoras completas e aparelho de respiração autônoma com máscara facial completa, operando na pressão exigida ou outro modo de pressão positiva.
+            Informações complementares
+            Evitar a contaminação da agua de superfície e da subterrânea com a agua de combate a incêndios.
+            Incêndios podem gerar Óxidos.
+            Recomendações para o pessoal de combate a incêndios
+            Usar equipamento de respiração autônomo para combate a incêndios, se necessário
+        </fireSafety>
+
+        <handlingAndStorage>
+            Precauções para manuseio seguro: Observar os avisos das etiquetas. Não comer, beber ou fumar as áreas de manuseio do produto. Usar os EPI´s indicados. Manter ventilação local adequada. Não role, arraste ou permita solavancos na embalagem.
+            Condições para armazenamento seguro, incluindo incompatibilidades: Hermeticamente fechado. Em local seco e temperatura ambiente.
+        </handlingAndStorage>
+
+        <exposureControlAndPersonalProtection>
+            Parâmetros de controle
+            Não contém substâncias com valores limites de exposição ocupacional.
+            Medidas de controle de engenharia: A exposição a esta substância pode ser controlada de diversas maneiras. As medidas apropriadas para o ambiente de trabalho particular dependem de como o material esteja sendo usado e da extensão da exposição. Esta informação geral pode ser usada para auxiliar no desenvolvimento das medidas de controle específicas, devendo contemplar com a regulamentação ocupacional, ambiental e de incêndio, além de outras regulamentações aplicáveis. Procedimentos recomendados para monitoramento: Utilizar instrumentos apropriados de monitoramento. A estratégia da amostragem deve contemplar local, tempo, duração, frequência e número de amostras.
+            Medidas de proteção individual
+            As características dos meios de proteção para o corpo devem ser selecionadas em função da concentração e da quantidade das substancias tóxicas de acordo com as condições específicas do local de trabalho. A resistência dos meios de proteção aos agentes químicos deve ser esclarecida juntos dos fornecedores.
+            Proteção dos olhos/face: Utilizar óculos de segurança de ampla visão,
+            Proteção da pele: Utilizar roupa impermeável. Necessário o uso de luvas.
+            Proteção respiratória: Necessário em caso de formação de vapores.
+            Perigos térmicos: produto não queima.
+        </exposureControlAndPersonalProtection>
+
+        <spillOrLeak>
+            Precauções pessoais, equipamentos de proteção e procedimentos de emergência.
+            Precauções pessoais para quem não faz parte dos serviços de emergências: Evitar a inalação dos vapores. Evacuar a área de perigo, observar os procedimentos de emergência.
+            Precauções pessoais para quem faz parte do serviço de emergência: vestir roupas protetoras completas e aparelho de respiração autônoma.
+            Precauções ambientais: Não despejar os resíduos no esgoto.
+            Métodos e materiais de contenção e limpeza: Cobrir ralos. Recolher, emendar e bombear vazamentos. Proceder à eliminação de resíduos. Limpeza posterior. Evitar a formação de possas.
+        </spillOrLeak>
+
+        <stabilityAndReactivity>
+            Reatividade: Não aplicável.
+            Estabilidade química: O produto é quimicamente estável em condições ambientes padrão.
+            Possibilidade de reações perigosas: Não existem indicações.
+            Condições a serem evitadas: Forte aquecimento.
+            Materiais incompatíveis: agentes oxidantes fortes, ácidos fortes, sais de metais pesados, Alumínio, Potássio.
+            Produtos perigosos da decomposição: Não existem indicações
+        </stabilityAndReactivity>
+    </item>
+
+    <item>
+        <name>SULFATO DE PRATA</name>
+        <formula>(AgSO4)</formula>
+
+        <firstAidActions>
+            Se Inalado Se for respirado, levar a pessoa para o ar fresco. Se não respirar, dar respiração artificial. Consultar um médico
+            Em contato com a pele: Lavar com sabão e muita água. Consultar um médico.
+            Em contato com os olhos: Lavar cuidadosamente com muita água, durante pelo menos 15 minutos, e consultar um médico.
+            Se engolido: Nunca dar nada pela boca a uma pessoa inconsciente. Enxaguar a boca com água. Consultar um médico.
+            Sintomas e efeitos mais importantes, agudos ou tardios
+            Pode causar agiria (Uma descoloração cinza-ardósia ou azulada da pele e dos tecidos profundos, em consequência do deposito de aluminato de prata insolúvel).
+        </firstAidActions>
+
+        <fireSafety>
+            Meios adequados de extinção
+            Utilizar água pulverizada, espuma resistente ao álcool, produto químico seco ou dióxido de carbono.
+            Perigos especiais decorridos da substância e mistura
+            Óxidos de Enxofre, Prata, Óxidos de Prata
+            Recomendações para o pessoal de combate ao incêndio
+            Utilizar equipamento de respiração autônomo para combate a incêndios, se necessário.
+            Outras informações Dado não disponível
+        </fireSafety>
+
+        <handlingAndStorage>
+            Precauções para um manuseamento seguro
+            Evitar a formação de pó e aerossóis. Providenciar uma adequada ventilação em locais onde se formem poeiras. Manter afastado de qualquer chama ou fonte de ignição – Não fumar. Medidas usuais de proteção preventiva contra incêndio.
+            Condições de armazenagem segura, incluindo eventuais incompatibilidades.
+            Armazenar em local fresco. Guardar o recipiente hermeticamente fechado em lugar seco e bem ventilado. - Estabilidade química: Estável
+            - Reatividade: Não disponível
+            - Possibilidade de reações perigosas: Não disponível
+            - Condições a serem evitadas: Umidade
+            - Materiais ou substâncias incompatíveis: Reação exotérmica com: hidróxidos alcalinos, ácidos, enxofre, selênio
+            - Produtos perigosos da decomposição: Formação pode ser: hidrogênio (com água)
+            Sensível a luz.
+        </handlingAndStorage>
+
+        <exposureControlAndPersonalProtection>
+            Limites de exposição ocupacional. Não há conhecimento de nenhum limite de exposição nacional.
+            Controles técnicos adequados
+            Manusear de acordo com as boas práticas industriais de higiene e segurança. Lavar as mãos antes de interrupções e no final do dia de trabalho
+            Proteção individual
+            Proteção ocular/ facial
+            Mascaras de proteção e óculos de segurança. Use equipamento de proteção ocular testado e aprovado de acordo com as normas governamentais adequadas, tais como NIOSH (US) ou EN 166
+            (EU).
+            Proteção da pele
+            Manusear com luvas. As luvas devem ser inspecionadas antes da utilização. Use uma técnica adequada para a remoção das luvas (sem tocar a superfície exterior da luva) para evitar o contato da pele com o produto. Descarte as luvas contaminadas após o uso, em conformidade com as leis e boas práticas de laboratório. Lavar e secar as mãos.
+            Proteção do corpo
+            Vestuário completo de proteção para produtos químicos. O gênero de equipamento de proteção deve ser escolhido de acordo com a concentração e a quantidade da substância perigosa no lugar de trabalho.
+            Proteção respiratória
+            Nos casos em que a avaliação de risco mostrar que os respiradores purificadores do ar são apropriados, use um respirador de partículas do tipo N100 (E.U.A.) ou cartuchos de respiração do tipo P2 (EM 143) como apoio a controles de engenharia. Se o respirador for o único meio de proteção, use um respirador de ar de cobertura facial total. Use respiradores e componentes testados e aprovado de acordo com as normas governamentais adequadas, tais como NIOSH (US) ou EN 166 (EU).
+        </exposureControlAndPersonalProtection>
+
+        <spillOrLeak>
+            Precauções individuais, equipamentos de proteção e procedimentos de emergência
+            Utilizar equipamento de proteção individual. Evitar a formação de poeira. Evitar a respiração do vapor/ névoa/ gás/ pó. Assegurar ventilação adequada. Evacuar o pessoal para áreas de segurança
+            Precauções a nível ambiental: Não permitir a entrada do produto no sistema de esgoto.
+            Métodos e materiais de confinamento e limpeza
+            Varrer e apanhar com uma pá. Manter em recipientes fechados adequados para eliminação.
+        </spillOrLeak>
+
+        <stabilityAndReactivity>
+            Reatividade: Dado não disponível
+            Estabilidade química: Dado não disponível
+            Possibilidade de reações perigosas: Dado não disponível
+            Condições a evitar: Luz
+        </stabilityAndReactivity>
+    </item>
+
+    <item>
+        <name>SULFATO DE AMÔNIO</name>
+        <formula>(NH4)2SO4</formula>
+
+        <firstAidActions>
+            Inalação: Remova o acidentado para área não contaminada e arejada. Se estiver respirando com dificuldade, administre oxigênio. Aplique manobras de ressuscitação em caso de parada cardiorrespiratória.
+            Encaminhe imediatamente ao hospital mais próximo.
+            Contato com a pele: Remova a roupa contaminada pelo produto. Lave as áreas de contato com água em abundância. Se a irritação persistir, procure um médico.
+            Contato com os olhos: Lave imediatamente os olhos com água corrente durante 15 minutos, levantando as pálpebras para permitir a máxima remoção do produto.
+            Ingestão: Não induza vômito. Se os vômitos ocorrerem espontaneamente, a vítima deverá ser deitada de lado para prevenir a aspiração pulmonar. Encaminhar ao médico.
+        </firstAidActions>
+
+        <fireSafety>
+            Meios de extinção apropriados: O produto não é combustível. Em caso de incêndio chame o corpo de bombeiros. Utilize água. Evite respirar fumaças tóxicas. Abra as portas e janelas do armazém para conseguir máxima ventilação.
+            Meios de extinção não recomendados: Não use jatos de água diretamente no produto.
+            Métodos especiais de combate a incêndio: Nenhum.
+            Proteção das pessoas envolvidas no combate a incêndio: Use roupas de proteção e equipamento autônomo de proteção respiratória ou máscara de ar mandado, se necessário.
+            Perigos específicos da combustão do produto químico: Vapores de amônia, óxidos de nitrogênio e enxofre, podem ser produzidos em caso de incêndio.
+        </fireSafety>
+
+        <handlingAndStorage>
+            Manuseio: Mantenha o produto em embalagem fechada. Evite a formação excessiva de pó. Evite exposição à atmosfera para prevenir a absorção de umidade. Quando manipular o produto por longos períodos utilizar luvas
+            Medidas técnicas apropriadas: Armazenar em local fresco, seco e em área ventilada. Isolar de materiais incompatíveis.
+            Prevenção da exposição do trabalhador: Submeta todo o sistema a um controle periódico de manutenção. Mantenha a equipe permanentemente treinada.
+            Prevenção de incêndio e explosão: Mantenha o produto longe do calor e de chamas.
+            Precauções e orientação para manuseio seguro: Ventilar adequadamente a área. Lavar a roupa contaminada antes de reutilizá-la. Evitar respirar a poeira. Utilizar proteção para os olhos, pele e trato respiratório.
+            Medidas de higiene apropriadas: Não coma, beba ou fume no local de trabalho. Lave as mãos após manusear o produto e troque a roupa antes de entrar em local de refeição.
+            Armazenamento: Armazene o produto em área bem ventilada, longe do calor e de chamas. A área de estocagem deve ser um local seco e limpo.
+            Materiais para embalagem: O produto é comercializado a granel ou embalado em big-bag com liner ou sacaria valvulada de polietileno.
+        </handlingAndStorage>
+
+        <exposureControlAndPersonalProtection>
+            Parâmetros de controle específicos
+            Limites de exposição ocupacional:
+            Para Sulfato de Amônio: LT=3 mg/m³.
+            Indicadores biológicos: Não encontrado.
+            Medidas de controle de engenharia: Para reduzir a possibilidade de risco à saúde, faz-se necessário o uso de um sistema de exaustão local.
+            Equipamentos de proteção apropriados
+            Proteção olhos/face: Use óculos de proteção
+            Proteção pele/corpo: Use roupas impermeáveis (botas e macacão).
+            Proteção respiratória: Use máscara contra poeira/névoa onde a ventilação for inadequada.
+            Precauções especiais: Exponha-se somente o necessário.
+        </exposureControlAndPersonalProtection>
+
+        <spillOrLeak>
+            Precauções pessoais:
+            Remoção de fontes de ignição: Elimine as fontes de ignição tais como: chama aberta, fósforo/isqueiro, cigarros etc.
+            Controle de poeira: Assegure a existência de ventilação geral. Evite a dispersão de pó.
+            Prevenção da inalação e do contato com a pele, mucosas e olhos: Utilize equipamentos de proteção individual adequados.
+            Precauções ao meio ambiente: Tome cuidado para evitar a contaminação de cursos d’água e sistemas de drenagens. Informe as autoridades adequadas em caso de contaminação acidental dos cursos d’água. A substância é prontamente biodegradada.
+            Métodos para limpeza: Qualquer derramamento do fertilizante deve ser limpo imediatamente e armazenado numa embalagem rotulada para disposição final adequada. Dependendo do grau e natureza de contaminação reutilizar o produto na propriedade agrícola ou dê a destinação final adequada.
+        </spillOrLeak>
+
+        <stabilityAndReactivity>
+            Estabilidade química: É estável sobre condições normais de estocagem e manuseio.
+            Reatividade: Não reage.
+            Possibilidade de reações perigosas: Não reage.
+            Materiais ou substâncias incompatíveis: Álcalis, ácidos fortes, cobre e suas misturas.
+            Produtos perigosos da decomposição: Pode emitir Amônia e Óxidos Sulforosos
+        </stabilityAndReactivity>
+    </item>
+
+    <item>
+        <name>ZINCO EM PÓ</name>
+        <formula>(Zn)</formula>
+
+        <firstAidActions>
+            Inalação:Remover para local ventilado.
+            - Contato com a pele: Lavar com água corrente. Retirar as roupas contaminadas.
+            - Contato com os olhos: Lavar com bastante água, por 15 min. Consultar um oftalmologista, se necessário.
+            - Ingestão: Beber bastante água. Chamar um médico imediatamente.
+            - Ações que devem ser evitadas: Não inalar os pós. Evitar o contato com o produto.
+            - Proteção para o prestador de socorros: Utilizar óculos de segurança, luvas de nitrilo e máscara contra pós
+            - Notas para o médico: Tratamento sintomático. Não há antídoto específico. Direcionar o tratamento de acordo com os sintomas e condições clínicas do paciente.
+        </firstAidActions>
+
+        <fireSafety>
+            - Meios de extinção apropriados: Utilizar areia, ou extintores de pó químico seco ou gás carbônico.
+            - Meios de extinção não recomendados: Não utilizar água
+            - Perigos específicos referentes às medidas: Não disponível
+            - Métodos especiais de combate à incêndio: Não disponível
+            - Proteção das pessoas envolvidas no combate a incêndio: Utilizar óculos de segurança, luvas de nitrilo e máscara contra pós
+            - Perigos específicos da combustão do produto químico: Emite vapores tóxicos sob condições de incêndio
+        </fireSafety>
+
+        <handlingAndStorage>
+            - Manuseio
+            - Medidas técnicas apropriadas
+            - Prevenção da exposição do trabalhador: Utilizar equipamentos de proteção individual para evitar contato com a pele e mucosas. Abrir e manusear as embalagens com cuidado.
+            - Prevenção de incêndio e explosão: Proibir o fumo e manter fora do alcance de qualquer fonte de ignição. Manter em local seco e isento de umidade, e evitar contato com ácidos, álcalis.
+            - Precauções e orientações para manuseio seguro: Manipular o produto respeitando as regras gerais de segurança
+            - Medidas de higiene
+            - Apropriadas: Atenção especial deve ser tomada quanto à comida e bebida, mantendo-as distantes de qualquer contaminação, todo o pessoal deve higienizar completamente as mãos antes das refeições.
+            - Inapropriadas: Não disponível
+            - Armazenamento
+            - Medidas técnicas
+            - Condições adequadas: Manter as embalagens bem fechadas, local seco e limpo. Temperatura ambiente.
+            - Condições que devem ser evitadas: Não armazenar junto com materiais incompatíveis
+            - Materiais para embalagens
+            - Recomendados: Frasco de vidro, frasco de polietileno
+            - Inadequados: Não disponível
+        </handlingAndStorage>
+
+        <exposureControlAndPersonalProtection>
+            - Parâmetros de controle específicos
+            - Limites de exposição ocupacional: Zinco em urina: valor normal: 150 - 700 mg/Lh
+            - Indicadores biológicos: Zinco em urina: limite de tolerância biológico (LTB): 1200 mg/L Os valores citados são fornecidos pela portaria 3214 NR -7 , anexo II de 08 de Junho de 1978 do Ministério do Trabalho.
+            - Outros limites e valores: Não disponível
+            - Medidas de controle de engenharia: Manipular o produto em local com boa ventilação natural ou mecânica, de forma a manter a concentração de vapores/poeiras inferior ao limite de tolerância
+            - Equipamento de proteção individual apropriado
+            - Proteção dos olhos/face: Óculos de segurança
+            - Proteção da pele e do corpo: Avental de napa e luvas de nitrilo
+            - Proteção respiratória: Máscara contra pós
+            - Precauções especiais: Manipular o produto em local com boa ventilação natural ou mecânica. Manter chuveiros e lava-olhos de emergência nos locais onde haja manipulação do produto.
+        </exposureControlAndPersonalProtection>
+
+        <spillOrLeak>
+            - Precauções pessoais: Não inalar os pós. Evitar o contato com o produto.
+            - Precaução ao meio ambiente: Não enviar o produto para redes de águas residuais
+            - Procedimento de emergência e sistema de alarme: Não aplicável
+            - Métodos para limpeza: Absorver em estado seco. Recolher o resíduo para limpeza posterior.
+            - Prevenção de perigos secundários: Não disponível
+            - Diferença na ação de grandes e pequenos vazamentos: Não disponível.
+        </spillOrLeak>
+
+        <stabilityAndReactivity>
+            - Estabilidade química: Estável
+            - Reatividade: Não disponível
+            - Possibilidade de reações perigosas: Não disponível
+            - Condições a serem evitadas: Umidade
+            - Materiais ou substâncias incompatíveis: Reação exotérmica com: hidróxidos alcalinos, ácidos, enxofre, selênio
+            - Produtos perigosos da decomposição: Formação pode ser: hidrogênio (com água)
+        </stabilityAndReactivity>
+    </item>
 </quimicalinformation>
