@@ -287,7 +287,7 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     AlertDialog.Builder builder = new AlertDialog.Builder(this);
                     builder.setTitle("Aviso");
-                    builder.setMessage("O código escanado não foi localizado, verifique se você escaneou um código válido");
+                    builder.setMessage("O código escaneado não foi localizado, verifique se você escaneou um código válido");
                     builder.setPositiveButton("OK", null);
                     builder.create().show();
                 }
