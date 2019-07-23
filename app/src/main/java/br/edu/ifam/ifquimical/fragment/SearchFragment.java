@@ -125,6 +125,26 @@ public class SearchFragment extends Fragment {
     }
 
     private void configureAlfabeticListener(View view) {
+        QuimicalInformationDAO qiDAO = new QuimicalInformationDAO(getActivity());
+        List<QuimicalInformation> qi = qiDAO.list();
+
+        final int[] positions = new int[26];
+
+        /**
+         * Funciona, então não mexe.
+         */
+        for (int i = 0,  last = 0, letter = 'A'; i < positions.length; i++, letter ++) {
+            for (int j = 0; j < qi.size(); j++) {
+                if (qi.get(j).getName().charAt(0) == letter) {
+                    positions[i] = j;
+                    last = j;
+                    break;
+                } else {
+                    positions[i] = last;
+                }
+            }
+        }
+
         textViewA = view.findViewById(R.id.textViewSearchA);
         textViewB = view.findViewById(R.id.textViewSearchB);
         textViewC = view.findViewById(R.id.textViewSearchC);
@@ -155,182 +175,182 @@ public class SearchFragment extends Fragment {
         textViewA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                recyclerView.scrollToPosition(0);
+                recyclerView.scrollToPosition(positions[0]);
             }
         });
 
         textViewB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                recyclerView.scrollToPosition(40);
+                recyclerView.scrollToPosition(positions[1]);
             }
         });
 
         textViewC.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                recyclerView.scrollToPosition(40);
+                recyclerView.scrollToPosition(positions[2]);
             }
         });
 
         textViewD.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                recyclerView.scrollToPosition(40);
+                recyclerView.scrollToPosition(positions[3]);
             }
         });
 
         textViewE.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                recyclerView.scrollToPosition(40);
+                recyclerView.scrollToPosition(positions[4]);
             }
         });
 
         textViewF.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                recyclerView.scrollToPosition(40);
+                recyclerView.scrollToPosition(positions[5]);
             }
         });
 
         textViewG.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                recyclerView.scrollToPosition(40);
+                recyclerView.scrollToPosition(positions[6]);
             }
         });
 
         textViewH.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                recyclerView.scrollToPosition(40);
+                recyclerView.scrollToPosition(positions[7]);
             }
         });
 
         textViewI.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                recyclerView.scrollToPosition(40);
+                recyclerView.scrollToPosition(positions[8]);
             }
         });
 
         textViewJ.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                recyclerView.scrollToPosition(40);
+                recyclerView.scrollToPosition(positions[9]);
             }
         });
 
         textViewK.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                recyclerView.scrollToPosition(40);
+                recyclerView.scrollToPosition(positions[10]);
             }
         });
 
         textViewL.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                recyclerView.scrollToPosition(40);
+                recyclerView.scrollToPosition(positions[11]);
             }
         });
 
         textViewM.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                recyclerView.scrollToPosition(40);
+                recyclerView.scrollToPosition(positions[12]);
             }
         });
 
         textViewN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                recyclerView.scrollToPosition(40);
+                recyclerView.scrollToPosition(positions[13]);
             }
         });
 
         textViewO.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                recyclerView.scrollToPosition(40);
+                recyclerView.scrollToPosition(positions[14]);
             }
         });
 
         textViewP.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                recyclerView.scrollToPosition(40);
+                recyclerView.scrollToPosition(positions[15]);
             }
         });
 
         textViewQ.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                recyclerView.scrollToPosition(40);
+                recyclerView.scrollToPosition(positions[16]);
             }
         });
 
         textViewR.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                recyclerView.scrollToPosition(40);
+                recyclerView.scrollToPosition(positions[17]);
             }
         });
 
         textViewS.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                recyclerView.scrollToPosition(40);
+                recyclerView.scrollToPosition(positions[18]);
             }
         });
 
         textViewT.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                recyclerView.scrollToPosition(40);
+                recyclerView.scrollToPosition(positions[19]);
             }
         });
 
         textViewU.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                recyclerView.scrollToPosition(40);
+                recyclerView.scrollToPosition(positions[20]);
             }
         });
 
         textViewV.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                recyclerView.scrollToPosition(40);
+                recyclerView.scrollToPosition(positions[21]);
             }
         });
 
         textViewW.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                recyclerView.scrollToPosition(40);
+                recyclerView.scrollToPosition(positions[22]);
             }
         });
 
         textViewX.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                recyclerView.scrollToPosition(40);
+                recyclerView.scrollToPosition(positions[23]);
             }
         });
 
         textViewY.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                recyclerView.scrollToPosition(40);
+                recyclerView.scrollToPosition(positions[24]);
             }
         });
 
         textViewZ.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                recyclerView.scrollToPosition(40);
+                recyclerView.scrollToPosition(positions[25]);
             }
         });
 
